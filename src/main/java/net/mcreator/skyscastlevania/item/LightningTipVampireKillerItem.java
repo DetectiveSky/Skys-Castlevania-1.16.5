@@ -25,7 +25,7 @@ public class LightningTipVampireKillerItem extends SkysCastlevaniaModElements.Mo
 	public static final Item block = null;
 
 	public LightningTipVampireKillerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 28);
+		super(instance, 31);
 	}
 
 	@Override

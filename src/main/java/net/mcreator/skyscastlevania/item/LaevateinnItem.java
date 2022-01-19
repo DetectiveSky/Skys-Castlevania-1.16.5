@@ -25,7 +25,7 @@ public class LaevateinnItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public LaevateinnItem(SkysCastlevaniaModElements instance) {
-		super(instance, 11);
+		super(instance, 14);
 	}
 
 	@Override

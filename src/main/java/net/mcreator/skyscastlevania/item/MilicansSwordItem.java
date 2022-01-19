@@ -25,7 +25,7 @@ public class MilicansSwordItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public MilicansSwordItem(SkysCastlevaniaModElements instance) {
-		super(instance, 14);
+		super(instance, 17);
 	}
 
 	@Override

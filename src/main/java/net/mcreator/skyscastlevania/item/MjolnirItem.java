@@ -24,7 +24,7 @@ public class MjolnirItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public MjolnirItem(SkysCastlevaniaModElements instance) {
-		super(instance, 19);
+		super(instance, 22);
 	}
 
 	@Override

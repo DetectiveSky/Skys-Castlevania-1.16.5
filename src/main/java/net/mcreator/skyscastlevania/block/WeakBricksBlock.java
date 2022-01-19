@@ -31,7 +31,7 @@ public class WeakBricksBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public WeakBricksBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 260);
+		super(instance, 72);
 	}
 
 	@Override

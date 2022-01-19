@@ -55,7 +55,7 @@ public class NetheriteCrossItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletnetherite_cross").setRegistryName("entitybulletnetherite_cross");
 
 	public NetheriteCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 48);
+		super(instance, 51);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NetheriteCrossRenderer.ModelRegisterHandler());
 	}
 

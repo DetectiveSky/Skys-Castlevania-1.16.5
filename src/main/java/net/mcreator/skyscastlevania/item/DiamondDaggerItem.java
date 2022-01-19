@@ -54,7 +54,7 @@ public class DiamondDaggerItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletdiamond_dagger").setRegistryName("entitybulletdiamond_dagger");
 
 	public DiamondDaggerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 35);
+		super(instance, 38);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DiamondDaggerRenderer.ModelRegisterHandler());
 	}
 

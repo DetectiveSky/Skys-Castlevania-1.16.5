@@ -23,7 +23,7 @@ public class BlueStoneItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public BlueStoneItem(SkysCastlevaniaModElements instance) {
-		super(instance, 9);
+		super(instance, 11);
 	}
 
 	@Override

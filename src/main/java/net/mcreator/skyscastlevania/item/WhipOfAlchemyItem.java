@@ -25,7 +25,7 @@ public class WhipOfAlchemyItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public WhipOfAlchemyItem(SkysCastlevaniaModElements instance) {
-		super(instance, 23);
+		super(instance, 26);
 	}
 
 	@Override

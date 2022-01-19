@@ -22,7 +22,7 @@ public class AnimatedCrossItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public AnimatedCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 270);
+		super(instance, 269);
 	}
 
 	@Override

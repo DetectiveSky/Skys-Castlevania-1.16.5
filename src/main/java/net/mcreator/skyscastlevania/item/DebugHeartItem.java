@@ -30,7 +30,7 @@ public class DebugHeartItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public DebugHeartItem(SkysCastlevaniaModElements instance) {
-		super(instance, 124);
+		super(instance, 131);
 	}
 
 	@Override

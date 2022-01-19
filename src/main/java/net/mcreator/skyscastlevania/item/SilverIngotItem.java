@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.skyscastlevania.itemgroup.SkysCastlevaniaTabItemGroup;
 import net.mcreator.skyscastlevania.SkysCastlevaniaModElements;
 
 @SkysCastlevaniaModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class SilverIngotItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public SilverIngotItem(SkysCastlevaniaModElements instance) {
-		super(instance, 65);
+		super(instance, 7);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class SilverIngotItem extends SkysCastlevaniaModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("silver_ingot");
 		}
 

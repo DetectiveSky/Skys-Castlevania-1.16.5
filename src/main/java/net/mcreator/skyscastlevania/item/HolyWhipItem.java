@@ -25,7 +25,7 @@ public class HolyWhipItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public HolyWhipItem(SkysCastlevaniaModElements instance) {
-		super(instance, 22);
+		super(instance, 25);
 	}
 
 	@Override

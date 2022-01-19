@@ -14,7 +14,7 @@ import net.mcreator.skyscastlevania.item.HolyWaterItem;
 @SkysCastlevaniaModElements.ModElement.Tag
 public class UnholyWaterRecipeBrewingRecipe extends SkysCastlevaniaModElements.ModElement {
 	public UnholyWaterRecipeBrewingRecipe(SkysCastlevaniaModElements instance) {
-		super(instance, 127);
+		super(instance, 134);
 	}
 
 	@Override

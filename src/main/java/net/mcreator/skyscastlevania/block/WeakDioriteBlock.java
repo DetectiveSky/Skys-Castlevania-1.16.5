@@ -31,7 +31,7 @@ public class WeakDioriteBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public WeakDioriteBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 262);
+		super(instance, 74);
 	}
 
 	@Override

@@ -8,7 +8,7 @@
     "name": "Silver Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SkysCastlevaniaTab"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -25,7 +25,7 @@ public class LeatherWhipItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public LeatherWhipItem(SkysCastlevaniaModElements instance) {
-		super(instance, 21);
+		super(instance, 24);
 	}
 
 	@Override

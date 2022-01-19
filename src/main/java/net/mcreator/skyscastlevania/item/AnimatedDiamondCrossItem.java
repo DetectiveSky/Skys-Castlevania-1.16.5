@@ -22,7 +22,7 @@ public class AnimatedDiamondCrossItem extends SkysCastlevaniaModElements.ModElem
 	public static final Item block = null;
 
 	public AnimatedDiamondCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 274);
+		super(instance, 273);
 	}
 
 	@Override

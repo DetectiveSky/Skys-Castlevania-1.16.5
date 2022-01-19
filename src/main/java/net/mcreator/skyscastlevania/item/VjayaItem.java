@@ -24,7 +24,7 @@ public class VjayaItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public VjayaItem(SkysCastlevaniaModElements instance) {
-		super(instance, 13);
+		super(instance, 16);
 	}
 
 	@Override

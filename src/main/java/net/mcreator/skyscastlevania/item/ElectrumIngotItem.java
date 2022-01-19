@@ -8,11 +8,11 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.skyscastlevania.itemgroup.SkysCastlevaniaTabItemGroup;
 import net.mcreator.skyscastlevania.SkysCastlevaniaModElements;
 
 import java.util.List;
@@ -23,7 +23,7 @@ public class ElectrumIngotItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public ElectrumIngotItem(SkysCastlevaniaModElements instance) {
-		super(instance, 64);
+		super(instance, 8);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class ElectrumIngotItem extends SkysCastlevaniaModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("electrum_ingot");
 		}
 

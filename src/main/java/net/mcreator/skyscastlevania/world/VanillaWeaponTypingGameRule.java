@@ -14,7 +14,7 @@ public class VanillaWeaponTypingGameRule extends SkysCastlevaniaModElements.ModE
 			create(false));
 
 	public VanillaWeaponTypingGameRule(SkysCastlevaniaModElements instance) {
-		super(instance, 215);
+		super(instance, 222);
 	}
 
 	public static GameRules.RuleType<GameRules.BooleanValue> create(boolean defaultValue) {

@@ -36,7 +36,7 @@ public class PetrifiedBotBlockBlock extends SkysCastlevaniaModElements.ModElemen
 	public static final Block block = null;
 
 	public PetrifiedBotBlockBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 277);
+		super(instance, 276);
 	}
 
 	@Override

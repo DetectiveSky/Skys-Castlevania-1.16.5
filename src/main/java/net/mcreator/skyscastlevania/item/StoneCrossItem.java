@@ -55,7 +55,7 @@ public class StoneCrossItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletstone_cross").setRegistryName("entitybulletstone_cross");
 
 	public StoneCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 44);
+		super(instance, 47);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new StoneCrossRenderer.ModelRegisterHandler());
 	}
 

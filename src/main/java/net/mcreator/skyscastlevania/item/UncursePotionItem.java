@@ -32,7 +32,7 @@ public class UncursePotionItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public UncursePotionItem(SkysCastlevaniaModElements instance) {
-		super(instance, 254);
+		super(instance, 59);
 	}
 
 	@Override

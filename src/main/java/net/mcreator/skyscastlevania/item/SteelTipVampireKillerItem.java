@@ -25,7 +25,7 @@ public class SteelTipVampireKillerItem extends SkysCastlevaniaModElements.ModEle
 	public static final Item block = null;
 
 	public SteelTipVampireKillerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 25);
+		super(instance, 28);
 	}
 
 	@Override
