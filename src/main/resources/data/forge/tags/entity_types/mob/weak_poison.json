@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "piglin_brute",
+    "ravager",
+    "vindicator",
+    "pillager",
+    "piglin"
+  ]
+}

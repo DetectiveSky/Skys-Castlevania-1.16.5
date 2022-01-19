@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:blocks/electrum"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.GOLD_NUGGET"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YellowStone"
+    },
+    "name": "yellow_stone_recipe",
+    "namespace": "mod"
+  }
+}

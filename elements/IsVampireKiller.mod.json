@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:VampireKiller"
+      },
+      {
+        "value": "CUSTOM:FireTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:IceTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:LightningTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:SteelTipVampireKiller"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "is_vampire_killer",
+    "namespace": "mod"
+  }
+}

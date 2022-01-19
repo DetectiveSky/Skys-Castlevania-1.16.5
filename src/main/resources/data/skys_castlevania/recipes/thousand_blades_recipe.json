@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "skys_castlevania:gold_dagger"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "skys_castlevania:gold_dagger"
+    },
+    "4": {
+      "item": "skys_castlevania:three_stone"
+    },
+    "5": {
+      "item": "skys_castlevania:gold_dagger"
+    },
+    "6": {
+      "item": "minecraft:diamond"
+    },
+    "7": {
+      "item": "skys_castlevania:gold_dagger"
+    },
+    "8": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:thousand_blades",
+    "count": 1
+  }
+}

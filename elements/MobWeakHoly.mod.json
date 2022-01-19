@@ -1,0 +1,56 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityDrowned"
+      },
+      {
+        "value": "EntityGiantZombie"
+      },
+      {
+        "value": "EntityHusk"
+      },
+      {
+        "value": "EntityPhantom"
+      },
+      {
+        "value": "EntitySkeleton"
+      },
+      {
+        "value": "EntitySkeletonHorse"
+      },
+      {
+        "value": "EntityStray"
+      },
+      {
+        "value": "EntityWither"
+      },
+      {
+        "value": "EntityWitherSkeleton"
+      },
+      {
+        "value": "EntityZoglin"
+      },
+      {
+        "value": "EntityZombie"
+      },
+      {
+        "value": "EntityZombieHorse"
+      },
+      {
+        "value": "EntityZombieVillager"
+      },
+      {
+        "value": "EntityPigZombie"
+      }
+    ],
+    "name": "mob/weak_holy",
+    "namespace": "forge"
+  }
+}

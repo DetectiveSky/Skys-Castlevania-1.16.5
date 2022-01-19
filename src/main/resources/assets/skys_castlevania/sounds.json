@@ -1,0 +1,52 @@
+{
+  "rhapsodyoftheforsaken": {
+    "category": "record",
+    "subtitle": "subtitles.rhapsodyoftheforsaken",
+    "sounds": [
+      {
+        "name": "skys_castlevania:rhapsodyoftheforsakennoteblock",
+        "stream": true
+      }
+    ]
+  },
+  "sinkingoldsanctuary": {
+    "category": "record",
+    "subtitle": "subtitles.sinkingoldsanctuary",
+    "sounds": [
+      {
+        "name": "skys_castlevania:sinking_old_sanctuary_note_block",
+        "stream": true
+      }
+    ]
+  },
+  "animeshine": {
+    "category": "ambient",
+    "subtitle": "subtitles.animeshine",
+    "sounds": [
+      {
+        "name": "skys_castlevania:anime_shine_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "hydrostorm": {
+    "category": "player",
+    "subtitle": "subtitles.hydrostorm",
+    "sounds": [
+      {
+        "name": "skys_castlevania:hydrostorm",
+        "stream": false
+      }
+    ]
+  },
+  "subterraneanhell": {
+    "category": "record",
+    "subtitle": "subtitles.subterraneanhell",
+    "sounds": [
+      {
+        "name": "skys_castlevania:subterraneanhellnoteblock",
+        "stream": true
+      }
+    ]
+  }
+}

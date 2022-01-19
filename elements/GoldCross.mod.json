@@ -1,0 +1,55 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldcross",
+    "customModelName": "Normal",
+    "name": "Golden Cross",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Heart"
+    },
+    "shootConstantly": false,
+    "usageCount": 32,
+    "actionSound": {
+      "value": "entity.enderpearl.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SubWeaponCountIncrement"
+    },
+    "useCondition": {
+      "name": "CanUseSubweapon"
+    },
+    "bulletPower": 0.5,
+    "bulletDamage": 0.1,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:AnimatedGoldCross"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "SubWeaponCountDecrement"
+    },
+    "onBulletHitsPlayer": {
+      "name": "CrossSWepBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "GoldCrossBulletHitsEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "CrossSWepWhileBulletFlyingTick"
+    }
+  }
+}

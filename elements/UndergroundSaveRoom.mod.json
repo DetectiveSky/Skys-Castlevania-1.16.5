@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "structure",
+  "definition": {
+    "structure": "underground_save_room",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": -6,
+    "spawnZOffset": -6,
+    "spawnWorldTypes": [
+      "Surface",
+      "Nether"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

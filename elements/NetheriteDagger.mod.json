@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "netheritedaggersprite",
+    "customModelName": "Normal",
+    "name": "Netherite Dagger",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Heart"
+    },
+    "shootConstantly": true,
+    "usageCount": 2031,
+    "actionSound": {
+      "value": "entity.enderpearl.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 7.0,
+    "onRangedItemUsed": {
+      "name": "DaggerSWepRangedItemUsed"
+    },
+    "useCondition": {
+      "name": "CanUseSubweapon"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 0.1,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:NetheriteDagger"
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "netheritedagger.png",
+    "onBulletHitsBlock": {
+      "name": "DaggerSWepBulletDespawn"
+    },
+    "onBulletHitsEntity": {
+      "name": "NetheriteDaggerBulletHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "DaggerIsFree"
+    }
+  }
+}

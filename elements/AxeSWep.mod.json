@@ -1,0 +1,51 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "axe",
+    "customModelName": "Normal",
+    "name": "Axe",
+    "specialInfo": [
+      "Creative Mode version of the Axe subweapon"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Heart"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.enderpearl.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 10.0,
+    "onRangedItemUsed": {
+      "name": "SubWeaponCountIncrement"
+    },
+    "useCondition": {
+      "name": "CanUseSubweapon"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 0.1,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:AnimatedAxe"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "SubWeaponCountDecrement"
+    },
+    "onBulletHitsEntity": {
+      "name": "AxeSWepBulletHitsLivingEntity"
+    }
+  }
+}

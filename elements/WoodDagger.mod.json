@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "wooddaggersprite",
+    "customModelName": "Normal",
+    "name": "Wooden Dagger",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Heart"
+    },
+    "shootConstantly": true,
+    "usageCount": 59,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 3.0,
+    "onRangedItemUsed": {
+      "name": "DaggerSWepRangedItemUsed"
+    },
+    "useCondition": {
+      "name": "CanUseSubweapon"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 0.1,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:WoodDagger"
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "wooddagger.png",
+    "onBulletHitsBlock": {
+      "name": "DaggerSWepBulletDespawn"
+    },
+    "onBulletHitsEntity": {
+      "name": "WoodDaggerBulletHitsEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "DaggerIsFree"
+    }
+  }
+}

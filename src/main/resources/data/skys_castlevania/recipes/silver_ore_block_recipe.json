@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "ingots/silver"
+    },
+    "1": {
+      "tag": "ingots/silver"
+    },
+    "2": {
+      "tag": "ingots/silver"
+    },
+    "3": {
+      "tag": "ingots/silver"
+    },
+    "4": {
+      "item": "skys_castlevania:silver_ingot"
+    },
+    "5": {
+      "tag": "ingots/silver"
+    },
+    "6": {
+      "tag": "ingots/silver"
+    },
+    "7": {
+      "tag": "ingots/silver"
+    },
+    "8": {
+      "tag": "ingots/silver"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:silver_block",
+    "count": 1
+  }
+}

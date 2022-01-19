@@ -1,0 +1,57 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "cross",
+    "customModelName": "Normal",
+    "name": "Cross",
+    "specialInfo": [
+      "Creative Mode version of Cross subweapon"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Heart"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.enderpearl.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SubWeaponCountIncrement"
+    },
+    "useCondition": {
+      "name": "CanUseSubweapon"
+    },
+    "bulletPower": 0.5,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:AnimatedCross"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "SubWeaponCountDecrement"
+    },
+    "onBulletHitsPlayer": {
+      "name": "CrossSWepBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "CrossSWepBulletHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "CrossSWepWhileBulletFlyingTick"
+    }
+  }
+}

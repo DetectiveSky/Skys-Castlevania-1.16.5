@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "skys_castlevania:netherite_dagger",
+    "skys_castlevania:gold_dagger",
+    "skys_castlevania:diamond_dagger",
+    "skys_castlevania:iron_dagger",
+    "skys_castlevania:dagger_s_wep",
+    "skys_castlevania:wood_dagger",
+    "skys_castlevania:stone_dagger"
+  ]
+}

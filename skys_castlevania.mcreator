@@ -1,0 +1,3758 @@
+{
+  "mod_elements": [
+    {
+      "name": "SkysCastlevaniaTab",
+      "type": "tab",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skys_castlevania_tab"
+    },
+    {
+      "name": "SoundItem1",
+      "type": "musicdisc",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sound_item_1"
+    },
+    {
+      "name": "SoundItem2",
+      "type": "musicdisc",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sound_item_2"
+    },
+    {
+      "name": "HolyWater",
+      "type": "rangeditem",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water"
+    },
+    {
+      "name": "HolyWaterBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HolyWaterBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heart",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart"
+    },
+    {
+      "name": "DaggerSWep",
+      "type": "rangeditem",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger_s_wep"
+    },
+    {
+      "name": "SpawnHeartsFromVanillaMobs",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_hearts_from_vanilla_mobs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigHeart",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_heart"
+    },
+    {
+      "name": "BigHeartCreate",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_heart_create"
+    },
+    {
+      "name": "BigHeartBreakdown",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_heart_breakdown"
+    },
+    {
+      "name": "Crucifix",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucifix"
+    },
+    {
+      "name": "CrucifixLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucifix_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HolyWaterRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_recipe"
+    },
+    {
+      "name": "HolyWaterRecipeAlt",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_recipe_alt"
+    },
+    {
+      "name": "HolyWaterRecipeAlt2",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_recipe_alt_2"
+    },
+    {
+      "name": "CrucifixRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucifix_recipe"
+    },
+    {
+      "name": "GrandCross",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grand_cross"
+    },
+    {
+      "name": "HydroStorm",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydro_storm"
+    },
+    {
+      "name": "GrandCrossRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grand_cross_recipe"
+    },
+    {
+      "name": "WoodenDaggerRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_dagger_recipe"
+    },
+    {
+      "name": "CrossSWep",
+      "type": "rangeditem",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_s_wep"
+    },
+    {
+      "name": "CrossSWepWhileBulletFlyingTick",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_s_wep_while_bullet_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodDagger",
+      "type": "rangeditem",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_dagger"
+    },
+    {
+      "name": "StoneDagger",
+      "type": "rangeditem",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_dagger"
+    },
+    {
+      "name": "IronDagger",
+      "type": "rangeditem",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dagger"
+    },
+    {
+      "name": "GoldDagger",
+      "type": "rangeditem",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dagger"
+    },
+    {
+      "name": "DiamondDagger",
+      "type": "rangeditem",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dagger"
+    },
+    {
+      "name": "NetheriteDagger",
+      "type": "rangeditem",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_dagger"
+    },
+    {
+      "name": "CanUseSubweapon",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_use_subweapon",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrossSWepBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_s_wep_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldDaggerBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dagger_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneDaggerRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_dagger_recipe"
+    },
+    {
+      "name": "IronDaggerRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dagger_recipe"
+    },
+    {
+      "name": "GoldDaggerRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_dagger_recipe"
+    },
+    {
+      "name": "DiamondDaggerRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dagger_recipe"
+    },
+    {
+      "name": "NetheriteDaggerRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_dagger_recipe"
+    },
+    {
+      "name": "NetheriteDaggerSmithed",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_dagger_smithed"
+    },
+    {
+      "name": "HydroStormRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydro_storm_recipe"
+    },
+    {
+      "name": "SubWeaponCountDecrement",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_weapon_count_decrement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SubWeaponCountIncrement",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_weapon_count_increment",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TwoStone",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_stone"
+    },
+    {
+      "name": "ThreeStone",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "three_stone"
+    },
+    {
+      "name": "TwoStoneRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_stone_recipe"
+    },
+    {
+      "name": "ThreeStoneRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "three_stone_recipe"
+    },
+    {
+      "name": "HolyWaterSWep",
+      "type": "rangeditem",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_s_wep"
+    },
+    {
+      "name": "AxeSWep",
+      "type": "rangeditem",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_s_wep"
+    },
+    {
+      "name": "ThousandBladesRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thousand_blades_recipe"
+    },
+    {
+      "name": "HolyDamageParticle",
+      "type": "particle",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_damage_particle"
+    },
+    {
+      "name": "HolyDamageEffect",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_damage_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HydroStormRightClickedInAir",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydro_storm_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrossSWepBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross_s_wep_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThrowingAxeWood",
+      "type": "rangeditem",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_axe_wood"
+    },
+    {
+      "name": "ThrowingAxeStone",
+      "type": "rangeditem",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_axe_stone"
+    },
+    {
+      "name": "ThrowingAxeIron",
+      "type": "rangeditem",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_axe_iron"
+    },
+    {
+      "name": "ThrowingAxeGold",
+      "type": "rangeditem",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_axe_gold"
+    },
+    {
+      "name": "ThrowingAxeGoldBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_axe_gold_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThrowingAxeDiamond",
+      "type": "rangeditem",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_axe_diamond"
+    },
+    {
+      "name": "ThrowingAxeNetherite",
+      "type": "rangeditem",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_axe_netherite"
+    },
+    {
+      "name": "WoodTAxeRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_t_axe_recipe"
+    },
+    {
+      "name": "StoneTAxeRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_t_axe_recipe"
+    },
+    {
+      "name": "IronTAxeRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_t_axe_recipe"
+    },
+    {
+      "name": "GoldTAxeRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_t_axe_recipe"
+    },
+    {
+      "name": "DiamondTAxeRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_t_axe_recipe"
+    },
+    {
+      "name": "NetheriteTAxeRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_t_axe_recipe"
+    },
+    {
+      "name": "NetheriteTAxeRecipeAlt",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_t_axe_recipe_alt"
+    },
+    {
+      "name": "UnHolyWater",
+      "type": "rangeditem",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_holy_water"
+    },
+    {
+      "name": "UnHolyWaterBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_holy_water_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnHolyWaterBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_holy_water_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkDamageEffect",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_damage_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkDamageParticle",
+      "type": "particle",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_damage_particle"
+    },
+    {
+      "name": "NetheriteDaggerBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_dagger_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteTAxeHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_t_axe_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThousandBlades",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thousand_blades"
+    },
+    {
+      "name": "DaggerSWepRangedItemUsed",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger_s_wep_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Subweapon",
+      "type": "tag",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subweapon"
+    },
+    {
+      "name": "Itemcrash",
+      "type": "tag",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemcrash"
+    },
+    {
+      "name": "GrandCrossRightClickedInAir",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grand_cross_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreativeHolyWaterBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_holy_water_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DebugHeart",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_heart"
+    },
+    {
+      "name": "DaggerSWepBulletDespawn",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger_s_wep_bullet_despawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DaggerIsFree",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger_is_free",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnholyWaterRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unholy_water_recipe"
+    },
+    {
+      "name": "WoodCross",
+      "type": "rangeditem",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_cross"
+    },
+    {
+      "name": "StoneCross",
+      "type": "rangeditem",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_cross"
+    },
+    {
+      "name": "IronCross",
+      "type": "rangeditem",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cross"
+    },
+    {
+      "name": "GoldCross",
+      "type": "rangeditem",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cross"
+    },
+    {
+      "name": "DiamondCross",
+      "type": "rangeditem",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_cross"
+    },
+    {
+      "name": "NetheriteCross",
+      "type": "rangeditem",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_cross"
+    },
+    {
+      "name": "WoodenCrossBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_cross_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodCrossRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_cross_recipe"
+    },
+    {
+      "name": "StoneCrossRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_cross_recipe"
+    },
+    {
+      "name": "IronCrossRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cross_recipe"
+    },
+    {
+      "name": "GoldCrossRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cross_recipe"
+    },
+    {
+      "name": "DiamondCrossRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_cross_recipe"
+    },
+    {
+      "name": "NetheriteCrossRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_cross_recipe"
+    },
+    {
+      "name": "NetheriteCrossRecipeAlt",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_cross_recipe_alt"
+    },
+    {
+      "name": "HydroStormWaterAdditionalParticleExpiryCondition",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydro_storm_water_additional_particle_expiry_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "onGround",
+            "type": "logic"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HydroStormWater",
+      "type": "particle",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydro_storm_water"
+    },
+    {
+      "name": "SubweaponDagger",
+      "type": "tag",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subweapon_dagger"
+    },
+    {
+      "name": "SubweaponHolyWater",
+      "type": "tag",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subweapon_holy_water"
+    },
+    {
+      "name": "SubweaponAxe",
+      "type": "tag",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subweapon_axe"
+    },
+    {
+      "name": "SubweaponCross",
+      "type": "tag",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subweapon_cross"
+    },
+    {
+      "name": "WeaponSharp",
+      "type": "tag",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_sharp"
+    },
+    {
+      "name": "WeaponBlunt",
+      "type": "tag",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_blunt"
+    },
+    {
+      "name": "WeaponPointy",
+      "type": "tag",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_pointy"
+    },
+    {
+      "name": "WeaponFire",
+      "type": "tag",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_fire"
+    },
+    {
+      "name": "WeaponIce",
+      "type": "tag",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_ice"
+    },
+    {
+      "name": "WeaponLightning",
+      "type": "tag",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_lightning"
+    },
+    {
+      "name": "WeaponHoly",
+      "type": "tag",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_holy"
+    },
+    {
+      "name": "WeaponDark",
+      "type": "tag",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_dark"
+    },
+    {
+      "name": "WeaponPoison",
+      "type": "tag",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_poison"
+    },
+    {
+      "name": "WeaponCurse",
+      "type": "tag",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_curse"
+    },
+    {
+      "name": "WeaponStone",
+      "type": "tag",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_stone"
+    },
+    {
+      "name": "ProjectilePointy",
+      "type": "tag",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_pointy"
+    },
+    {
+      "name": "ProjectileFire",
+      "type": "tag",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_fire"
+    },
+    {
+      "name": "ProjectileBlunt",
+      "type": "tag",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_blunt"
+    },
+    {
+      "name": "ProjectileIce",
+      "type": "tag",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_ice"
+    },
+    {
+      "name": "ProjectilePoison",
+      "type": "tag",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_poison"
+    },
+    {
+      "name": "ProjectileCurse",
+      "type": "tag",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_curse"
+    },
+    {
+      "name": "ProjectileDark",
+      "type": "tag",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_dark"
+    },
+    {
+      "name": "WeaponGold",
+      "type": "tag",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_gold"
+    },
+    {
+      "name": "MobWeakSharp",
+      "type": "tag",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_sharp"
+    },
+    {
+      "name": "MobWeakBlunt",
+      "type": "tag",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_blunt"
+    },
+    {
+      "name": "MobWeakPointy",
+      "type": "tag",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_pointy"
+    },
+    {
+      "name": "MobWeakFire",
+      "type": "tag",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_fire"
+    },
+    {
+      "name": "MobWeakIce",
+      "type": "tag",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_ice"
+    },
+    {
+      "name": "MobWeakLightning",
+      "type": "tag",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_lightning"
+    },
+    {
+      "name": "MobWeakHoly",
+      "type": "tag",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_holy"
+    },
+    {
+      "name": "MobWeakDark",
+      "type": "tag",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_dark"
+    },
+    {
+      "name": "MobWeakPoison",
+      "type": "tag",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_poison"
+    },
+    {
+      "name": "MobWeakCurse",
+      "type": "tag",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_curse"
+    },
+    {
+      "name": "MobWeakStone",
+      "type": "tag",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_stone"
+    },
+    {
+      "name": "MobWeakGold",
+      "type": "tag",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_weak_gold"
+    },
+    {
+      "name": "MobResistSharp",
+      "type": "tag",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_sharp"
+    },
+    {
+      "name": "MobResistBlunt",
+      "type": "tag",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_blunt"
+    },
+    {
+      "name": "MobResistPointy",
+      "type": "tag",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_pointy"
+    },
+    {
+      "name": "MobResistFire",
+      "type": "tag",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_fire"
+    },
+    {
+      "name": "MobResistIce",
+      "type": "tag",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_ice"
+    },
+    {
+      "name": "MobResistLightning",
+      "type": "tag",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_lightning"
+    },
+    {
+      "name": "MobResistHoly",
+      "type": "tag",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_holy"
+    },
+    {
+      "name": "MobResistDark",
+      "type": "tag",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_dark"
+    },
+    {
+      "name": "MobResistPoison",
+      "type": "tag",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_poison"
+    },
+    {
+      "name": "MobResistCurse",
+      "type": "tag",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_curse"
+    },
+    {
+      "name": "MobResistStone",
+      "type": "tag",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_stone"
+    },
+    {
+      "name": "MobResistGold",
+      "type": "tag",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_resist_gold"
+    },
+    {
+      "name": "DaggerSWepBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagger_s_wep_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodDaggerBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_dagger_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneDaggerBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_dagger_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronDaggerBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dagger_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondDaggerBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dagger_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AxeSWepBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_s_wep_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodTAxeBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_t_axe_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneTAxeBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_t_axe_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronTAxeBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_t_axe_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondTAxeBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_t_axe_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneCrossBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_cross_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronCrossBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cross_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldCrossBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cross_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondCrossBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_cross_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteCrossBulletHitsEntity",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_cross_bullet_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MeleeAttacks",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melee_attacks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProjectileAttacks",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_attacks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ControlDisabledOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "control_disabled_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ControlDisabled",
+      "type": "potioneffect",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "control_disabled"
+    },
+    {
+      "name": "DebugHeartPotionApply",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_heart_potion_apply",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneEffectOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_effect_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneEffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneEffectEffectExpires",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_effect_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneEffect",
+      "type": "potioneffect",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_effect"
+    },
+    {
+      "name": "CurseEffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_effect_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CurseEffect",
+      "type": "potioneffect",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curse_effect"
+    },
+    {
+      "name": "WeaponCastlevaniaMelee",
+      "type": "tag",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_castlevania_melee"
+    },
+    {
+      "name": "ModdedWeaponMeleeAttacks",
+      "type": "procedure",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modded_weapon_melee_attacks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeaponVanillaMelee",
+      "type": "tag",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_vanilla_melee"
+    },
+    {
+      "name": "GoldEffect",
+      "type": "potioneffect",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_effect"
+    },
+    {
+      "name": "VanillaWeaponTyping",
+      "type": "gamerule",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillaWeaponTyping",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "VanillaProjectileAttacks",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanilla_projectile_attacks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProjectileVanilla",
+      "type": "tag",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_vanilla"
+    },
+    {
+      "name": "Projectile",
+      "type": "tag",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile"
+    },
+    {
+      "name": "ClaimhSolais",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "claimh_solais"
+    },
+    {
+      "name": "VampireKiller",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampire_killer"
+    },
+    {
+      "name": "LeatherWhip",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_whip"
+    },
+    {
+      "name": "HolyWhip",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_whip"
+    },
+    {
+      "name": "LeatherWhipRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_whip_recipe"
+    },
+    {
+      "name": "HolyWhipRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_whip_recipe"
+    },
+    {
+      "name": "WhipUpgrade",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whip_upgrade"
+    },
+    {
+      "name": "VampireKillerRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampire_killer_recipe"
+    },
+    {
+      "name": "WhipOfAlchemy",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whip_of_alchemy"
+    },
+    {
+      "name": "WhipOfAlchemyRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whip_of_alchemy_recipe"
+    },
+    {
+      "name": "RedStone",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stone"
+    },
+    {
+      "name": "BlueStone",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone"
+    },
+    {
+      "name": "YellowStone",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_stone"
+    },
+    {
+      "name": "SteelTip",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_tip"
+    },
+    {
+      "name": "FireTipVampireKiller",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_tip_vampire_killer"
+    },
+    {
+      "name": "IceTipVampireKiller",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_tip_vampire_killer"
+    },
+    {
+      "name": "LightningTipVampireKiller",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_tip_vampire_killer"
+    },
+    {
+      "name": "SteelTipVampireKiller",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_tip_vampire_killer"
+    },
+    {
+      "name": "FireTipVampireKillerRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_tip_vampire_killer_recipe"
+    },
+    {
+      "name": "IceTipVampireKillerRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_tip_vampire_killer_recipe"
+    },
+    {
+      "name": "LightningTipVampireKillerRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_tip_vampire_killer_recipe"
+    },
+    {
+      "name": "SteelTipVampireKillerRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_tip_vampire_killer_recipe"
+    },
+    {
+      "name": "IsVampireKiller",
+      "type": "tag",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_vampire_killer"
+    },
+    {
+      "name": "RemoveVampireKillerTip",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_vampire_killer_tip"
+    },
+    {
+      "name": "SteelTipRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_tip_recipe"
+    },
+    {
+      "name": "RedStoneRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_stone_recipe"
+    },
+    {
+      "name": "BlueStoneRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_stone_recipe"
+    },
+    {
+      "name": "YellowStoneRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_stone_recipe"
+    },
+    {
+      "name": "SaveBlock",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_block"
+    },
+    {
+      "name": "SaveGame",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_game",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaveBlockGUI",
+      "type": "gui",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_block_gui"
+    },
+    {
+      "name": "AlucardSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alucard_sword"
+    },
+    {
+      "name": "CloseGUI",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UndergroundSaveRoom",
+      "type": "structure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground_save_room"
+    },
+    {
+      "name": "Vjaya",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vjaya"
+    },
+    {
+      "name": "RahabsFrost",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rahabs_frost"
+    },
+    {
+      "name": "IceBrand",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_brand"
+    },
+    {
+      "name": "SoundItem3",
+      "type": "musicdisc",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sound_item_3"
+    },
+    {
+      "name": "Laevateinn",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laevateinn"
+    },
+    {
+      "name": "AgnisFlame",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agnis_flame"
+    },
+    {
+      "name": "Mjolnir",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mjolnir"
+    },
+    {
+      "name": "ElectrumIngot",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot"
+    },
+    {
+      "name": "ElectrumOre",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ore"
+    },
+    {
+      "name": "ElectrumBlock",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_block"
+    },
+    {
+      "name": "ElectrumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ore_block_recipe"
+    },
+    {
+      "name": "ElectrumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_block_ore_recipe"
+    },
+    {
+      "name": "ElectrumOreSmelting",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ore_smelting"
+    },
+    {
+      "name": "IngotsElectrum",
+      "type": "tag",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingots_electrum"
+    },
+    {
+      "name": "OresElectrum",
+      "type": "tag",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_electrum"
+    },
+    {
+      "name": "BlocksElectrum",
+      "type": "tag",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks_electrum"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block"
+    },
+    {
+      "name": "SilverOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_block_recipe"
+    },
+    {
+      "name": "SilverBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_ore_recipe"
+    },
+    {
+      "name": "SilverOreSmelting",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_smelting"
+    },
+    {
+      "name": "IngotsSilver",
+      "type": "tag",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingots_silver"
+    },
+    {
+      "name": "OresSilver",
+      "type": "tag",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_silver"
+    },
+    {
+      "name": "BlocksSilver",
+      "type": "tag",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks_silver"
+    },
+    {
+      "name": "ElectrumRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_recipe"
+    },
+    {
+      "name": "MilicansSword",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milicans_sword"
+    },
+    {
+      "name": "MidasTouch",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midas_touch"
+    },
+    {
+      "name": "CastlevaniaDungeon",
+      "type": "loottable",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castlevania_dungeon"
+    },
+    {
+      "name": "CastlevaniaRandomWeapon",
+      "type": "loottable",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castlevania_random_weapon"
+    },
+    {
+      "name": "GiveAlucardShield",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_alucard_shield",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntiVenomFoodEaten",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_venom_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntiVenom",
+      "type": "food",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_venom"
+    },
+    {
+      "name": "UncursePotionFoodEaten",
+      "type": "procedure",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncurse_potion_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UncursePotion",
+      "type": "food",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncurse_potion"
+    },
+    {
+      "name": "StonethawFoodEaten",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonethaw_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stonethaw",
+      "type": "food",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonethaw"
+    },
+    {
+      "name": "AlucardShield",
+      "type": "command",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alucard_shield"
+    },
+    {
+      "name": "WeakStone",
+      "type": "block",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_stone"
+    },
+    {
+      "name": "WeakBricks",
+      "type": "block",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_bricks"
+    },
+    {
+      "name": "WeakAndesite",
+      "type": "block",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_andesite"
+    },
+    {
+      "name": "WeakDiorite",
+      "type": "block",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_diorite"
+    },
+    {
+      "name": "WeakGranite",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_granite"
+    },
+    {
+      "name": "TreasureBlock",
+      "type": "block",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treasure_block"
+    },
+    {
+      "name": "TreasureBlockTable",
+      "type": "loottable",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treasure_block_table"
+    },
+    {
+      "name": "WeakStoneTable",
+      "type": "loottable",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weak_stone_table"
+    },
+    {
+      "name": "PetrifiedBlock",
+      "type": "block",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_block"
+    },
+    {
+      "name": "GildedBlock",
+      "type": "block",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_block"
+    },
+    {
+      "name": "SaveStatue",
+      "type": "structure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "save_statue"
+    },
+    {
+      "name": "AnimatedCross",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_cross"
+    },
+    {
+      "name": "AnimatedWoodCross",
+      "type": "item",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_wood_cross"
+    },
+    {
+      "name": "AnimatedStoneCross",
+      "type": "item",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_stone_cross"
+    },
+    {
+      "name": "AnimatedIronCross",
+      "type": "item",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_iron_cross"
+    },
+    {
+      "name": "AnimatedDiamondCross",
+      "type": "item",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_diamond_cross"
+    },
+    {
+      "name": "AnimatedNetheriteCross",
+      "type": "item",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_netherite_cross"
+    },
+    {
+      "name": "AnimatedGoldCross",
+      "type": "item",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_gold_cross"
+    },
+    {
+      "name": "PetrifiedBotBlock",
+      "type": "block",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrified_bot_block"
+    },
+    {
+      "name": "GildedBotBlock",
+      "type": "block",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_bot_block"
+    },
+    {
+      "name": "GoldEffectEffectStartedApplied",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_effect_effect_started_applied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldEffectEffectExpires",
+      "type": "procedure",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_effect_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronTierTreasureBlock",
+      "type": "block",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_tier_treasure_block"
+    },
+    {
+      "name": "DiamondTierTreasureBlock",
+      "type": "block",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tier_treasure_block"
+    },
+    {
+      "name": "IronTierTreasureBlockTable",
+      "type": "loottable",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_tier_treasure_block_table"
+    },
+    {
+      "name": "DiamondTierTreasureBlockTable",
+      "type": "loottable",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tier_treasure_block_table"
+    },
+    {
+      "name": "IronTreasureBlockRecipe",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_treasure_block_recipe"
+    },
+    {
+      "name": "DiamondTreasureBlockRecipe",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_treasure_block_recipe"
+    },
+    {
+      "name": "Candlestick",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candlestick"
+    },
+    {
+      "name": "CandlestickLoot",
+      "type": "loottable",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candlestick_loot"
+    },
+    {
+      "name": "CandlestickRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candlestick_recipe"
+    },
+    {
+      "name": "ClaimhSolaisRoom",
+      "type": "structure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "claimh_solais_room"
+    },
+    {
+      "name": "CandlestickStructure",
+      "type": "structure",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candlestick_structure"
+    },
+    {
+      "name": "AnimatedAxe",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_axe"
+    },
+    {
+      "name": "AnimatedWoodenAxe",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_wooden_axe"
+    },
+    {
+      "name": "AnimatedStoneAxe",
+      "type": "item",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_stone_axe"
+    },
+    {
+      "name": "AnimatedIronAxe",
+      "type": "item",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_iron_axe"
+    },
+    {
+      "name": "AnimatedGoldAxe",
+      "type": "item",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_gold_axe"
+    },
+    {
+      "name": "AnimatedDiamondAxe",
+      "type": "item",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_diamond_axe"
+    },
+    {
+      "name": "AnimatedNetheriteAxe",
+      "type": "item",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animated_netherite_axe"
+    },
+    {
+      "name": "SilverSword",
+      "type": "tool",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword"
+    },
+    {
+      "name": "SilverSwordRecipe",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword_recipe"
+    },
+    {
+      "name": "FireDamageEffect",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_damage_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "playerSubWeaponsActive",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "itemCrashActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "rhapsodyoftheforsaken",
+      "files": [
+        "rhapsodyoftheforsakennoteblock"
+      ],
+      "category": "record",
+      "subtitle": "Rhapsody of the Forsaken"
+    },
+    {
+      "name": "sinkingoldsanctuary",
+      "files": [
+        "sinking_old_sanctuary_note_block"
+      ],
+      "category": "record",
+      "subtitle": "The Sinking Old Sanctuary"
+    },
+    {
+      "name": "animeshine",
+      "files": [
+        "anime_shine_sound_effect"
+      ],
+      "category": "ambient",
+      "subtitle": "Holy Glint SFX 1"
+    },
+    {
+      "name": "hydrostorm",
+      "files": [
+        "hydrostorm"
+      ],
+      "category": "player",
+      "subtitle": "Hydro Storm voice clip"
+    },
+    {
+      "name": "subterraneanhell",
+      "files": [
+        "subterraneanhellnoteblock"
+      ],
+      "category": "record",
+      "subtitle": "Subterranean Hell"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.skys_castlevania.netherite_dagger": "Netherite Dagger",
+      "item.skys_castlevania.holy_whip": "Consecrated Whip",
+      "subtitles.hydrostorm": "Hydro Storm voice clip",
+      "item.skys_castlevania.animated_iron_cross": "Animated Iron Cross",
+      "item.skys_castlevania.holy_water": "Holy Water",
+      "item.skys_castlevania.mjolnir": "Mjolnir",
+      "item.skys_castlevania.animated_diamond_cross": "Animated Diamond Cross",
+      "item.skys_castlevania.three_stone": "Three Stone",
+      "item.skys_castlevania.animated_wood_cross": "Animated Wood Cross",
+      "item.skys_castlevania.sound_item_2": "Sound Item 2",
+      "subtitles.subterraneanhell": "Subterranean Hell",
+      "block.skys_castlevania.iron_tier_treasure_block": "Iron-Tier Treasure Block",
+      "item.skys_castlevania.sound_item_1": "Sound Item 1",
+      "item.skys_castlevania.holy_water_s_wep": "Holy Water",
+      "item.skys_castlevania.crucifix": "Crucifix",
+      "item.skys_castlevania.sound_item_3": "Sound Item 3",
+      "item.skys_castlevania.vjaya": "Vjaya",
+      "item.skys_castlevania.un_holy_water": "Unholy Water",
+      "effect.gold_effect": "Aurified",
+      "block.skys_castlevania.petrified_bot_block": "Petrified Block",
+      "item.skys_castlevania.animated_axe": "Animated Axe",
+      "item.skys_castlevania.silver_sword": "Silver Sword",
+      "item.skys_castlevania.grand_cross": "Grand Cross",
+      "block.skys_castlevania.weak_granite": "Granite",
+      "item.skys_castlevania.animated_netherite_axe": "Animated Axe",
+      "item.skys_castlevania.iron_dagger": "Iron Dagger",
+      "item.skys_castlevania.debug_heart": "Debug Heart",
+      "item.skys_castlevania.whip_upgrade": "Whip Upgrade",
+      "block.skys_castlevania.silver_ore": "Silver Ore",
+      "block.skys_castlevania.gilded_block": "Gilded Block",
+      "item.skys_castlevania.netherite_cross": "Netherite Cross",
+      "item.skys_castlevania.throwing_axe_netherite": "Netherite Throwing Axe",
+      "item.skys_castlevania.two_stone": "Two Stone",
+      "item.skys_castlevania.midas_touch": "Midas Touch",
+      "item.skys_castlevania.stonethaw": "Stonethaw",
+      "item.skys_castlevania.animated_gold_axe": "Animated Axe",
+      "block.skys_castlevania.weak_andesite": "Andesite",
+      "item.skys_castlevania.thousand_blades": "Thousand Blades",
+      "item.skys_castlevania.milicans_sword": "Milican\u0027s Sword",
+      "item.skys_castlevania.gold_dagger": "Golden Dagger",
+      "item.skys_castlevania.heart": "Heart",
+      "itemGroup.tabskys_castlevania_tab": "Sky\u0027s Castlevania",
+      "item.skys_castlevania.animated_stone_cross": "Animated Stone Cross",
+      "item.skys_castlevania.animated_gold_cross": "Animated Gold Cross",
+      "item.skys_castlevania.yellow_stone": "Yellow Stone",
+      "block.skys_castlevania.candlestick": "Candlestick",
+      "item.skys_castlevania.anti_venom": "Antivenom",
+      "item.skys_castlevania.wood_dagger": "Wooden Dagger",
+      "item.skys_castlevania.iron_cross": "Iron Cross",
+      "item.skys_castlevania.throwing_axe_stone": "Stone Throwing Axe",
+      "item.skys_castlevania.animated_stone_axe": "Animated Axe",
+      "effect.stone_effect": "Petrified",
+      "item.skys_castlevania.sound_item_3.desc": "Michiru Yamane - Subterranean Hell",
+      "item.skys_castlevania.silver_ingot": "Silver Ingot",
+      "item.skys_castlevania.steel_tip_vampire_killer": "Vampire Killer",
+      "item.skys_castlevania.animated_diamond_axe": "Animated Axe",
+      "gamerule.vanillaWeaponTyping.description": "Perform damage-typing effects on vanilla weapons (janky)",
+      "item.skys_castlevania.vampire_killer": "Vampire Killer",
+      "effect.curse_effect": "Cursed",
+      "item.skys_castlevania.cross_s_wep": "Cross",
+      "item.skys_castlevania.sound_item_1.desc": "Michiru Yamane - Rhapsody of the Forsaken",
+      "item.skys_castlevania.claimh_solais": "Claiomh Solais",
+      "item.skys_castlevania.whip_of_alchemy": "Whip of Alchemy",
+      "item.skys_castlevania.rahabs_frost": "Rahab\u0027s Frost",
+      "item.skys_castlevania.animated_iron_axe": "Animated Axe",
+      "item.skys_castlevania.sound_item_2.desc": "Michiru Yamane - The Sinking Old Sanctuary",
+      "item.skys_castlevania.red_stone": "Red Stone",
+      "item.skys_castlevania.stone_dagger": "Stone Dagger",
+      "block.skys_castlevania.weak_bricks": "Stone Bricks",
+      "item.skys_castlevania.axe_s_wep": "Axe",
+      "subtitles.animeshine": "Holy Glint SFX 1",
+      "block.skys_castlevania.weak_stone": "Stone",
+      "block.skys_castlevania.weak_diorite": "Diorite",
+      "item.skys_castlevania.animated_cross": "Animated Cross",
+      "subtitles.rhapsodyoftheforsaken": "Rhapsody of the Forsaken",
+      "block.skys_castlevania.silver_block": "Block of Silver",
+      "item.skys_castlevania.animated_netherite_cross": "Animated Netherite Cross",
+      "item.skys_castlevania.animated_wooden_axe": "Animated Axe",
+      "item.skys_castlevania.leather_whip": "Leather Whip",
+      "item.skys_castlevania.ice_brand": "Ice Brand",
+      "item.skys_castlevania.stone_cross": "Stone Cross",
+      "item.skys_castlevania.fire_tip_vampire_killer": "Vampire Killer",
+      "item.skys_castlevania.throwing_axe_wood": "Wooden Throwing Axe",
+      "item.skys_castlevania.hydro_storm": "Hydro Storm",
+      "item.skys_castlevania.alucard_sword": "Alucard Sword",
+      "item.skys_castlevania.throwing_axe_iron": "Iron Throwing Axe",
+      "item.skys_castlevania.big_heart": "Big Heart",
+      "item.skys_castlevania.ice_tip_vampire_killer": "Vampire Killer",
+      "block.skys_castlevania.diamond_tier_treasure_block": "Diamond-Tier Treasure Block",
+      "item.skys_castlevania.diamond_dagger": "Diamond Dagger",
+      "block.skys_castlevania.petrified_block": "Petrified Block",
+      "item.skys_castlevania.diamond_cross": "Diamond Cross",
+      "block.skys_castlevania.gilded_bot_block": "Gilded Block",
+      "subtitles.sinkingoldsanctuary": "The Sinking Old Sanctuary",
+      "item.skys_castlevania.electrum_ingot": "Electrum Ingot",
+      "item.skys_castlevania.wood_cross": "Wooden Cross",
+      "item.skys_castlevania.laevateinn": "Laevateinn",
+      "block.skys_castlevania.electrum_ore": "Electrum Ore",
+      "item.skys_castlevania.throwing_axe_diamond": "Diamond Throwing Axe",
+      "block.skys_castlevania.save_block": "Save Block",
+      "item.skys_castlevania.throwing_axe_gold": "Golden Throwing Axe",
+      "item.skys_castlevania.blue_stone": "Blue Stone",
+      "gamerule.vanillaWeaponTyping": "Vanilla Weapon Typing",
+      "item.skys_castlevania.dagger_s_wep": "Dagger",
+      "item.skys_castlevania.lightning_tip_vampire_killer": "Vampire Killer",
+      "item.skys_castlevania.uncurse_potion": "Uncurse Potion",
+      "item.skys_castlevania.steel_tip": "Steel Tip",
+      "block.skys_castlevania.electrum_block": "Block of Electrum",
+      "effect.control_disabled": "Control Disabled",
+      "item.skys_castlevania.gold_cross": "Golden Cross",
+      "item.skys_castlevania.agnis_flame": "Agni\u0027s Flame",
+      "block.skys_castlevania.treasure_block": "Creative Treasure Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "skys_castlevania",
+    "modName": "Sky\u0027s Castlevania",
+    "version": "0.1.4",
+    "description": "Adds Castlevania stuff to Minecraft",
+    "author": "DetectiveSky",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/skys-castlevania",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "skyscastlevania",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator: https://mcreator.net/about - Holy Damage glint sound by Sound Effects Database on YouTube: https://www.youtube.com/watch?v\u003d1g7pqxEuG3k - Richter Belmont voice clip recorded from Castlevania: Symphony of the Night",
+    "modElementsPackage": "net.mcreator.skyscastlevania",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

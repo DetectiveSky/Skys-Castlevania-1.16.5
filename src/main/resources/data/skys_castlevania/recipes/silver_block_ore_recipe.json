@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skys_castlevania:silver_block"
+    }
+  ],
+  "result": {
+    "item": "skys_castlevania:silver_ingot",
+    "count": 9
+  }
+}

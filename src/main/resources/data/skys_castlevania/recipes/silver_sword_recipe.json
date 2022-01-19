@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "ingots/silver"
+    },
+    "1": {
+      "tag": "ingots/silver"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:silver_sword",
+    "count": 1
+  }
+}

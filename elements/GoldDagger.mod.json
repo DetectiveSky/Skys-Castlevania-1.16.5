@@ -1,0 +1,52 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "golddaggersprite",
+    "customModelName": "Normal",
+    "name": "Golden Dagger",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Heart"
+    },
+    "shootConstantly": true,
+    "usageCount": 32,
+    "actionSound": {
+      "value": "entity.enderpearl.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 3.0,
+    "onRangedItemUsed": {
+      "name": "DaggerSWepRangedItemUsed"
+    },
+    "useCondition": {
+      "name": "CanUseSubweapon"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 0.1,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:GoldDagger"
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "golddagger.png",
+    "onBulletHitsBlock": {
+      "name": "DaggerSWepBulletDespawn"
+    },
+    "onBulletHitsEntity": {
+      "name": "GoldDaggerBulletHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "DaggerIsFree"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityEvoker"
+      },
+      {
+        "value": "EntityIllusionIllager"
+      },
+      {
+        "value": "EntityIronGolem"
+      },
+      {
+        "value": "EntityPillager"
+      },
+      {
+        "value": "EntityRavager"
+      },
+      {
+        "value": "EntitySnowman"
+      },
+      {
+        "value": "EntitySpellcasterIllager"
+      },
+      {
+        "value": "EntityVex"
+      },
+      {
+        "value": "EntityVindicator"
+      },
+      {
+        "value": "EntityWitch"
+      }
+    ],
+    "name": "mob/weak_dark",
+    "namespace": "forge"
+  }
+}

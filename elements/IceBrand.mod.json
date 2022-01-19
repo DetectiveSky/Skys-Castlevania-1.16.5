@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "icebrand",
+    "customModelName": "Normal",
+    "name": "Ice Brand",
+    "specialInfo": [
+      "A sword crafted from demonic frost."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 1.5,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      },
+      {
+        "value": "Blocks.FROSTED_ICE"
+      },
+      {
+        "value": "Blocks.BLUE_ICE"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

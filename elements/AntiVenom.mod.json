@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "antivenom",
+    "customModelName": "Normal",
+    "name": "Antivenom",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Cures Poison."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "AntiVenomFoodEaten"
+    }
+  }
+}

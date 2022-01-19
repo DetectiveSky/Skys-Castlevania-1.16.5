@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "falling_block",
+    "fishing_bobber",
+    "dragon_fireball",
+    "shulker_bullet",
+    "arrow",
+    "lightning_bolt",
+    "small_fireball",
+    "spectral_arrow",
+    "firework_rocket",
+    "wither_skull",
+    "ender_pearl",
+    "llama_spit",
+    "experience_bottle",
+    "trident",
+    "snowball",
+    "evoker_fangs",
+    "fireball"
+  ]
+}

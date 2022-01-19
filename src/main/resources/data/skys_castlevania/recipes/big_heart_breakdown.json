@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skys_castlevania:big_heart"
+    }
+  ],
+  "result": {
+    "item": "skys_castlevania:heart",
+    "count": 5
+  }
+}

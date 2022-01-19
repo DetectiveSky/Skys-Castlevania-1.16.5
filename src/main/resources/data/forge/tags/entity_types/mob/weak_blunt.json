@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "stray",
+    "iron_golem",
+    "spider",
+    "cave_spider",
+    "silverfish",
+    "skeleton",
+    "shulker",
+    "skeleton_horse",
+    "wither_skeleton"
+  ]
+}

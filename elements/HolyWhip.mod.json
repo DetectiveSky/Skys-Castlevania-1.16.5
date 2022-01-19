@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "holywhip",
+    "customModelName": "Normal",
+    "name": "Consecrated Whip",
+    "specialInfo": [
+      "A ritually blessed leather whip."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.8,
+    "enchantability": 5,
+    "damageVsEntity": 2.5,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.LEATHER"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

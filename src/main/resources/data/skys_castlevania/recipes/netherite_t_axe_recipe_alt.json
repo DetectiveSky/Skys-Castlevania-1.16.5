@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "skys_castlevania:throwing_axe_diamond"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "skys_castlevania:throwing_axe_netherite"
+  }
+}

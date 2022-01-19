@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:NetheriteDagger"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "Items.NETHERITE_SHOVEL"
+      },
+      {
+        "value": "Items.NETHERITE_AXE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "weapon/dark",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 113,
+    "height": 69,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Set spawn?",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Set spawn?",
+          "x": 187,
+          "y": 99
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Yes",
+          "onClick": {
+            "name": "SaveGame"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Yes",
+          "x": 169,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "No",
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "No",
+          "x": 219,
+          "y": 116
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

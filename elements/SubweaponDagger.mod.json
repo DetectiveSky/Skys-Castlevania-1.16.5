@@ -1,0 +1,35 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DaggerSWep"
+      },
+      {
+        "value": "CUSTOM:WoodDagger"
+      },
+      {
+        "value": "CUSTOM:StoneDagger"
+      },
+      {
+        "value": "CUSTOM:IronDagger"
+      },
+      {
+        "value": "CUSTOM:GoldDagger"
+      },
+      {
+        "value": "CUSTOM:DiamondDagger"
+      },
+      {
+        "value": "CUSTOM:NetheriteDagger"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "subweapon/dagger",
+    "namespace": "forge"
+  }
+}

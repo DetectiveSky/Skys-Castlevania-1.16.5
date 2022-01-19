@@ -1,0 +1,50 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Crucifix"
+      },
+      {
+        "value": "CUSTOM:ClaimhSolais"
+      },
+      {
+        "value": "CUSTOM:VampireKiller"
+      },
+      {
+        "value": "CUSTOM:LeatherWhip"
+      },
+      {
+        "value": "CUSTOM:HolyWhip"
+      },
+      {
+        "value": "CUSTOM:WhipOfAlchemy"
+      },
+      {
+        "value": "CUSTOM:FireTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:IceTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:LightningTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:SteelTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:AlucardSword"
+      },
+      {
+        "value": "CUSTOM:Vjaya"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "weapon/castlevania_melee",
+    "namespace": "forge"
+  }
+}

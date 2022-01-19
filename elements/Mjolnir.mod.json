@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "mjolnir",
+    "customModelName": "Normal",
+    "name": "Mjolnir",
+    "specialInfo": [
+      "The hammer of the thunder-god Thor."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 1.4,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 1500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

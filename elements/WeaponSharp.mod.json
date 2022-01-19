@@ -1,0 +1,98 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.WOODEN_SWORD"
+      },
+      {
+        "value": "Items.WOODEN_AXE"
+      },
+      {
+        "value": "Items.STONE_SWORD"
+      },
+      {
+        "value": "Items.STONE_AXE"
+      },
+      {
+        "value": "Items.IRON_SWORD"
+      },
+      {
+        "value": "Items.IRON_AXE"
+      },
+      {
+        "value": "Items.GOLDEN_SWORD"
+      },
+      {
+        "value": "Items.GOLDEN_AXE"
+      },
+      {
+        "value": "Items.DIAMOND_SWORD"
+      },
+      {
+        "value": "Items.DIAMOND_AXE"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "Items.NETHERITE_AXE"
+      },
+      {
+        "value": "CUSTOM:ClaimhSolais"
+      },
+      {
+        "value": "CUSTOM:VampireKiller"
+      },
+      {
+        "value": "CUSTOM:LeatherWhip"
+      },
+      {
+        "value": "CUSTOM:HolyWhip"
+      },
+      {
+        "value": "CUSTOM:WhipOfAlchemy"
+      },
+      {
+        "value": "CUSTOM:FireTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:IceTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:LightningTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:AlucardSword"
+      },
+      {
+        "value": "CUSTOM:Vjaya"
+      },
+      {
+        "value": "CUSTOM:RahabsFrost"
+      },
+      {
+        "value": "CUSTOM:IceBrand"
+      },
+      {
+        "value": "CUSTOM:Laevateinn"
+      },
+      {
+        "value": "CUSTOM:AgnisFlame"
+      },
+      {
+        "value": "CUSTOM:MilicansSword"
+      },
+      {
+        "value": "CUSTOM:SilverSword"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "weapon/sharp",
+    "namespace": "forge"
+  }
+}

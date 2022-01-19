@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntitySkeleton"
+      },
+      {
+        "value": "EntitySkeletonHorse"
+      },
+      {
+        "value": "EntityStray"
+      },
+      {
+        "value": "EntityWitherSkeleton"
+      }
+    ],
+    "name": "mob/resist_sharp",
+    "namespace": "forge"
+  }
+}

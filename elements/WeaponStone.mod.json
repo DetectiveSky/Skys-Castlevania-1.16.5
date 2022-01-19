@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.STONE_HOE"
+      },
+      {
+        "value": "CUSTOM:MilicansSword"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "weapon/stone",
+    "namespace": "forge"
+  }
+}

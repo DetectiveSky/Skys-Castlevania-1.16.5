@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "whipofalchemy",
+    "customModelName": "Normal",
+    "name": "Whip of Alchemy",
+    "specialInfo": [
+      "Rinoldo Gandolfi's masterpiece, infused with alchemical power."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.8,
+    "enchantability": 5,
+    "damageVsEntity": 3.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.STRING"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

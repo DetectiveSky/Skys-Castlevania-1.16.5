@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityBlaze"
+      },
+      {
+        "value": "EntityCaveSpider"
+      },
+      {
+        "value": "EntityIronGolem"
+      },
+      {
+        "value": "EntitySkeleton"
+      },
+      {
+        "value": "EntitySkeletonHorse"
+      },
+      {
+        "value": "EntitySnowman"
+      },
+      {
+        "value": "EntityStray"
+      },
+      {
+        "value": "EntityWitherSkeleton"
+      }
+    ],
+    "name": "mob/resist_pointy",
+    "namespace": "forge"
+  }
+}

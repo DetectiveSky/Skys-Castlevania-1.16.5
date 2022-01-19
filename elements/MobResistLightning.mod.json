@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityCreeper"
+      }
+    ],
+    "name": "mob/resist_lightning",
+    "namespace": "forge"
+  }
+}

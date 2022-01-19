@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "is_vampire_killer"
+  },
+  "addition": {
+    "item": "skys_castlevania:heart"
+  },
+  "result": {
+    "item": "skys_castlevania:vampire_killer"
+  }
+}

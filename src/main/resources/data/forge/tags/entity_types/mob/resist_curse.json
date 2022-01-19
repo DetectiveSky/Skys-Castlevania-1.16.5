@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "evoker",
+    "wither",
+    "illusioner",
+    "vex",
+    "wither_skeleton"
+  ]
+}

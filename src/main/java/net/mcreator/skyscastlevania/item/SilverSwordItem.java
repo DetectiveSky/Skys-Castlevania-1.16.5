@@ -1,0 +1,65 @@
+
+package net.mcreator.skyscastlevania.item;
+
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.client.util.ITooltipFlag;
+
+import net.mcreator.skyscastlevania.itemgroup.SkysCastlevaniaTabItemGroup;
+import net.mcreator.skyscastlevania.SkysCastlevaniaModElements;
+
+import java.util.List;
+
+@SkysCastlevaniaModElements.ModElement.Tag
+public class SilverSwordItem extends SkysCastlevaniaModElements.ModElement {
+	@ObjectHolder("skys_castlevania:silver_sword")
+	public static final Item block = null;
+
+	public SilverSwordItem(SkysCastlevaniaModElements instance) {
+		super(instance, 300);
+	}
+
+	@Override
+	public void initElements() {
+		elements.items.add(() -> new SwordItem(new IItemTier() {
+			public int getMaxUses() {
+				return 200;
+			}
+
+			public float getEfficiency() {
+				return 4f;
+			}
+
+			public float getAttackDamage() {
+				return 2f;
+			}
+
+			public int getHarvestLevel() {
+				return 1;
+			}
+
+			public int getEnchantability() {
+				return 2;
+			}
+
+			public Ingredient getRepairMaterial() {
+				return Ingredient.fromStacks(new ItemStack(SilverIngotItem.block));
+			}
+		}, 3, -3f, new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab)) {
+			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("A sword forged from pure silver."));
+				list.add(new StringTextComponent("Toss a coin to your Witcher..."));
+			}
+		}.setRegistryName("silver_sword"));
+	}
+}

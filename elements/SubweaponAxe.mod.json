@@ -1,0 +1,35 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AxeSWep"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeWood"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeStone"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeIron"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeGold"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeDiamond"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeNetherite"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "subweapon/axe",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GoldDagger"
+      },
+      {
+        "value": "Items.GOLDEN_SWORD"
+      },
+      {
+        "value": "Items.GOLDEN_SHOVEL"
+      },
+      {
+        "value": "Items.GOLDEN_AXE"
+      },
+      {
+        "value": "CUSTOM:Crucifix"
+      },
+      {
+        "value": "CUSTOM:ClaimhSolais"
+      },
+      {
+        "value": "CUSTOM:VampireKiller"
+      },
+      {
+        "value": "CUSTOM:HolyWhip"
+      },
+      {
+        "value": "CUSTOM:FireTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:IceTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:LightningTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:SteelTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:SilverSword"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "weapon/holy",
+    "namespace": "forge"
+  }
+}

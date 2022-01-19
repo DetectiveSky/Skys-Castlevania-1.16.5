@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="skys_castlevania"
+version="0.1.4"
+displayName="Sky's Castlevania"
+credits="Created using mod maker MCreator: https://mcreator.net/about - Holy Damage glint sound by Sound Effects Database on YouTube: https://www.youtube.com/watch?v=1g7pqxEuG3k - Richter Belmont voice clip recorded from Castlevania: Symphony of the Night"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/skys-castlevania"
+logoFile="logo.png"
+authors="DetectiveSky"
+description='''
+Adds Castlevania stuff to Minecraft
+'''
+
+[[dependencies.skys_castlevania]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,19 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "cvrecord",
+    "name": "Sound Item 3",
+    "description": "Michiru Yamane - Subterranean Hell",
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "music": {
+      "value": "CUSTOM:subterraneanhell"
+    },
+    "specialInfo": [
+      "Arr. DetectiveSky"
+    ],
+    "hasGlow": false
+  }
+}

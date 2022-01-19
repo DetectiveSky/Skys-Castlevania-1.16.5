@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "skys_castlevania:three_stone"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:water_bucket"
+    },
+    "4": {
+      "item": "skys_castlevania:holy_water"
+    },
+    "5": {
+      "item": "minecraft:water_bucket"
+    },
+    "6": {
+      "item": "minecraft:diamond"
+    },
+    "7": {
+      "item": "minecraft:water_bucket"
+    },
+    "8": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:hydro_storm",
+    "count": 1
+  }
+}

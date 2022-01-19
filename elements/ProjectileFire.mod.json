@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityDragonFireball"
+      },
+      {
+        "value": "EntitySmallFireball"
+      },
+      {
+        "value": "EntityFireball"
+      },
+      {
+        "value": "EntityFireworkRocket"
+      }
+    ],
+    "name": "projectile/fire",
+    "namespace": "forge"
+  }
+}

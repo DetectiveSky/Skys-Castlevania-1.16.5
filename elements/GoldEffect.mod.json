@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Aurified",
+    "icon": "gold_ingot_je4_be2.png",
+    "color": {
+      "value": -13312,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "StoneEffectEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "StoneEffectOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "StoneEffectEffectExpires"
+    }
+  }
+}

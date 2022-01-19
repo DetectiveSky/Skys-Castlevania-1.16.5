@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "skys_castlevania:blocks/block_of_raw_gold_texture_je2",
+    "up": "skys_castlevania:blocks/block_of_raw_gold_texture_je2",
+    "north": "skys_castlevania:blocks/block_of_raw_gold_texture_je2",
+    "east": "skys_castlevania:blocks/block_of_raw_gold_texture_je2",
+    "south": "skys_castlevania:blocks/block_of_raw_gold_texture_je2",
+    "west": "skys_castlevania:blocks/block_of_raw_gold_texture_je2",
+    "particle": "skys_castlevania:blocks/block_of_raw_gold_texture_je2"
+  }
+}

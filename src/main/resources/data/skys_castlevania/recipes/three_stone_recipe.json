@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "skys_castlevania:gold_dagger"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "skys_castlevania:gold_dagger"
+    },
+    "4": {
+      "item": "skys_castlevania:two_stone"
+    },
+    "5": {
+      "item": "skys_castlevania:gold_dagger"
+    },
+    "6": {
+      "item": "minecraft:gold_ingot"
+    },
+    "7": {
+      "item": "minecraft:gold_ingot"
+    },
+    "8": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:three_stone",
+    "count": 1
+  }
+}

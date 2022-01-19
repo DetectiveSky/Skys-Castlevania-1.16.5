@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "CUSTOM:Crucifix"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StoneCross"
+    },
+    "name": "stone_cross_recipe",
+    "namespace": "mod"
+  }
+}

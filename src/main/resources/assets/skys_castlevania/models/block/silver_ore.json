@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "skys_castlevania:blocks/silver_ore",
+    "particle": "skys_castlevania:blocks/silver_ore"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityIronGolem"
+      }
+    ],
+    "name": "mob/weak_lightning",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "item": "skys_castlevania:crucifix"
+    },
+    "5": {
+      "tag": "minecraft:planks"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:wood_cross",
+    "count": 1
+  }
+}

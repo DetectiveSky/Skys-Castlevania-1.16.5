@@ -1,0 +1,65 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityArrow"
+      },
+      {
+        "value": "EntityDragonFireball"
+      },
+      {
+        "value": "EntityEnderPearl"
+      },
+      {
+        "value": "EntityEvokerFangs"
+      },
+      {
+        "value": "EntityExpBottle"
+      },
+      {
+        "value": "EntityFallingBlock"
+      },
+      {
+        "value": "EntityFireball"
+      },
+      {
+        "value": "EntityFireworkRocket"
+      },
+      {
+        "value": "EntityFishHook"
+      },
+      {
+        "value": "EntityLightningBolt"
+      },
+      {
+        "value": "EntityLlamaSpit"
+      },
+      {
+        "value": "EntityShulkerBullet"
+      },
+      {
+        "value": "EntitySmallFireball"
+      },
+      {
+        "value": "EntitySnowball"
+      },
+      {
+        "value": "EntitySpectralArrow"
+      },
+      {
+        "value": "EntityTrident"
+      },
+      {
+        "value": "EntityWitherSkull"
+      }
+    ],
+    "name": "projectile/vanilla",
+    "namespace": "forge"
+  }
+}

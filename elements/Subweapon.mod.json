@@ -1,0 +1,86 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:HolyWater"
+      },
+      {
+        "value": "CUSTOM:DaggerSWep"
+      },
+      {
+        "value": "CUSTOM:CrossSWep"
+      },
+      {
+        "value": "CUSTOM:WoodDagger"
+      },
+      {
+        "value": "CUSTOM:StoneDagger"
+      },
+      {
+        "value": "CUSTOM:IronDagger"
+      },
+      {
+        "value": "CUSTOM:GoldDagger"
+      },
+      {
+        "value": "CUSTOM:DiamondDagger"
+      },
+      {
+        "value": "CUSTOM:NetheriteDagger"
+      },
+      {
+        "value": "CUSTOM:HolyWaterSWep"
+      },
+      {
+        "value": "CUSTOM:AxeSWep"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeWood"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeStone"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeIron"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeGold"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeDiamond"
+      },
+      {
+        "value": "CUSTOM:ThrowingAxeNetherite"
+      },
+      {
+        "value": "CUSTOM:UnHolyWater"
+      },
+      {
+        "value": "CUSTOM:WoodCross"
+      },
+      {
+        "value": "CUSTOM:StoneCross"
+      },
+      {
+        "value": "CUSTOM:IronCross"
+      },
+      {
+        "value": "CUSTOM:GoldCross"
+      },
+      {
+        "value": "CUSTOM:DiamondCross"
+      },
+      {
+        "value": "CUSTOM:NetheriteCross"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "subweapon",
+    "namespace": "forge"
+  }
+}

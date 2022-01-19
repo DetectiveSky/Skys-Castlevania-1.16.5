@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:torch"
+    },
+    "2": {
+      "item": "minecraft:torch"
+    },
+    "3": {
+      "item": "minecraft:gold_nugget"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    },
+    "5": {
+      "item": "minecraft:gold_nugget"
+    },
+    "7": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:candlestick",
+    "count": 1
+  }
+}

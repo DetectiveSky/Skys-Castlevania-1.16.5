@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityPiglin"
+      },
+      {
+        "value": "EntityPiglinBrute"
+      },
+      {
+        "value": "EntityPillager"
+      },
+      {
+        "value": "EntityRavager"
+      },
+      {
+        "value": "EntityVindicator"
+      }
+    ],
+    "name": "mob/weak_poison",
+    "namespace": "forge"
+  }
+}

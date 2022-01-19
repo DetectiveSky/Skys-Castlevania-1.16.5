@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:gold_ingot"
+  },
+  "addition": {
+    "tag": "ingots/silver"
+  },
+  "result": {
+    "item": "skys_castlevania:electrum_ingot"
+  }
+}

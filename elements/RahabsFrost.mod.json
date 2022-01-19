@@ -1,0 +1,43 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rahabsfrostanim",
+    "customModelName": "Normal",
+    "name": "Rahab's Frost",
+    "specialInfo": [
+      "A sword wrought from the fang of Rahab",
+      "the sea-demon."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.6,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      },
+      {
+        "value": "Blocks.FROSTED_ICE"
+      },
+      {
+        "value": "Blocks.BLUE_ICE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

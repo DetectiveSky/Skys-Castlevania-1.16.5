@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "skys_castlevania:crucifix"
+    },
+    "1": {
+      "item": "minecraft:potion"
+    },
+    "2": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:holy_water",
+    "count": 1
+  }
+}

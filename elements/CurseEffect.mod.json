@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Cursed",
+    "icon": "curse.png",
+    "color": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "CurseEffectEffectStartedapplied"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.WOODEN_SHOVEL"
+      },
+      {
+        "value": "Items.STONE_SHOVEL"
+      },
+      {
+        "value": "Items.IRON_SHOVEL"
+      },
+      {
+        "value": "Items.GOLDEN_SHOVEL"
+      },
+      {
+        "value": "Items.DIAMOND_SHOVEL"
+      },
+      {
+        "value": "Items.NETHERITE_SHOVEL"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "CUSTOM:SteelTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:Mjolnir"
+      },
+      {
+        "value": "CUSTOM:MidasTouch"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "weapon/blunt",
+    "namespace": "forge"
+  }
+}

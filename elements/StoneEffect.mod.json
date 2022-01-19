@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Petrified",
+    "icon": "stone.png",
+    "color": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "StoneEffectEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "StoneEffectOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "StoneEffectEffectExpires"
+    }
+  }
+}

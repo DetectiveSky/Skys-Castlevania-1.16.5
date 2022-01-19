@@ -1,0 +1,41 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityIronGolem"
+      },
+      {
+        "value": "EntityShulker"
+      },
+      {
+        "value": "EntitySilverfish"
+      },
+      {
+        "value": "EntitySkeleton"
+      },
+      {
+        "value": "EntitySkeletonHorse"
+      },
+      {
+        "value": "EntitySpider"
+      },
+      {
+        "value": "EntityStray"
+      },
+      {
+        "value": "EntityCaveSpider"
+      },
+      {
+        "value": "EntityWitherSkeleton"
+      }
+    ],
+    "name": "mob/weak_blunt",
+    "namespace": "forge"
+  }
+}

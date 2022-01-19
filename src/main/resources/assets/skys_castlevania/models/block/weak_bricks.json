@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "skys_castlevania:blocks/cracked_stone_bricks_texture_je3_be2",
+    "up": "skys_castlevania:blocks/cracked_stone_bricks_texture_je3_be2",
+    "north": "skys_castlevania:blocks/cracked_stone_bricks_texture_je3_be2",
+    "east": "skys_castlevania:blocks/cracked_stone_bricks_texture_je3_be2",
+    "south": "skys_castlevania:blocks/cracked_stone_bricks_texture_je3_be2",
+    "west": "skys_castlevania:blocks/cracked_stone_bricks_texture_je3_be2",
+    "particle": "skys_castlevania:blocks/cracked_stone_bricks_texture_je3_be2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "skys_castlevania:blocks/saveblockface",
+    "up": "skys_castlevania:blocks/saveblockface",
+    "north": "skys_castlevania:blocks/saveblockface",
+    "east": "skys_castlevania:blocks/saveblockface",
+    "south": "skys_castlevania:blocks/saveblockface",
+    "west": "skys_castlevania:blocks/saveblockface",
+    "particle": "skys_castlevania:blocks/saveblockface"
+  }
+}

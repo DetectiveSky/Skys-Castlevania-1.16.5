@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_nugget"
+    },
+    "2": {
+      "item": "minecraft:gold_nugget"
+    },
+    "4": {
+      "tag": "blocks/electrum"
+    },
+    "6": {
+      "item": "minecraft:gold_nugget"
+    },
+    "8": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:yellow_stone",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:HolyWhip"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.BLAZE_POWDER"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:WhipOfAlchemy"
+    },
+    "name": "whip_of_alchemy_recipe",
+    "namespace": "mod"
+  }
+}

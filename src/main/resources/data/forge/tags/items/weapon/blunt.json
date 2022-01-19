@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond_shovel",
+    "minecraft:stick",
+    "skys_castlevania:mjolnir",
+    "minecraft:bone",
+    "minecraft:stone_shovel",
+    "minecraft:blaze_rod",
+    "minecraft:iron_shovel",
+    "skys_castlevania:midas_touch",
+    "skys_castlevania:steel_tip_vampire_killer",
+    "minecraft:wooden_shovel",
+    "minecraft:golden_shovel",
+    "minecraft:netherite_shovel"
+  ]
+}

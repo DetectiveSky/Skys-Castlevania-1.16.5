@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "skys_castlevania:whip_of_alchemy"
+  },
+  "addition": {
+    "item": "skys_castlevania:whip_upgrade"
+  },
+  "result": {
+    "item": "skys_castlevania:vampire_killer"
+  }
+}

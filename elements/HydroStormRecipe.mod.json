@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:ThreeStone"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:HolyWater"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HydroStorm"
+    },
+    "name": "hydro_storm_recipe",
+    "namespace": "mod"
+  }
+}

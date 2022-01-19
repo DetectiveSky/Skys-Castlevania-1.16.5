@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:cobblestone"
+    },
+    "3": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "skys_castlevania:crucifix"
+    },
+    "5": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:stone_cross",
+    "count": 1
+  }
+}

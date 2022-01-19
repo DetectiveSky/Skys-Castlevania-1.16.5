@@ -1,0 +1,22 @@
+{
+  "_fv": 24,
+  "_type": "structure",
+  "definition": {
+    "structure": "save_statue",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -1,
+    "spawnXOffset": 2,
+    "spawnZOffset": 2,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

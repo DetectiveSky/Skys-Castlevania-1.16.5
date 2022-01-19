@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "skys_castlevania:holy_whip"
+  },
+  "addition": {
+    "item": "minecraft:blaze_powder"
+  },
+  "result": {
+    "item": "skys_castlevania:whip_of_alchemy"
+  }
+}

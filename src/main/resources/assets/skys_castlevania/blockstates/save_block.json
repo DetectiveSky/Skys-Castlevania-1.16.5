@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "skys_castlevania:block/save_block"
+    }
+  }
+}

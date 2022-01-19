@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "ingots/electrum"
+    },
+    "1": {
+      "item": "skys_castlevania:big_heart"
+    },
+    "2": {
+      "tag": "ingots/electrum"
+    },
+    "3": {
+      "item": "skys_castlevania:big_heart"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "skys_castlevania:big_heart"
+    },
+    "6": {
+      "tag": "ingots/electrum"
+    },
+    "7": {
+      "item": "skys_castlevania:big_heart"
+    },
+    "8": {
+      "tag": "ingots/electrum"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:diamond_tier_treasure_block",
+    "count": 1
+  }
+}

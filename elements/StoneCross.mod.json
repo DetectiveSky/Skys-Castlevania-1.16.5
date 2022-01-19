@@ -1,0 +1,55 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "stonecross",
+    "customModelName": "Normal",
+    "name": "Stone Cross",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Heart"
+    },
+    "shootConstantly": false,
+    "usageCount": 131,
+    "actionSound": {
+      "value": "entity.enderpearl.throw"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SubWeaponCountIncrement"
+    },
+    "useCondition": {
+      "name": "CanUseSubweapon"
+    },
+    "bulletPower": 0.5,
+    "bulletDamage": 0.1,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:AnimatedStoneCross"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "SubWeaponCountDecrement"
+    },
+    "onBulletHitsPlayer": {
+      "name": "CrossSWepBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "StoneCrossBulletHitsEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "CrossSWepWhileBulletFlyingTick"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "tag": "minecraft:planks"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:throwing_axe_wood",
+    "count": 1
+  }
+}

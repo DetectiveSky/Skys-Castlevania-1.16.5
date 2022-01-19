@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "evoker",
+    "ravager",
+    "witch",
+    "snow_golem",
+    "vindicator",
+    "illusioner",
+    "iron_golem",
+    "pillager",
+    "zombie",
+    "vex"
+  ]
+}

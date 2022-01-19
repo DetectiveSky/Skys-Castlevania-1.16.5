@@ -1,0 +1,51 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "creativeholywater",
+    "customModelName": "Normal",
+    "name": "Holy Water",
+    "specialInfo": [
+      "Creative Mode version of Holy Water subweapon"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Heart"
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.enderpearl.throw"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SubWeaponCountIncrement"
+    },
+    "useCondition": {
+      "name": "CanUseSubweapon"
+    },
+    "bulletPower": 0.5,
+    "bulletDamage": 0.1,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:HolyWaterSWep"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "HolyWaterBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "CreativeHolyWaterBulletHitsEntity"
+    }
+  }
+}

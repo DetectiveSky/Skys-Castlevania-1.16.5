@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "ingots/electrum"
+    },
+    "1": {
+      "tag": "ingots/electrum"
+    },
+    "2": {
+      "tag": "ingots/electrum"
+    },
+    "3": {
+      "tag": "ingots/electrum"
+    },
+    "4": {
+      "item": "skys_castlevania:electrum_ingot"
+    },
+    "5": {
+      "tag": "ingots/electrum"
+    },
+    "6": {
+      "tag": "ingots/electrum"
+    },
+    "7": {
+      "tag": "ingots/electrum"
+    },
+    "8": {
+      "tag": "ingots/electrum"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:electrum_block",
+    "count": 1
+  }
+}

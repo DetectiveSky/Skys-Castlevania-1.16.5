@@ -1,0 +1,19 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "cvrecord",
+    "name": "Sound Item 1",
+    "description": "Michiru Yamane - Rhapsody of the Forsaken",
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "music": {
+      "value": "CUSTOM:rhapsodyoftheforsaken"
+    },
+    "specialInfo": [
+      "Arr. DetectiveSky"
+    ],
+    "hasGlow": false
+  }
+}

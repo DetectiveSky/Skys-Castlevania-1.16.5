@@ -1,0 +1,19 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "cvxrecord",
+    "name": "Sound Item 2",
+    "description": "Michiru Yamane - The Sinking Old Sanctuary",
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "music": {
+      "value": "CUSTOM:sinkingoldsanctuary"
+    },
+    "specialInfo": [
+      "Arr. DetectiveSky"
+    ],
+    "hasGlow": false
+  }
+}

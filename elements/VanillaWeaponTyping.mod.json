@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Vanilla Weapon Typing",
+    "description": "Perform damage-typing effects on vanilla weapons (janky)",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

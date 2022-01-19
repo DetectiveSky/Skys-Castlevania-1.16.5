@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "skys_castlevania:vampire_killer",
+    "skys_castlevania:lightning_tip_vampire_killer",
+    "skys_castlevania:ice_tip_vampire_killer",
+    "skys_castlevania:fire_tip_vampire_killer",
+    "skys_castlevania:steel_tip_vampire_killer"
+  ]
+}

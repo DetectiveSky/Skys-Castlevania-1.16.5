@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "skys_castlevania:gold_cross",
+    "skys_castlevania:wood_cross",
+    "skys_castlevania:diamond_cross",
+    "skys_castlevania:stone_cross",
+    "skys_castlevania:netherite_cross",
+    "skys_castlevania:iron_cross",
+    "skys_castlevania:cross_s_wep"
+  ]
+}

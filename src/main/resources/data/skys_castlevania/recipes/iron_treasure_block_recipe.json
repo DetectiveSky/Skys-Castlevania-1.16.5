@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "ingots/silver"
+    },
+    "1": {
+      "item": "skys_castlevania:debug_heart"
+    },
+    "2": {
+      "tag": "ingots/silver"
+    },
+    "3": {
+      "item": "skys_castlevania:debug_heart"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "skys_castlevania:debug_heart"
+    },
+    "6": {
+      "tag": "ingots/silver"
+    },
+    "7": {
+      "item": "skys_castlevania:debug_heart"
+    },
+    "8": {
+      "tag": "ingots/silver"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:iron_tier_treasure_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "skys_castlevania:netherite_dagger",
+    "minecraft:netherite_axe",
+    "minecraft:netherite_sword",
+    "minecraft:netherite_shovel"
+  ]
+}

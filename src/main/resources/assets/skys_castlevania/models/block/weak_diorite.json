@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "skys_castlevania:blocks/diorite_texture_je4_be3",
+    "up": "skys_castlevania:blocks/diorite_texture_je4_be3",
+    "north": "skys_castlevania:blocks/diorite_texture_je4_be3",
+    "east": "skys_castlevania:blocks/diorite_texture_je4_be3",
+    "south": "skys_castlevania:blocks/diorite_texture_je4_be3",
+    "west": "skys_castlevania:blocks/diorite_texture_je4_be3",
+    "particle": "skys_castlevania:blocks/diorite_texture_je4_be3"
+  }
+}

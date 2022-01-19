@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityBlaze"
+      },
+      {
+        "value": "EntityHusk"
+      }
+    ],
+    "name": "mob/weak_ice",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "CUSTOM:FireTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:Laevateinn"
+      },
+      {
+        "value": "CUSTOM:AgnisFlame"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "weapon/fire",
+    "namespace": "forge"
+  }
+}

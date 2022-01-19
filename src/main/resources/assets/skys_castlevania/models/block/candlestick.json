@@ -1,0 +1,8 @@
+{
+  "parent": "skys_castlevania:custom/candle",
+  "textures": {
+    "all": "skys_castlevania:blocks/candlestick",
+    "particle": "skys_castlevania:blocks/candlestick",
+    "0": "skys_castlevania:blocks/candlestick"
+  }
+}

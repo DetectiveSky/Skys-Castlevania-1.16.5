@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:throwing_axe_diamond",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:HolyWater"
+    },
+    "brewingIngredientStack": {
+      "value": "Blocks.SOUL_SAND"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:UnHolyWater"
+    },
+    "name": "unholy_water_recipe",
+    "namespace": "mod"
+  }
+}

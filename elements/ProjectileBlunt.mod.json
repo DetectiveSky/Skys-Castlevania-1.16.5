@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityExpBottle"
+      },
+      {
+        "value": "EntityFallingBlock"
+      },
+      {
+        "value": "EntityEnderPearl"
+      },
+      {
+        "value": "EntitySnowball"
+      }
+    ],
+    "name": "projectile/blunt",
+    "namespace": "forge"
+  }
+}

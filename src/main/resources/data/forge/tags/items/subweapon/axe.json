@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "skys_castlevania:axe_s_wep",
+    "skys_castlevania:throwing_axe_iron",
+    "skys_castlevania:throwing_axe_stone",
+    "skys_castlevania:throwing_axe_wood",
+    "skys_castlevania:throwing_axe_diamond",
+    "skys_castlevania:throwing_axe_netherite",
+    "skys_castlevania:throwing_axe_gold"
+  ]
+}
