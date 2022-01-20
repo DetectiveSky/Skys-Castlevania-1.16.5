@@ -51,12 +51,12 @@ public class SkysCastlevaniaModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("skys_castlevania", "rhapsodyoftheforsaken")));
 		sounds.put(new ResourceLocation("skys_castlevania", "sinkingoldsanctuary"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("skys_castlevania", "sinkingoldsanctuary")));
-		sounds.put(new ResourceLocation("skys_castlevania", "animeshine"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("skys_castlevania", "animeshine")));
 		sounds.put(new ResourceLocation("skys_castlevania", "hydrostorm"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("skys_castlevania", "hydrostorm")));
 		sounds.put(new ResourceLocation("skys_castlevania", "subterraneanhell"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("skys_castlevania", "subterraneanhell")));
+		sounds.put(new ResourceLocation("skys_castlevania", "animeshine"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("skys_castlevania", "animeshine")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("skys_castlevania").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

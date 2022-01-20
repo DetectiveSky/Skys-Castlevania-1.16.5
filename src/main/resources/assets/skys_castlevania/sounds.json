@@ -19,16 +19,6 @@
       }
     ]
   },
-  "animeshine": {
-    "category": "ambient",
-    "subtitle": "subtitles.animeshine",
-    "sounds": [
-      {
-        "name": "skys_castlevania:anime_shine_sound_effect",
-        "stream": false
-      }
-    ]
-  },
   "hydrostorm": {
     "category": "player",
     "subtitle": "subtitles.hydrostorm",
@@ -46,6 +36,16 @@
       {
         "name": "skys_castlevania:subterraneanhellnoteblock",
         "stream": true
+      }
+    ]
+  },
+  "animeshine": {
+    "category": "ambient",
+    "subtitle": "subtitles.animeshine",
+    "sounds": [
+      {
+        "name": "skys_castlevania:anime_shine_sound_effect",
+        "stream": false
       }
     ]
   }

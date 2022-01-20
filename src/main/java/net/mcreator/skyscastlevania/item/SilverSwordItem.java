@@ -24,7 +24,7 @@ public class SilverSwordItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public SilverSwordItem(SkysCastlevaniaModElements instance) {
-		super(instance, 13);
+		super(instance, 16);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class SilverSwordItem extends SkysCastlevaniaModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return -1f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class SilverSwordItem extends SkysCastlevaniaModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 18;
 			}
 
 			public Ingredient getRepairMaterial() {

@@ -25,7 +25,7 @@ public class RahabsFrostItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public RahabsFrostItem(SkysCastlevaniaModElements instance) {
-		super(instance, 15);
+		super(instance, 14);
 	}
 
 	@Override
