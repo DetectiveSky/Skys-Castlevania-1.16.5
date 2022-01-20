@@ -35,7 +35,7 @@ public class SilverSwordItem extends SkysCastlevaniaModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
@@ -43,7 +43,7 @@ public class SilverSwordItem extends SkysCastlevaniaModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 2;
 			}
 
 			public int getEnchantability() {
@@ -53,7 +53,7 @@ public class SilverSwordItem extends SkysCastlevaniaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SilverIngotItem.block));
 			}
-		}, 3, -3f, new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab)) {
+		}, 3, -2.4f, new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
