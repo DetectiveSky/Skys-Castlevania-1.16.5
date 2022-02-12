@@ -2,7 +2,6 @@ package net.mcreator.skyscastlevania.procedures;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 
 import net.minecraft.world.World;
@@ -11,14 +10,15 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.EntityTypeTags;
+import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.skyscastlevania.world.VanillaWeaponTypingGameRule;
 import net.mcreator.skyscastlevania.potion.StoneEffectPotionEffect;
 import net.mcreator.skyscastlevania.potion.GoldEffectPotionEffect;
+import net.mcreator.skyscastlevania.potion.CurseEffectPotionEffect;
 import net.mcreator.skyscastlevania.SkysCastlevaniaMod;
 
 import java.util.stream.Stream;
@@ -97,17 +97,8 @@ public class MeleeAttacksProcedure {
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double amount = dependencies.get("amount") instanceof Integer ? (int) dependencies.get("amount") : (double) dependencies.get("amount");
 		double multiplier = 0;
-		if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/vanilla_melee"))
-				.contains(((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())
-				&& world.getWorldInfo().getGameRulesInstance().getBoolean(VanillaWeaponTypingGameRule.gamerule)) {
-			if (dependencies.get("event") != null) {
-				Object _obj = dependencies.get("event");
-				if (_obj instanceof Event) {
-					Event _evt = (Event) _obj;
-					if (_evt.isCancelable())
-						_evt.setCanceled(true);
-				}
-			}
+		if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/castlevania_melee")).contains(
+				((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 			multiplier = 1;
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/sharp")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
@@ -136,8 +127,32 @@ public class MeleeAttacksProcedure {
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/fire")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_fire")).contains(entity.getType())) {
+					FireDamageEffectProcedure.executeProcedure(Stream
+							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+									new AbstractMap.SimpleEntry<>("y", (y + 1)), new AbstractMap.SimpleEntry<>("z", z))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 					multiplier = (multiplier * 2);
 				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_fire")).contains(entity.getType())) {
+					FireDamageEffectProcedure.executeProcedure(Stream
+							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+									new AbstractMap.SimpleEntry<>("y", (y + 1)), new AbstractMap.SimpleEntry<>("z", z))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+					multiplier = (multiplier / 2);
+				}
+			}
+			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/ice")).contains(
+					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
+				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_ice")).contains(entity.getType())) {
+					multiplier = (multiplier * 2);
+				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_ice")).contains(entity.getType())) {
+					multiplier = (multiplier / 2);
+				}
+			}
+			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/lightning")).contains(
+					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
+				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_lightning")).contains(entity.getType())) {
+					multiplier = (multiplier * 2);
+				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_lightning")).contains(entity.getType())) {
 					multiplier = (multiplier / 2);
 				}
 			}
@@ -173,13 +188,34 @@ public class MeleeAttacksProcedure {
 					multiplier = (multiplier / 2);
 				}
 			}
+			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/poison")).contains(
+					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
+				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_poison")).contains(entity.getType())) {
+					multiplier = (multiplier * 2);
+					if (entity instanceof LivingEntity)
+						((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 100, (int) 1, (false), (true)));
+				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_poison")).contains(entity.getType())) {
+					multiplier = (multiplier / 2);
+				}
+			}
+			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/curse")).contains(
+					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
+				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_curse")).contains(entity.getType())) {
+					multiplier = (multiplier * 2);
+					if (entity instanceof LivingEntity)
+						((LivingEntity) entity)
+								.addPotionEffect(new EffectInstance(CurseEffectPotionEffect.potion, (int) 100, (int) 1, (false), (true)));
+				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_curse")).contains(entity.getType())) {
+					multiplier = (multiplier / 2);
+				}
+			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/stone")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_stone")).contains(entity.getType())) {
 					multiplier = (multiplier * 2);
 					if (entity instanceof LivingEntity)
 						((LivingEntity) entity)
-								.addPotionEffect(new EffectInstance(StoneEffectPotionEffect.potion, (int) 200, (int) 1, (false), (true)));
+								.addPotionEffect(new EffectInstance(StoneEffectPotionEffect.potion, (int) 100, (int) 1, (false), (true)));
 				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_stone")).contains(entity.getType())) {
 					multiplier = (multiplier / 2);
 				}
@@ -190,13 +226,12 @@ public class MeleeAttacksProcedure {
 					multiplier = (multiplier * 2);
 					if (entity instanceof LivingEntity)
 						((LivingEntity) entity)
-								.addPotionEffect(new EffectInstance(GoldEffectPotionEffect.potion, (int) 200, (int) 1, (false), (true)));
+								.addPotionEffect(new EffectInstance(GoldEffectPotionEffect.potion, (int) 100, (int) 1, (false), (true)));
 				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_gold")).contains(entity.getType())) {
 					multiplier = (multiplier / 2);
 				}
 			}
-			entity.attackEntityFrom(DamageSource.GENERIC, (float) (multiplier * amount));
-			entity.setMotion(((-0.5) * Math.sin(sourceentity.rotationYaw)), 0.5, (0.5 * Math.cos(sourceentity.rotationYaw)));
+			entity.attackEntityFrom(DamageSource.GENERIC, (float) ((multiplier - 1) * amount));
 		}
 	}
 }

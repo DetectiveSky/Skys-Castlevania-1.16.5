@@ -39,7 +39,7 @@ public class VjayaItem extends SkysCastlevaniaModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {

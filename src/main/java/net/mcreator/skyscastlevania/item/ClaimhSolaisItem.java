@@ -40,7 +40,7 @@ public class ClaimhSolaisItem extends SkysCastlevaniaModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return -0.5f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {

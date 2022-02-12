@@ -16,6 +16,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.skyscastlevania.world.VanillaWeaponTypingGameRule;
 import net.mcreator.skyscastlevania.potion.StoneEffectPotionEffect;
 import net.mcreator.skyscastlevania.potion.GoldEffectPotionEffect;
 import net.mcreator.skyscastlevania.potion.CurseEffectPotionEffect;
@@ -26,7 +27,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-public class ModdedWeaponMeleeAttacksProcedure {
+public class VanillaMeleeAttacksProcedure {
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
@@ -56,37 +57,37 @@ public class ModdedWeaponMeleeAttacksProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency world for procedure ModdedWeaponMeleeAttacks!");
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency world for procedure VanillaMeleeAttacks!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency x for procedure ModdedWeaponMeleeAttacks!");
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency x for procedure VanillaMeleeAttacks!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency y for procedure ModdedWeaponMeleeAttacks!");
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency y for procedure VanillaMeleeAttacks!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency z for procedure ModdedWeaponMeleeAttacks!");
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency z for procedure VanillaMeleeAttacks!");
 			return;
 		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency entity for procedure ModdedWeaponMeleeAttacks!");
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency entity for procedure VanillaMeleeAttacks!");
 			return;
 		}
 		if (dependencies.get("sourceentity") == null) {
 			if (!dependencies.containsKey("sourceentity"))
-				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency sourceentity for procedure ModdedWeaponMeleeAttacks!");
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency sourceentity for procedure VanillaMeleeAttacks!");
 			return;
 		}
 		if (dependencies.get("amount") == null) {
 			if (!dependencies.containsKey("amount"))
-				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency amount for procedure ModdedWeaponMeleeAttacks!");
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency amount for procedure VanillaMeleeAttacks!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -97,9 +98,10 @@ public class ModdedWeaponMeleeAttacksProcedure {
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double amount = dependencies.get("amount") instanceof Integer ? (int) dependencies.get("amount") : (double) dependencies.get("amount");
 		double multiplier = 0;
-		if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/castlevania_melee")).contains(
-				((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
-			multiplier = 2;
+		if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/vanilla_melee")).contains(
+				((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()) == world
+						.getWorldInfo().getGameRulesInstance().getBoolean(VanillaWeaponTypingGameRule.gamerule)) {
+			multiplier = 1;
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/sharp")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_sharp")).contains(entity.getType())) {
