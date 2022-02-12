@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bluestonetip",
+    "texture": "greenstone",
     "customModelName": "Normal",
-    "name": "Blue Stone",
+    "name": "Green Stone",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:SkysCastlevaniaTab"
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "A stone containing the power of Ice."
+      "A stone containing the power of Wind."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

@@ -55,7 +55,7 @@ public class RedStoneItem extends SkysCastlevaniaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Infuses the Vampire Killer with the power of Fire."));
+			list.add(new StringTextComponent("A stone containing the power of Fire."));
 			list.add(new StringTextComponent("Not to be confused with Redstone."));
 		}
 	}

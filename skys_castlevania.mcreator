@@ -3588,6 +3588,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Crissaegrim",
+      "type": "tool",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crissaegrim"
+    },
+    {
+      "name": "GreenStone",
+      "type": "item",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_stone"
     }
   ],
   "variable_elements": [
@@ -3697,6 +3713,7 @@
       "item.skys_castlevania.anti_venom": "Antivenom",
       "item.skys_castlevania.wood_dagger": "Wooden Dagger",
       "item.skys_castlevania.iron_cross": "Iron Cross",
+      "item.skys_castlevania.crissaegrim": "Val Manwë",
       "item.skys_castlevania.throwing_axe_stone": "Stone Throwing Axe",
       "item.skys_castlevania.animated_stone_axe": "Animated Axe",
       "effect.stone_effect": "Petrified",
@@ -3748,6 +3765,7 @@
       "block.skys_castlevania.electrum_ore": "Electrum Ore",
       "item.skys_castlevania.throwing_axe_diamond": "Diamond Throwing Axe",
       "block.skys_castlevania.save_block": "Save Block",
+      "item.skys_castlevania.green_stone": "Green Stone",
       "item.skys_castlevania.throwing_axe_gold": "Golden Throwing Axe",
       "item.skys_castlevania.blue_stone": "Blue Stone",
       "gamerule.vanillaWeaponTyping": "Vanilla Weapon Typing",
@@ -3811,6 +3829,7 @@
       "item.skys_castlevania.anti_venom": "Antivenom",
       "item.skys_castlevania.wood_dagger": "Wooden Dagger",
       "item.skys_castlevania.iron_cross": "Iron Cross",
+      "item.skys_castlevania.crissaegrim": "Crissaegrim",
       "item.skys_castlevania.throwing_axe_stone": "Stone Throwing Axe",
       "item.skys_castlevania.animated_stone_axe": "Animated Axe",
       "effect.stone_effect": "Petrified",
@@ -3862,6 +3881,7 @@
       "block.skys_castlevania.electrum_ore": "Electrum Ore",
       "item.skys_castlevania.throwing_axe_diamond": "Diamond Throwing Axe",
       "block.skys_castlevania.save_block": "Save Block",
+      "item.skys_castlevania.green_stone": "Green Stone",
       "item.skys_castlevania.throwing_axe_gold": "Golden Throwing Axe",
       "item.skys_castlevania.blue_stone": "Blue Stone",
       "gamerule.vanillaWeaponTyping": "Vanilla Weapon Typing",

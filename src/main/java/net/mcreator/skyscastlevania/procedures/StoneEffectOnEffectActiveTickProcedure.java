@@ -20,7 +20,7 @@ public class StoneEffectOnEffectActiveTickProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(ControlDisabledPotionEffect.potion, (int) 1, (int) 1, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(ControlDisabledPotionEffect.potion, (int) 2, (int) 1, (false), (false)));
 		if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) < entity.getPersistentData().getDouble("prevHealth")) {
 			if (entity instanceof LivingEntity) {
 				((LivingEntity) entity).removePotionEffect(StoneEffectPotionEffect.potion);

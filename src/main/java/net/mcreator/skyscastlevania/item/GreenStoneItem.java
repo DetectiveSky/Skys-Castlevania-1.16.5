@@ -18,12 +18,12 @@ import net.mcreator.skyscastlevania.SkysCastlevaniaModElements;
 import java.util.List;
 
 @SkysCastlevaniaModElements.ModElement.Tag
-public class YellowStoneItem extends SkysCastlevaniaModElements.ModElement {
-	@ObjectHolder("skys_castlevania:yellow_stone")
+public class GreenStoneItem extends SkysCastlevaniaModElements.ModElement {
+	@ObjectHolder("skys_castlevania:green_stone")
 	public static final Item block = null;
 
-	public YellowStoneItem(SkysCastlevaniaModElements instance) {
-		super(instance, 12);
+	public GreenStoneItem(SkysCastlevaniaModElements instance) {
+		super(instance, 305);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class YellowStoneItem extends SkysCastlevaniaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE));
-			setRegistryName("yellow_stone");
+			setRegistryName("green_stone");
 		}
 
 		@Override
@@ -55,7 +55,7 @@ public class YellowStoneItem extends SkysCastlevaniaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("A stone containing the power of Lightning."));
+			list.add(new StringTextComponent("A stone containing the power of Wind."));
 		}
 	}
 }
