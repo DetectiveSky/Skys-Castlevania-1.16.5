@@ -98,9 +98,9 @@ public class VanillaMeleeAttacksProcedure {
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double amount = dependencies.get("amount") instanceof Integer ? (int) dependencies.get("amount") : (double) dependencies.get("amount");
 		double multiplier = 0;
-		if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/vanilla_melee")).contains(
-				((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()) == world
-						.getWorldInfo().getGameRulesInstance().getBoolean(VanillaWeaponTypingGameRule.gamerule)) {
+		if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/vanilla_melee"))
+				.contains(((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())
+				&& world.getWorldInfo().getGameRulesInstance().getBoolean(VanillaWeaponTypingGameRule.gamerule)) {
 			multiplier = 1;
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/sharp")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
