@@ -55,7 +55,7 @@ public class IronCrossItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletiron_cross").setRegistryName("entitybulletiron_cross");
 
 	public IronCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 48);
+		super(instance, 56);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IronCrossRenderer.ModelRegisterHandler());
 	}
 

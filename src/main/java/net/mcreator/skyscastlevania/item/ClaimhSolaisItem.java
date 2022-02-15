@@ -25,7 +25,7 @@ public class ClaimhSolaisItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public ClaimhSolaisItem(SkysCastlevaniaModElements instance) {
-		super(instance, 23);
+		super(instance, 25);
 	}
 
 	@Override

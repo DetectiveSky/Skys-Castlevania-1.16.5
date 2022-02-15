@@ -31,7 +31,7 @@ public class MidasTouchItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public MidasTouchItem(SkysCastlevaniaModElements instance) {
-		super(instance, 18);
+		super(instance, 20);
 	}
 
 	@Override

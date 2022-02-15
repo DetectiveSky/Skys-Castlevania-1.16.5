@@ -36,7 +36,7 @@ public class GildedBotBlockBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public GildedBotBlockBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 277);
+		super(instance, 278);
 	}
 
 	@Override

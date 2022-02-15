@@ -59,7 +59,7 @@ public class CrossSWepItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletcross_s_wep").setRegistryName("entitybulletcross_s_wep");
 
 	public CrossSWepItem(SkysCastlevaniaModElements instance) {
-		super(instance, 64);
+		super(instance, 61);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CrossSWepRenderer.ModelRegisterHandler());
 	}
 

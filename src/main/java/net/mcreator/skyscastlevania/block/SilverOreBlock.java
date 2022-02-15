@@ -48,7 +48,7 @@ public class SilverOreBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public SilverOreBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 67);
+		super(instance, 70);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

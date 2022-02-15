@@ -25,7 +25,7 @@ public class IceBrandItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public IceBrandItem(SkysCastlevaniaModElements instance) {
-		super(instance, 21);
+		super(instance, 23);
 	}
 
 	@Override

@@ -14,7 +14,7 @@ import net.mcreator.skyscastlevania.item.CrucifixItem;
 @SkysCastlevaniaModElements.ModElement.Tag
 public class HolyWaterRecipeAlt2BrewingRecipe extends SkysCastlevaniaModElements.ModElement {
 	public HolyWaterRecipeAlt2BrewingRecipe(SkysCastlevaniaModElements instance) {
-		super(instance, 88);
+		super(instance, 91);
 	}
 
 	@Override

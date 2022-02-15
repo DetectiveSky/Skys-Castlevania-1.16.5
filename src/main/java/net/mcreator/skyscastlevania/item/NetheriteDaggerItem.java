@@ -54,7 +54,7 @@ public class NetheriteDaggerItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletnetherite_dagger").setRegistryName("entitybulletnetherite_dagger");
 
 	public NetheriteDaggerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 39);
+		super(instance, 44);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NetheriteDaggerRenderer.ModelRegisterHandler());
 	}
 

@@ -53,7 +53,7 @@ public class ThrowingAxeNetheriteItem extends SkysCastlevaniaModElements.ModElem
 			.size(0.5f, 0.5f)).build("entitybulletthrowing_axe_netherite").setRegistryName("entitybulletthrowing_axe_netherite");
 
 	public ThrowingAxeNetheriteItem(SkysCastlevaniaModElements instance) {
-		super(instance, 45);
+		super(instance, 52);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ThrowingAxeNetheriteRenderer.ModelRegisterHandler());
 	}
 

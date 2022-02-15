@@ -3,7 +3,7 @@
     {
       "name": "SkysCastlevaniaTab",
       "type": "tab",
-      "sortid": 79,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skys_castlevania_tab"
@@ -11,7 +11,7 @@
     {
       "name": "SoundItem1",
       "type": "musicdisc",
-      "sortid": 55,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sound_item_1"
@@ -19,7 +19,7 @@
     {
       "name": "SoundItem2",
       "type": "musicdisc",
-      "sortid": 56,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sound_item_2"
@@ -27,7 +27,7 @@
     {
       "name": "HolyWater",
       "type": "rangeditem",
-      "sortid": 32,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_water"
@@ -35,7 +35,7 @@
     {
       "name": "HolyWaterBulletHitsEntity",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_water_bullet_hits_entity",
@@ -71,7 +71,7 @@
     {
       "name": "HolyWaterBulletHitsBlock",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_water_bullet_hits_block",
@@ -111,7 +111,7 @@
     {
       "name": "DaggerSWep",
       "type": "rangeditem",
-      "sortid": 62,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagger_s_wep"
@@ -119,7 +119,7 @@
     {
       "name": "SpawnHeartsFromVanillaMobs",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spawn_hearts_from_vanilla_mobs",
@@ -159,7 +159,7 @@
     {
       "name": "BigHeartCreate",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_heart_create"
@@ -167,7 +167,7 @@
     {
       "name": "BigHeartBreakdown",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_heart_breakdown"
@@ -183,7 +183,7 @@
     {
       "name": "CrucifixLivingEntityIsHitWithItem",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crucifix_living_entity_is_hit_with_item",
@@ -199,7 +199,7 @@
     {
       "name": "HolyWaterRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_water_recipe"
@@ -207,7 +207,7 @@
     {
       "name": "HolyWaterRecipeAlt",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_water_recipe_alt"
@@ -215,7 +215,7 @@
     {
       "name": "HolyWaterRecipeAlt2",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_water_recipe_alt_2"
@@ -223,7 +223,7 @@
     {
       "name": "CrucifixRecipe",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crucifix_recipe"
@@ -231,7 +231,7 @@
     {
       "name": "GrandCross",
       "type": "item",
-      "sortid": 54,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grand_cross"
@@ -239,7 +239,7 @@
     {
       "name": "HydroStorm",
       "type": "item",
-      "sortid": 52,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydro_storm"
@@ -247,7 +247,7 @@
     {
       "name": "GrandCrossRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grand_cross_recipe"
@@ -255,7 +255,7 @@
     {
       "name": "WoodenDaggerRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_dagger_recipe"
@@ -263,7 +263,7 @@
     {
       "name": "CrossSWep",
       "type": "rangeditem",
-      "sortid": 64,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cross_s_wep"
@@ -271,7 +271,7 @@
     {
       "name": "CrossSWepWhileBulletFlyingTick",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cross_s_wep_while_bullet_flying_tick",
@@ -295,7 +295,7 @@
     {
       "name": "WoodDagger",
       "type": "rangeditem",
-      "sortid": 34,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_dagger"
@@ -303,7 +303,7 @@
     {
       "name": "StoneDagger",
       "type": "rangeditem",
-      "sortid": 35,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_dagger"
@@ -311,7 +311,7 @@
     {
       "name": "IronDagger",
       "type": "rangeditem",
-      "sortid": 36,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_dagger"
@@ -319,7 +319,7 @@
     {
       "name": "GoldDagger",
       "type": "rangeditem",
-      "sortid": 37,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dagger"
@@ -327,7 +327,7 @@
     {
       "name": "DiamondDagger",
       "type": "rangeditem",
-      "sortid": 38,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_dagger"
@@ -335,7 +335,7 @@
     {
       "name": "NetheriteDagger",
       "type": "rangeditem",
-      "sortid": 39,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_dagger"
@@ -343,7 +343,7 @@
     {
       "name": "CanUseSubweapon",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "can_use_subweapon",
@@ -360,7 +360,7 @@
     {
       "name": "CrossSWepBulletHitsLivingEntity",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cross_s_wep_bullet_hits_living_entity",
@@ -396,7 +396,7 @@
     {
       "name": "GoldDaggerBulletHitsLivingEntity",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dagger_bullet_hits_living_entity",
@@ -436,7 +436,7 @@
     {
       "name": "StoneDaggerRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_dagger_recipe"
@@ -444,7 +444,7 @@
     {
       "name": "IronDaggerRecipe",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_dagger_recipe"
@@ -452,7 +452,7 @@
     {
       "name": "GoldDaggerRecipe",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_dagger_recipe"
@@ -460,7 +460,7 @@
     {
       "name": "DiamondDaggerRecipe",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_dagger_recipe"
@@ -468,7 +468,7 @@
     {
       "name": "NetheriteDaggerRecipe",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_dagger_recipe"
@@ -476,7 +476,7 @@
     {
       "name": "NetheriteDaggerSmithed",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_dagger_smithed"
@@ -484,7 +484,7 @@
     {
       "name": "HydroStormRecipe",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydro_storm_recipe"
@@ -492,7 +492,7 @@
     {
       "name": "SubWeaponCountDecrement",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sub_weapon_count_decrement",
@@ -508,7 +508,7 @@
     {
       "name": "SubWeaponCountIncrement",
       "type": "procedure",
-      "sortid": 104,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sub_weapon_count_increment",
@@ -540,7 +540,7 @@
     {
       "name": "TwoStoneRecipe",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "two_stone_recipe"
@@ -548,7 +548,7 @@
     {
       "name": "ThreeStoneRecipe",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "three_stone_recipe"
@@ -556,7 +556,7 @@
     {
       "name": "HolyWaterSWep",
       "type": "rangeditem",
-      "sortid": 61,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_water_s_wep"
@@ -564,7 +564,7 @@
     {
       "name": "AxeSWep",
       "type": "rangeditem",
-      "sortid": 63,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "axe_s_wep"
@@ -572,7 +572,7 @@
     {
       "name": "ThousandBladesRecipe",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thousand_blades_recipe"
@@ -580,7 +580,7 @@
     {
       "name": "HolyDamageParticle",
       "type": "particle",
-      "sortid": 108,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_damage_particle"
@@ -588,7 +588,7 @@
     {
       "name": "HolyDamageEffect",
       "type": "procedure",
-      "sortid": 109,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_damage_effect",
@@ -616,7 +616,7 @@
     {
       "name": "HydroStormRightClickedInAir",
       "type": "procedure",
-      "sortid": 110,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydro_storm_right_clicked_in_air",
@@ -652,7 +652,7 @@
     {
       "name": "CrossSWepBulletHitsPlayer",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cross_s_wep_bullet_hits_player",
@@ -676,7 +676,7 @@
     {
       "name": "ThrowingAxeWood",
       "type": "rangeditem",
-      "sortid": 40,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_axe_wood"
@@ -684,7 +684,7 @@
     {
       "name": "ThrowingAxeStone",
       "type": "rangeditem",
-      "sortid": 41,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_axe_stone"
@@ -692,7 +692,7 @@
     {
       "name": "ThrowingAxeIron",
       "type": "rangeditem",
-      "sortid": 42,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_axe_iron"
@@ -700,7 +700,7 @@
     {
       "name": "ThrowingAxeGold",
       "type": "rangeditem",
-      "sortid": 43,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_axe_gold"
@@ -708,7 +708,7 @@
     {
       "name": "ThrowingAxeGoldBulletHitsLivingEntity",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_axe_gold_bullet_hits_living_entity",
@@ -744,7 +744,7 @@
     {
       "name": "ThrowingAxeDiamond",
       "type": "rangeditem",
-      "sortid": 44,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_axe_diamond"
@@ -752,7 +752,7 @@
     {
       "name": "ThrowingAxeNetherite",
       "type": "rangeditem",
-      "sortid": 45,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "throwing_axe_netherite"
@@ -760,7 +760,7 @@
     {
       "name": "WoodTAxeRecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_t_axe_recipe"
@@ -768,7 +768,7 @@
     {
       "name": "StoneTAxeRecipe",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_t_axe_recipe"
@@ -776,7 +776,7 @@
     {
       "name": "IronTAxeRecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_t_axe_recipe"
@@ -784,7 +784,7 @@
     {
       "name": "GoldTAxeRecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_t_axe_recipe"
@@ -792,7 +792,7 @@
     {
       "name": "DiamondTAxeRecipe",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_t_axe_recipe"
@@ -800,7 +800,7 @@
     {
       "name": "NetheriteTAxeRecipe",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_t_axe_recipe"
@@ -808,7 +808,7 @@
     {
       "name": "NetheriteTAxeRecipeAlt",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_t_axe_recipe_alt"
@@ -816,7 +816,7 @@
     {
       "name": "UnHolyWater",
       "type": "rangeditem",
-      "sortid": 33,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "un_holy_water"
@@ -824,7 +824,7 @@
     {
       "name": "UnHolyWaterBulletHitsBlock",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "un_holy_water_bullet_hits_block",
@@ -856,7 +856,7 @@
     {
       "name": "UnHolyWaterBulletHitsEntity",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "un_holy_water_bullet_hits_entity",
@@ -892,7 +892,7 @@
     {
       "name": "DarkDamageEffect",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_damage_effect",
@@ -920,7 +920,7 @@
     {
       "name": "DarkDamageParticle",
       "type": "particle",
-      "sortid": 123,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_damage_particle"
@@ -928,7 +928,7 @@
     {
       "name": "NetheriteDaggerBulletHitsLivingEntity",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_dagger_bullet_hits_living_entity",
@@ -968,7 +968,7 @@
     {
       "name": "NetheriteTAxeHitsLivingEntity",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_t_axe_hits_living_entity",
@@ -1004,7 +1004,7 @@
     {
       "name": "ThousandBlades",
       "type": "item",
-      "sortid": 53,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thousand_blades"
@@ -1012,7 +1012,7 @@
     {
       "name": "DaggerSWepRangedItemUsed",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagger_s_wep_ranged_item_used",
@@ -1028,7 +1028,7 @@
     {
       "name": "Subweapon",
       "type": "tag",
-      "sortid": 127,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "subweapon"
@@ -1036,7 +1036,7 @@
     {
       "name": "Itemcrash",
       "type": "tag",
-      "sortid": 128,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "itemcrash"
@@ -1044,7 +1044,7 @@
     {
       "name": "GrandCrossRightClickedInAir",
       "type": "procedure",
-      "sortid": 129,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grand_cross_right_clicked_in_air",
@@ -1080,7 +1080,7 @@
     {
       "name": "CreativeHolyWaterBulletHitsEntity",
       "type": "procedure",
-      "sortid": 130,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_holy_water_bullet_hits_entity",
@@ -1116,7 +1116,7 @@
     {
       "name": "DebugHeart",
       "type": "item",
-      "sortid": 131,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debug_heart"
@@ -1124,7 +1124,7 @@
     {
       "name": "DaggerSWepBulletDespawn",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagger_s_wep_bullet_despawn",
@@ -1144,7 +1144,7 @@
     {
       "name": "DaggerIsFree",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagger_is_free",
@@ -1164,7 +1164,7 @@
     {
       "name": "UnholyWaterRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unholy_water_recipe"
@@ -1172,7 +1172,7 @@
     {
       "name": "WoodCross",
       "type": "rangeditem",
-      "sortid": 46,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_cross"
@@ -1180,7 +1180,7 @@
     {
       "name": "StoneCross",
       "type": "rangeditem",
-      "sortid": 47,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_cross"
@@ -1188,7 +1188,7 @@
     {
       "name": "IronCross",
       "type": "rangeditem",
-      "sortid": 48,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_cross"
@@ -1196,7 +1196,7 @@
     {
       "name": "GoldCross",
       "type": "rangeditem",
-      "sortid": 49,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_cross"
@@ -1204,7 +1204,7 @@
     {
       "name": "DiamondCross",
       "type": "rangeditem",
-      "sortid": 50,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_cross"
@@ -1212,7 +1212,7 @@
     {
       "name": "NetheriteCross",
       "type": "rangeditem",
-      "sortid": 51,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_cross"
@@ -1220,7 +1220,7 @@
     {
       "name": "WoodenCrossBulletHitsEntity",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_cross_bullet_hits_entity",
@@ -1256,7 +1256,7 @@
     {
       "name": "WoodCrossRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_cross_recipe"
@@ -1264,7 +1264,7 @@
     {
       "name": "StoneCrossRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_cross_recipe"
@@ -1272,7 +1272,7 @@
     {
       "name": "IronCrossRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_cross_recipe"
@@ -1280,7 +1280,7 @@
     {
       "name": "GoldCrossRecipe",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_cross_recipe"
@@ -1288,7 +1288,7 @@
     {
       "name": "DiamondCrossRecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_cross_recipe"
@@ -1296,7 +1296,7 @@
     {
       "name": "NetheriteCrossRecipe",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_cross_recipe"
@@ -1304,7 +1304,7 @@
     {
       "name": "NetheriteCrossRecipeAlt",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_cross_recipe_alt"
@@ -1312,7 +1312,7 @@
     {
       "name": "HydroStormWaterAdditionalParticleExpiryCondition",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydro_storm_water_additional_particle_expiry_condition",
@@ -1345,7 +1345,7 @@
     {
       "name": "HydroStormWater",
       "type": "particle",
-      "sortid": 144,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hydro_storm_water"
@@ -1353,7 +1353,7 @@
     {
       "name": "SubweaponDagger",
       "type": "tag",
-      "sortid": 145,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "subweapon_dagger"
@@ -1361,7 +1361,7 @@
     {
       "name": "SubweaponHolyWater",
       "type": "tag",
-      "sortid": 146,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "subweapon_holy_water"
@@ -1369,7 +1369,7 @@
     {
       "name": "SubweaponAxe",
       "type": "tag",
-      "sortid": 147,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "subweapon_axe"
@@ -1377,7 +1377,7 @@
     {
       "name": "SubweaponCross",
       "type": "tag",
-      "sortid": 148,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "subweapon_cross"
@@ -1385,7 +1385,7 @@
     {
       "name": "WeaponSharp",
       "type": "tag",
-      "sortid": 149,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_sharp"
@@ -1393,7 +1393,7 @@
     {
       "name": "WeaponBlunt",
       "type": "tag",
-      "sortid": 150,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_blunt"
@@ -1401,7 +1401,7 @@
     {
       "name": "WeaponPointy",
       "type": "tag",
-      "sortid": 151,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_pointy"
@@ -1409,7 +1409,7 @@
     {
       "name": "WeaponFire",
       "type": "tag",
-      "sortid": 152,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_fire"
@@ -1417,7 +1417,7 @@
     {
       "name": "WeaponIce",
       "type": "tag",
-      "sortid": 153,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_ice"
@@ -1425,7 +1425,7 @@
     {
       "name": "WeaponLightning",
       "type": "tag",
-      "sortid": 154,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_lightning"
@@ -1433,7 +1433,7 @@
     {
       "name": "WeaponHoly",
       "type": "tag",
-      "sortid": 155,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_holy"
@@ -1441,7 +1441,7 @@
     {
       "name": "WeaponDark",
       "type": "tag",
-      "sortid": 156,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_dark"
@@ -1449,7 +1449,7 @@
     {
       "name": "WeaponPoison",
       "type": "tag",
-      "sortid": 157,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_poison"
@@ -1457,7 +1457,7 @@
     {
       "name": "WeaponCurse",
       "type": "tag",
-      "sortid": 158,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_curse"
@@ -1465,7 +1465,7 @@
     {
       "name": "WeaponStone",
       "type": "tag",
-      "sortid": 159,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_stone"
@@ -1473,7 +1473,7 @@
     {
       "name": "ProjectilePointy",
       "type": "tag",
-      "sortid": 160,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_pointy"
@@ -1481,7 +1481,7 @@
     {
       "name": "ProjectileFire",
       "type": "tag",
-      "sortid": 161,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_fire"
@@ -1489,7 +1489,7 @@
     {
       "name": "ProjectileBlunt",
       "type": "tag",
-      "sortid": 162,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_blunt"
@@ -1497,7 +1497,7 @@
     {
       "name": "ProjectileIce",
       "type": "tag",
-      "sortid": 163,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_ice"
@@ -1505,7 +1505,7 @@
     {
       "name": "ProjectilePoison",
       "type": "tag",
-      "sortid": 164,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_poison"
@@ -1513,7 +1513,7 @@
     {
       "name": "ProjectileCurse",
       "type": "tag",
-      "sortid": 165,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_curse"
@@ -1521,7 +1521,7 @@
     {
       "name": "ProjectileDark",
       "type": "tag",
-      "sortid": 166,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_dark"
@@ -1529,7 +1529,7 @@
     {
       "name": "WeaponGold",
       "type": "tag",
-      "sortid": 167,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_gold"
@@ -1537,7 +1537,7 @@
     {
       "name": "MobWeakSharp",
       "type": "tag",
-      "sortid": 168,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_sharp"
@@ -1545,7 +1545,7 @@
     {
       "name": "MobWeakBlunt",
       "type": "tag",
-      "sortid": 169,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_blunt"
@@ -1553,7 +1553,7 @@
     {
       "name": "MobWeakPointy",
       "type": "tag",
-      "sortid": 170,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_pointy"
@@ -1561,7 +1561,7 @@
     {
       "name": "MobWeakFire",
       "type": "tag",
-      "sortid": 171,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_fire"
@@ -1569,7 +1569,7 @@
     {
       "name": "MobWeakIce",
       "type": "tag",
-      "sortid": 172,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_ice"
@@ -1577,7 +1577,7 @@
     {
       "name": "MobWeakLightning",
       "type": "tag",
-      "sortid": 173,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_lightning"
@@ -1585,7 +1585,7 @@
     {
       "name": "MobWeakHoly",
       "type": "tag",
-      "sortid": 174,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_holy"
@@ -1593,7 +1593,7 @@
     {
       "name": "MobWeakDark",
       "type": "tag",
-      "sortid": 175,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_dark"
@@ -1601,7 +1601,7 @@
     {
       "name": "MobWeakPoison",
       "type": "tag",
-      "sortid": 176,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_poison"
@@ -1609,7 +1609,7 @@
     {
       "name": "MobWeakCurse",
       "type": "tag",
-      "sortid": 177,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_curse"
@@ -1617,7 +1617,7 @@
     {
       "name": "MobWeakStone",
       "type": "tag",
-      "sortid": 178,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_stone"
@@ -1625,7 +1625,7 @@
     {
       "name": "MobWeakGold",
       "type": "tag",
-      "sortid": 179,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_weak_gold"
@@ -1633,7 +1633,7 @@
     {
       "name": "MobResistSharp",
       "type": "tag",
-      "sortid": 180,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_sharp"
@@ -1641,7 +1641,7 @@
     {
       "name": "MobResistBlunt",
       "type": "tag",
-      "sortid": 181,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_blunt"
@@ -1649,7 +1649,7 @@
     {
       "name": "MobResistPointy",
       "type": "tag",
-      "sortid": 182,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_pointy"
@@ -1657,7 +1657,7 @@
     {
       "name": "MobResistFire",
       "type": "tag",
-      "sortid": 183,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_fire"
@@ -1665,7 +1665,7 @@
     {
       "name": "MobResistIce",
       "type": "tag",
-      "sortid": 184,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_ice"
@@ -1673,7 +1673,7 @@
     {
       "name": "MobResistLightning",
       "type": "tag",
-      "sortid": 185,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_lightning"
@@ -1681,7 +1681,7 @@
     {
       "name": "MobResistHoly",
       "type": "tag",
-      "sortid": 186,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_holy"
@@ -1689,7 +1689,7 @@
     {
       "name": "MobResistDark",
       "type": "tag",
-      "sortid": 187,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_dark"
@@ -1697,7 +1697,7 @@
     {
       "name": "MobResistPoison",
       "type": "tag",
-      "sortid": 188,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_poison"
@@ -1705,7 +1705,7 @@
     {
       "name": "MobResistCurse",
       "type": "tag",
-      "sortid": 189,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_curse"
@@ -1713,7 +1713,7 @@
     {
       "name": "MobResistStone",
       "type": "tag",
-      "sortid": 190,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_stone"
@@ -1721,7 +1721,7 @@
     {
       "name": "MobResistGold",
       "type": "tag",
-      "sortid": 191,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mob_resist_gold"
@@ -1729,7 +1729,7 @@
     {
       "name": "DaggerSWepBulletHitsLivingEntity",
       "type": "procedure",
-      "sortid": 192,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagger_s_wep_bullet_hits_living_entity",
@@ -1753,7 +1753,7 @@
     {
       "name": "WoodDaggerBulletHitsEntity",
       "type": "procedure",
-      "sortid": 193,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_dagger_bullet_hits_entity",
@@ -1777,7 +1777,7 @@
     {
       "name": "StoneDaggerBulletHitsEntity",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_dagger_bullet_hits_entity",
@@ -1801,7 +1801,7 @@
     {
       "name": "IronDaggerBulletHitsEntity",
       "type": "procedure",
-      "sortid": 195,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_dagger_bullet_hits_entity",
@@ -1825,7 +1825,7 @@
     {
       "name": "DiamondDaggerBulletHitsEntity",
       "type": "procedure",
-      "sortid": 196,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_dagger_bullet_hits_entity",
@@ -1849,7 +1849,7 @@
     {
       "name": "AxeSWepBulletHitsLivingEntity",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "axe_s_wep_bullet_hits_living_entity",
@@ -1869,7 +1869,7 @@
     {
       "name": "WoodTAxeBulletHitsEntity",
       "type": "procedure",
-      "sortid": 198,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_t_axe_bullet_hits_entity",
@@ -1889,7 +1889,7 @@
     {
       "name": "StoneTAxeBulletHitsEntity",
       "type": "procedure",
-      "sortid": 199,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_t_axe_bullet_hits_entity",
@@ -1909,7 +1909,7 @@
     {
       "name": "IronTAxeBulletHitsEntity",
       "type": "procedure",
-      "sortid": 200,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_t_axe_bullet_hits_entity",
@@ -1929,7 +1929,7 @@
     {
       "name": "DiamondTAxeBulletHitsEntity",
       "type": "procedure",
-      "sortid": 201,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_t_axe_bullet_hits_entity",
@@ -1949,7 +1949,7 @@
     {
       "name": "StoneCrossBulletHitsEntity",
       "type": "procedure",
-      "sortid": 202,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_cross_bullet_hits_entity",
@@ -1985,7 +1985,7 @@
     {
       "name": "IronCrossBulletHitsEntity",
       "type": "procedure",
-      "sortid": 203,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_cross_bullet_hits_entity",
@@ -2021,7 +2021,7 @@
     {
       "name": "GoldCrossBulletHitsEntity",
       "type": "procedure",
-      "sortid": 204,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_cross_bullet_hits_entity",
@@ -2057,7 +2057,7 @@
     {
       "name": "DiamondCrossBulletHitsEntity",
       "type": "procedure",
-      "sortid": 205,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_cross_bullet_hits_entity",
@@ -2093,7 +2093,7 @@
     {
       "name": "NetheriteCrossBulletHitsEntity",
       "type": "procedure",
-      "sortid": 206,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherite_cross_bullet_hits_entity",
@@ -2129,7 +2129,7 @@
     {
       "name": "ProjectileAttacks",
       "type": "procedure",
-      "sortid": 208,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_attacks",
@@ -2169,7 +2169,7 @@
     {
       "name": "ControlDisabledOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 209,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "control_disabled_on_effect_active_tick",
@@ -2197,7 +2197,7 @@
     {
       "name": "ControlDisabled",
       "type": "potioneffect",
-      "sortid": 210,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "control_disabled"
@@ -2205,7 +2205,7 @@
     {
       "name": "DebugHeartPotionApply",
       "type": "procedure",
-      "sortid": 211,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "debug_heart_potion_apply",
@@ -2221,7 +2221,7 @@
     {
       "name": "StoneEffectOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 212,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_effect_on_effect_active_tick",
@@ -2237,7 +2237,7 @@
     {
       "name": "StoneEffectEffectStartedapplied",
       "type": "procedure",
-      "sortid": 213,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_effect_effect_startedapplied",
@@ -2269,7 +2269,7 @@
     {
       "name": "StoneEffectEffectExpires",
       "type": "procedure",
-      "sortid": 214,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_effect_effect_expires",
@@ -2297,7 +2297,7 @@
     {
       "name": "StoneEffect",
       "type": "potioneffect",
-      "sortid": 215,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_effect"
@@ -2305,7 +2305,7 @@
     {
       "name": "CurseEffectEffectStartedapplied",
       "type": "procedure",
-      "sortid": 216,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "curse_effect_effect_startedapplied",
@@ -2325,7 +2325,7 @@
     {
       "name": "CurseEffect",
       "type": "potioneffect",
-      "sortid": 217,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "curse_effect"
@@ -2333,7 +2333,7 @@
     {
       "name": "WeaponCastlevaniaMelee",
       "type": "tag",
-      "sortid": 218,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_castlevania_melee"
@@ -2341,7 +2341,7 @@
     {
       "name": "WeaponVanillaMelee",
       "type": "tag",
-      "sortid": 220,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_vanilla_melee"
@@ -2349,7 +2349,7 @@
     {
       "name": "GoldEffect",
       "type": "potioneffect",
-      "sortid": 221,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_effect"
@@ -2357,7 +2357,7 @@
     {
       "name": "VanillaWeaponTyping",
       "type": "gamerule",
-      "sortid": 222,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vanillaWeaponTyping",
@@ -2368,7 +2368,7 @@
     {
       "name": "VanillaProjectileAttacks",
       "type": "procedure",
-      "sortid": 223,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vanilla_projectile_attacks",
@@ -2408,7 +2408,7 @@
     {
       "name": "ProjectileVanilla",
       "type": "tag",
-      "sortid": 224,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile_vanilla"
@@ -2416,7 +2416,7 @@
     {
       "name": "Projectile",
       "type": "tag",
-      "sortid": 225,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "projectile"
@@ -2424,7 +2424,7 @@
     {
       "name": "ClaimhSolais",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "claimh_solais"
@@ -2432,7 +2432,7 @@
     {
       "name": "VampireKiller",
       "type": "tool",
-      "sortid": 27,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vampire_killer"
@@ -2440,7 +2440,7 @@
     {
       "name": "LeatherWhip",
       "type": "tool",
-      "sortid": 24,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leather_whip"
@@ -2448,7 +2448,7 @@
     {
       "name": "HolyWhip",
       "type": "tool",
-      "sortid": 25,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_whip"
@@ -2456,7 +2456,7 @@
     {
       "name": "LeatherWhipRecipe",
       "type": "recipe",
-      "sortid": 226,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leather_whip_recipe"
@@ -2464,7 +2464,7 @@
     {
       "name": "HolyWhipRecipe",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_whip_recipe"
@@ -2480,7 +2480,7 @@
     {
       "name": "VampireKillerRecipe",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vampire_killer_recipe"
@@ -2488,7 +2488,7 @@
     {
       "name": "WhipOfAlchemy",
       "type": "tool",
-      "sortid": 26,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "whip_of_alchemy"
@@ -2496,7 +2496,7 @@
     {
       "name": "WhipOfAlchemyRecipe",
       "type": "recipe",
-      "sortid": 229,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "whip_of_alchemy_recipe"
@@ -2536,7 +2536,7 @@
     {
       "name": "FireTipVampireKiller",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_tip_vampire_killer"
@@ -2544,7 +2544,7 @@
     {
       "name": "IceTipVampireKiller",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_tip_vampire_killer"
@@ -2552,7 +2552,7 @@
     {
       "name": "LightningTipVampireKiller",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightning_tip_vampire_killer"
@@ -2560,7 +2560,7 @@
     {
       "name": "SteelTipVampireKiller",
       "type": "tool",
-      "sortid": 28,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_tip_vampire_killer"
@@ -2568,7 +2568,7 @@
     {
       "name": "FireTipVampireKillerRecipe",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_tip_vampire_killer_recipe"
@@ -2576,7 +2576,7 @@
     {
       "name": "IceTipVampireKillerRecipe",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_tip_vampire_killer_recipe"
@@ -2584,7 +2584,7 @@
     {
       "name": "LightningTipVampireKillerRecipe",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightning_tip_vampire_killer_recipe"
@@ -2592,7 +2592,7 @@
     {
       "name": "SteelTipVampireKillerRecipe",
       "type": "recipe",
-      "sortid": 233,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_tip_vampire_killer_recipe"
@@ -2600,7 +2600,7 @@
     {
       "name": "IsVampireKiller",
       "type": "tag",
-      "sortid": 234,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_vampire_killer"
@@ -2608,7 +2608,7 @@
     {
       "name": "RemoveVampireKillerTip",
       "type": "recipe",
-      "sortid": 235,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remove_vampire_killer_tip"
@@ -2616,7 +2616,7 @@
     {
       "name": "SteelTipRecipe",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_tip_recipe"
@@ -2624,7 +2624,7 @@
     {
       "name": "RedStoneRecipe",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_stone_recipe"
@@ -2632,7 +2632,7 @@
     {
       "name": "BlueStoneRecipe",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_stone_recipe"
@@ -2640,7 +2640,7 @@
     {
       "name": "YellowStoneRecipe",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_stone_recipe"
@@ -2648,7 +2648,7 @@
     {
       "name": "SaveBlock",
       "type": "block",
-      "sortid": 66,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "save_block"
@@ -2656,7 +2656,7 @@
     {
       "name": "SaveGame",
       "type": "procedure",
-      "sortid": 240,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "save_game",
@@ -2684,7 +2684,7 @@
     {
       "name": "SaveBlockGUI",
       "type": "gui",
-      "sortid": 241,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "save_block_gui"
@@ -2692,7 +2692,7 @@
     {
       "name": "AlucardSword",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alucard_sword"
@@ -2700,7 +2700,7 @@
     {
       "name": "CloseGUI",
       "type": "procedure",
-      "sortid": 242,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "close_gui",
@@ -2716,7 +2716,7 @@
     {
       "name": "UndergroundSaveRoom",
       "type": "structure",
-      "sortid": 243,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "underground_save_room"
@@ -2724,7 +2724,7 @@
     {
       "name": "Vjaya",
       "type": "tool",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vjaya"
@@ -2732,7 +2732,7 @@
     {
       "name": "RahabsFrost",
       "type": "tool",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rahabs_frost"
@@ -2740,7 +2740,7 @@
     {
       "name": "IceBrand",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ice_brand"
@@ -2748,7 +2748,7 @@
     {
       "name": "SoundItem3",
       "type": "musicdisc",
-      "sortid": 57,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sound_item_3"
@@ -2756,7 +2756,7 @@
     {
       "name": "Laevateinn",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "laevateinn"
@@ -2764,7 +2764,7 @@
     {
       "name": "AgnisFlame",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agnis_flame"
@@ -2772,7 +2772,7 @@
     {
       "name": "Mjolnir",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mjolnir"
@@ -2788,7 +2788,7 @@
     {
       "name": "ElectrumOre",
       "type": "block",
-      "sortid": 69,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electrum_ore"
@@ -2796,7 +2796,7 @@
     {
       "name": "ElectrumBlock",
       "type": "block",
-      "sortid": 70,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electrum_block"
@@ -2804,7 +2804,7 @@
     {
       "name": "ElectrumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electrum_ore_block_recipe"
@@ -2812,7 +2812,7 @@
     {
       "name": "ElectrumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electrum_block_ore_recipe"
@@ -2820,7 +2820,7 @@
     {
       "name": "ElectrumOreSmelting",
       "type": "recipe",
-      "sortid": 246,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electrum_ore_smelting"
@@ -2828,7 +2828,7 @@
     {
       "name": "IngotsElectrum",
       "type": "tag",
-      "sortid": 247,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ingots_electrum"
@@ -2836,7 +2836,7 @@
     {
       "name": "OresElectrum",
       "type": "tag",
-      "sortid": 248,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ores_electrum"
@@ -2844,7 +2844,7 @@
     {
       "name": "BlocksElectrum",
       "type": "tag",
-      "sortid": 249,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_electrum"
@@ -2860,7 +2860,7 @@
     {
       "name": "SilverOre",
       "type": "block",
-      "sortid": 67,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore"
@@ -2868,7 +2868,7 @@
     {
       "name": "SilverBlock",
       "type": "block",
-      "sortid": 68,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block"
@@ -2876,7 +2876,7 @@
     {
       "name": "SilverOreBlockRecipe",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_block_recipe"
@@ -2884,7 +2884,7 @@
     {
       "name": "SilverBlockOreRecipe",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_block_ore_recipe"
@@ -2892,7 +2892,7 @@
     {
       "name": "SilverOreSmelting",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_ore_smelting"
@@ -2900,7 +2900,7 @@
     {
       "name": "IngotsSilver",
       "type": "tag",
-      "sortid": 253,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ingots_silver"
@@ -2908,7 +2908,7 @@
     {
       "name": "OresSilver",
       "type": "tag",
-      "sortid": 254,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ores_silver"
@@ -2916,7 +2916,7 @@
     {
       "name": "BlocksSilver",
       "type": "tag",
-      "sortid": 255,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocks_silver"
@@ -2924,7 +2924,7 @@
     {
       "name": "ElectrumRecipe",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electrum_recipe"
@@ -2932,7 +2932,7 @@
     {
       "name": "MilicansSword",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "milicans_sword"
@@ -2940,7 +2940,7 @@
     {
       "name": "MidasTouch",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "midas_touch"
@@ -2948,7 +2948,7 @@
     {
       "name": "CastlevaniaDungeon",
       "type": "loottable",
-      "sortid": 257,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "castlevania_dungeon"
@@ -2956,7 +2956,7 @@
     {
       "name": "CastlevaniaRandomWeapon",
       "type": "loottable",
-      "sortid": 258,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "castlevania_random_weapon"
@@ -2964,7 +2964,7 @@
     {
       "name": "GiveAlucardShield",
       "type": "procedure",
-      "sortid": 259,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "give_alucard_shield",
@@ -2992,7 +2992,7 @@
     {
       "name": "AntiVenomFoodEaten",
       "type": "procedure",
-      "sortid": 260,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anti_venom_food_eaten",
@@ -3008,7 +3008,7 @@
     {
       "name": "AntiVenom",
       "type": "food",
-      "sortid": 58,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anti_venom"
@@ -3016,7 +3016,7 @@
     {
       "name": "UncursePotionFoodEaten",
       "type": "procedure",
-      "sortid": 261,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uncurse_potion_food_eaten",
@@ -3032,7 +3032,7 @@
     {
       "name": "UncursePotion",
       "type": "food",
-      "sortid": 59,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uncurse_potion"
@@ -3040,7 +3040,7 @@
     {
       "name": "StonethawFoodEaten",
       "type": "procedure",
-      "sortid": 262,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonethaw_food_eaten",
@@ -3056,7 +3056,7 @@
     {
       "name": "Stonethaw",
       "type": "food",
-      "sortid": 60,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonethaw"
@@ -3064,7 +3064,7 @@
     {
       "name": "AlucardShield",
       "type": "command",
-      "sortid": 263,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alucard_shield"
@@ -3072,7 +3072,7 @@
     {
       "name": "WeakStone",
       "type": "block",
-      "sortid": 71,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_stone"
@@ -3080,7 +3080,7 @@
     {
       "name": "WeakBricks",
       "type": "block",
-      "sortid": 72,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_bricks"
@@ -3088,7 +3088,7 @@
     {
       "name": "WeakAndesite",
       "type": "block",
-      "sortid": 73,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_andesite"
@@ -3096,7 +3096,7 @@
     {
       "name": "WeakDiorite",
       "type": "block",
-      "sortid": 74,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_diorite"
@@ -3104,7 +3104,7 @@
     {
       "name": "WeakGranite",
       "type": "block",
-      "sortid": 75,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_granite"
@@ -3112,7 +3112,7 @@
     {
       "name": "TreasureBlock",
       "type": "block",
-      "sortid": 78,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "treasure_block"
@@ -3120,7 +3120,7 @@
     {
       "name": "TreasureBlockTable",
       "type": "loottable",
-      "sortid": 264,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "treasure_block_table"
@@ -3128,7 +3128,7 @@
     {
       "name": "WeakStoneTable",
       "type": "loottable",
-      "sortid": 265,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_stone_table"
@@ -3136,7 +3136,7 @@
     {
       "name": "PetrifiedBlock",
       "type": "block",
-      "sortid": 266,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_block"
@@ -3144,7 +3144,7 @@
     {
       "name": "GildedBlock",
       "type": "block",
-      "sortid": 267,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gilded_block"
@@ -3152,7 +3152,7 @@
     {
       "name": "SaveStatue",
       "type": "structure",
-      "sortid": 268,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "save_statue"
@@ -3160,7 +3160,7 @@
     {
       "name": "AnimatedCross",
       "type": "item",
-      "sortid": 269,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_cross"
@@ -3168,7 +3168,7 @@
     {
       "name": "AnimatedWoodCross",
       "type": "item",
-      "sortid": 270,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_wood_cross"
@@ -3176,7 +3176,7 @@
     {
       "name": "AnimatedStoneCross",
       "type": "item",
-      "sortid": 271,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_stone_cross"
@@ -3184,7 +3184,7 @@
     {
       "name": "AnimatedIronCross",
       "type": "item",
-      "sortid": 272,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_iron_cross"
@@ -3192,7 +3192,7 @@
     {
       "name": "AnimatedDiamondCross",
       "type": "item",
-      "sortid": 273,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_diamond_cross"
@@ -3200,7 +3200,7 @@
     {
       "name": "AnimatedNetheriteCross",
       "type": "item",
-      "sortid": 274,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_netherite_cross"
@@ -3208,7 +3208,7 @@
     {
       "name": "AnimatedGoldCross",
       "type": "item",
-      "sortid": 275,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_gold_cross"
@@ -3216,7 +3216,7 @@
     {
       "name": "PetrifiedBotBlock",
       "type": "block",
-      "sortid": 276,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrified_bot_block"
@@ -3224,7 +3224,7 @@
     {
       "name": "GildedBotBlock",
       "type": "block",
-      "sortid": 277,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gilded_bot_block"
@@ -3232,7 +3232,7 @@
     {
       "name": "GoldEffectEffectStartedApplied",
       "type": "procedure",
-      "sortid": 278,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_effect_effect_started_applied",
@@ -3264,7 +3264,7 @@
     {
       "name": "GoldEffectEffectExpires",
       "type": "procedure",
-      "sortid": 279,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_effect_effect_expires",
@@ -3292,7 +3292,7 @@
     {
       "name": "IronTierTreasureBlock",
       "type": "block",
-      "sortid": 76,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_tier_treasure_block"
@@ -3300,7 +3300,7 @@
     {
       "name": "DiamondTierTreasureBlock",
       "type": "block",
-      "sortid": 77,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_tier_treasure_block"
@@ -3308,7 +3308,7 @@
     {
       "name": "IronTierTreasureBlockTable",
       "type": "loottable",
-      "sortid": 280,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_tier_treasure_block_table"
@@ -3316,7 +3316,7 @@
     {
       "name": "DiamondTierTreasureBlockTable",
       "type": "loottable",
-      "sortid": 281,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_tier_treasure_block_table"
@@ -3324,7 +3324,7 @@
     {
       "name": "IronTreasureBlockRecipe",
       "type": "recipe",
-      "sortid": 282,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_treasure_block_recipe"
@@ -3332,7 +3332,7 @@
     {
       "name": "DiamondTreasureBlockRecipe",
       "type": "recipe",
-      "sortid": 283,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_treasure_block_recipe"
@@ -3340,7 +3340,7 @@
     {
       "name": "Candlestick",
       "type": "block",
-      "sortid": 65,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candlestick"
@@ -3348,7 +3348,7 @@
     {
       "name": "CandlestickLoot",
       "type": "loottable",
-      "sortid": 284,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candlestick_loot"
@@ -3356,7 +3356,7 @@
     {
       "name": "CandlestickRecipe",
       "type": "recipe",
-      "sortid": 285,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candlestick_recipe"
@@ -3364,7 +3364,7 @@
     {
       "name": "ClaimhSolaisRoom",
       "type": "structure",
-      "sortid": 286,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "claimh_solais_room"
@@ -3372,7 +3372,7 @@
     {
       "name": "CandlestickStructure",
       "type": "structure",
-      "sortid": 287,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candlestick_structure"
@@ -3380,7 +3380,7 @@
     {
       "name": "AnimatedAxe",
       "type": "item",
-      "sortid": 288,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_axe"
@@ -3388,7 +3388,7 @@
     {
       "name": "AnimatedWoodenAxe",
       "type": "item",
-      "sortid": 289,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_wooden_axe"
@@ -3396,7 +3396,7 @@
     {
       "name": "AnimatedStoneAxe",
       "type": "item",
-      "sortid": 290,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_stone_axe"
@@ -3404,7 +3404,7 @@
     {
       "name": "AnimatedIronAxe",
       "type": "item",
-      "sortid": 291,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_iron_axe"
@@ -3412,7 +3412,7 @@
     {
       "name": "AnimatedGoldAxe",
       "type": "item",
-      "sortid": 292,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_gold_axe"
@@ -3420,7 +3420,7 @@
     {
       "name": "AnimatedDiamondAxe",
       "type": "item",
-      "sortid": 293,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_diamond_axe"
@@ -3428,7 +3428,7 @@
     {
       "name": "AnimatedNetheriteAxe",
       "type": "item",
-      "sortid": 294,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animated_netherite_axe"
@@ -3436,7 +3436,7 @@
     {
       "name": "SilverSword",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword"
@@ -3444,7 +3444,7 @@
     {
       "name": "SilverSwordRecipe",
       "type": "recipe",
-      "sortid": 295,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silver_sword_recipe"
@@ -3452,7 +3452,7 @@
     {
       "name": "FireDamageEffect",
       "type": "procedure",
-      "sortid": 296,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_damage_effect",
@@ -3480,7 +3480,7 @@
     {
       "name": "WeakBricksTable",
       "type": "loottable",
-      "sortid": 297,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_bricks_table"
@@ -3488,7 +3488,7 @@
     {
       "name": "WeakAndesiteTable",
       "type": "loottable",
-      "sortid": 298,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_andesite_table"
@@ -3496,7 +3496,7 @@
     {
       "name": "WeakDioriteTable",
       "type": "loottable",
-      "sortid": 299,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_diorite_table"
@@ -3504,7 +3504,7 @@
     {
       "name": "WeakGraniteTable",
       "type": "loottable",
-      "sortid": 300,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weak_granite_table"
@@ -3592,7 +3592,7 @@
     {
       "name": "Crissaegrim",
       "type": "tool",
-      "sortid": 304,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crissaegrim"
@@ -3600,10 +3600,58 @@
     {
       "name": "GreenStone",
       "type": "item",
-      "sortid": 305,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_stone"
+    },
+    {
+      "name": "GreenStoneRecipe",
+      "type": "recipe",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_stone_recipe"
+    },
+    {
+      "name": "ObsidianKnife",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_knife"
+    },
+    {
+      "name": "ObsidianKnifeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_knife_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianKnifeOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_knife_on_player_stopped_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3664,8 +3712,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.skys_castlevania.netherite_dagger": "Netherite Dagger",
       "item.skys_castlevania.holy_whip": "Consecrated Whip",
+      "item.skys_castlevania.netherite_dagger": "Netherite Dagger",
       "subtitles.hydrostorm": "Hydro Storm voice clip",
       "item.skys_castlevania.animated_iron_cross": "Animated Iron Cross",
       "item.skys_castlevania.holy_water": "Holy Water",
@@ -3675,8 +3723,8 @@
       "item.skys_castlevania.animated_wood_cross": "Animated Wood Cross",
       "item.skys_castlevania.sound_item_2": "Sound Item 2",
       "subtitles.subterraneanhell": "Subterranean Hell",
-      "block.skys_castlevania.iron_tier_treasure_block": "Iron-Tier Treasure Block",
       "item.skys_castlevania.sound_item_1": "Sound Item 1",
+      "block.skys_castlevania.iron_tier_treasure_block": "Iron-Tier Treasure Block",
       "item.skys_castlevania.holy_water_s_wep": "Holy Water",
       "item.skys_castlevania.crucifix": "Crucifix",
       "item.skys_castlevania.sound_item_3": "Sound Item 3",
@@ -3689,14 +3737,14 @@
       "item.skys_castlevania.grand_cross": "Grand Cross",
       "block.skys_castlevania.weak_granite": "Granite",
       "item.skys_castlevania.animated_netherite_axe": "Animated Axe",
-      "item.skys_castlevania.iron_dagger": "Iron Dagger",
       "item.skys_castlevania.debug_heart": "Debug Heart",
+      "item.skys_castlevania.iron_dagger": "Iron Dagger",
       "item.skys_castlevania.whip_upgrade": "Whip Upgrade",
       "block.skys_castlevania.silver_ore": "Silver Ore",
       "block.skys_castlevania.gilded_block": "Gilded Block",
       "item.skys_castlevania.netherite_cross": "Netherite Cross",
-      "item.skys_castlevania.throwing_axe_netherite": "Netherite Throwing Axe",
       "item.skys_castlevania.two_stone": "Two Stone",
+      "item.skys_castlevania.throwing_axe_netherite": "Netherite Throwing Axe",
       "item.skys_castlevania.midas_touch": "Midas Touch",
       "item.skys_castlevania.stonethaw": "Stonethaw",
       "item.skys_castlevania.animated_gold_axe": "Animated Axe",
@@ -3761,6 +3809,7 @@
       "subtitles.sinkingoldsanctuary": "The Sinking Old Sanctuary",
       "item.skys_castlevania.electrum_ingot": "Electrum Ingot",
       "item.skys_castlevania.wood_cross": "Wooden Cross",
+      "item.skys_castlevania.obsidian_knife": "Obsidian Knife",
       "item.skys_castlevania.laevateinn": "Laevateinn",
       "block.skys_castlevania.electrum_ore": "Electrum Ore",
       "item.skys_castlevania.throwing_axe_diamond": "Diamond Throwing Axe",
@@ -3780,8 +3829,8 @@
       "block.skys_castlevania.treasure_block": "Creative Treasure Block"
     },
     "en_ca": {
-      "item.skys_castlevania.holy_whip": "Consecrated Whip",
       "item.skys_castlevania.netherite_dagger": "Netherite Dagger",
+      "item.skys_castlevania.holy_whip": "Consecrated Whip",
       "subtitles.hydrostorm": "Hydro Storm voice clip",
       "item.skys_castlevania.animated_iron_cross": "Animated Iron Cross",
       "item.skys_castlevania.holy_water": "Holy Water",
@@ -3791,8 +3840,8 @@
       "item.skys_castlevania.animated_wood_cross": "Animated Wood Cross",
       "item.skys_castlevania.sound_item_2": "Sound Item 2",
       "subtitles.subterraneanhell": "Subterranean Hell",
-      "item.skys_castlevania.sound_item_1": "Sound Item 1",
       "block.skys_castlevania.iron_tier_treasure_block": "Iron-Tier Treasure Block",
+      "item.skys_castlevania.sound_item_1": "Sound Item 1",
       "item.skys_castlevania.holy_water_s_wep": "Holy Water",
       "item.skys_castlevania.crucifix": "Crucifix",
       "item.skys_castlevania.sound_item_3": "Sound Item 3",
@@ -3805,14 +3854,14 @@
       "item.skys_castlevania.grand_cross": "Grand Cross",
       "block.skys_castlevania.weak_granite": "Granite",
       "item.skys_castlevania.animated_netherite_axe": "Animated Axe",
-      "item.skys_castlevania.debug_heart": "Debug Heart",
       "item.skys_castlevania.iron_dagger": "Iron Dagger",
+      "item.skys_castlevania.debug_heart": "Debug Heart",
       "item.skys_castlevania.whip_upgrade": "Whip Upgrade",
       "block.skys_castlevania.silver_ore": "Silver Ore",
       "block.skys_castlevania.gilded_block": "Gilded Block",
       "item.skys_castlevania.netherite_cross": "Netherite Cross",
-      "item.skys_castlevania.two_stone": "Two Stone",
       "item.skys_castlevania.throwing_axe_netherite": "Netherite Throwing Axe",
+      "item.skys_castlevania.two_stone": "Two Stone",
       "item.skys_castlevania.midas_touch": "Midas Touch",
       "item.skys_castlevania.stonethaw": "Stonethaw",
       "item.skys_castlevania.animated_gold_axe": "Animated Axe",
@@ -3877,6 +3926,7 @@
       "subtitles.sinkingoldsanctuary": "The Sinking Old Sanctuary",
       "item.skys_castlevania.electrum_ingot": "Electrum Ingot",
       "item.skys_castlevania.wood_cross": "Wooden Cross",
+      "item.skys_castlevania.obsidian_knife": "Obsidian Knife",
       "item.skys_castlevania.laevateinn": "Laevateinn",
       "block.skys_castlevania.electrum_ore": "Electrum Ore",
       "item.skys_castlevania.throwing_axe_diamond": "Diamond Throwing Axe",
@@ -3903,7 +3953,7 @@
   "workspaceSettings": {
     "modid": "skys_castlevania",
     "modName": "Sky\u0027s Castlevania",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Adds Castlevania stuff to Minecraft",
     "author": "DetectiveSky",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/skys-castlevania",

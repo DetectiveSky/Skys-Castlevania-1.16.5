@@ -55,7 +55,7 @@ public class DiamondCrossItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletdiamond_cross").setRegistryName("entitybulletdiamond_cross");
 
 	public DiamondCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 50);
+		super(instance, 58);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DiamondCrossRenderer.ModelRegisterHandler());
 	}
 

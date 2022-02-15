@@ -55,7 +55,7 @@ public class GoldCrossItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletgold_cross").setRegistryName("entitybulletgold_cross");
 
 	public GoldCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 49);
+		super(instance, 57);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GoldCrossRenderer.ModelRegisterHandler());
 	}
 

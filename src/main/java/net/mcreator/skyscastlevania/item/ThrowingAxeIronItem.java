@@ -53,7 +53,7 @@ public class ThrowingAxeIronItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletthrowing_axe_iron").setRegistryName("entitybulletthrowing_axe_iron");
 
 	public ThrowingAxeIronItem(SkysCastlevaniaModElements instance) {
-		super(instance, 42);
+		super(instance, 49);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ThrowingAxeIronRenderer.ModelRegisterHandler());
 	}
 

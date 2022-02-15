@@ -27,7 +27,7 @@ public class ElectrumBlockBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public ElectrumBlockBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 70);
+		super(instance, 73);
 	}
 
 	@Override

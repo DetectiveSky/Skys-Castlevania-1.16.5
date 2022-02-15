@@ -24,7 +24,7 @@ public class SoundItem3Item extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public SoundItem3Item(SkysCastlevaniaModElements instance) {
-		super(instance, 57);
+		super(instance, 64);
 	}
 
 	@Override

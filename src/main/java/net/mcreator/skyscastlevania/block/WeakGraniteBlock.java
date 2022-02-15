@@ -31,7 +31,7 @@ public class WeakGraniteBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public WeakGraniteBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 75);
+		super(instance, 78);
 	}
 
 	@Override

@@ -57,7 +57,7 @@ public class HolyWaterSWepItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletholy_water_s_wep").setRegistryName("entitybulletholy_water_s_wep");
 
 	public HolyWaterSWepItem(SkysCastlevaniaModElements instance) {
-		super(instance, 61);
+		super(instance, 38);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HolyWaterSWepRenderer.ModelRegisterHandler());
 	}
 

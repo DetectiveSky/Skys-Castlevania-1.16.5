@@ -64,7 +64,7 @@ public class AxeSWepItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletaxe_s_wep").setRegistryName("entitybulletaxe_s_wep");
 
 	public AxeSWepItem(SkysCastlevaniaModElements instance) {
-		super(instance, 63);
+		super(instance, 53);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AxeSWepRenderer.ModelRegisterHandler());
 	}
 

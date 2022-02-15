@@ -24,7 +24,7 @@ public class CrissaegrimItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public CrissaegrimItem(SkysCastlevaniaModElements instance) {
-		super(instance, 304);
+		super(instance, 26);
 	}
 
 	@Override

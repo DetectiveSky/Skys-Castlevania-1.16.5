@@ -43,7 +43,7 @@ public class DiamondTierTreasureBlockBlock extends SkysCastlevaniaModElements.Mo
 	public static final Block block = null;
 
 	public DiamondTierTreasureBlockBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 77);
+		super(instance, 80);
 	}
 
 	@Override

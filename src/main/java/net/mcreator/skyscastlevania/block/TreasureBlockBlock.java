@@ -41,7 +41,7 @@ public class TreasureBlockBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public TreasureBlockBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 78);
+		super(instance, 81);
 	}
 
 	@Override

@@ -32,7 +32,7 @@ public class AntiVenomItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public AntiVenomItem(SkysCastlevaniaModElements instance) {
-		super(instance, 58);
+		super(instance, 65);
 	}
 
 	@Override

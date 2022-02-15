@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obsidiandagger",
+    "customModelName": "Normal",
+    "name": "Obsidian Knife",
+    "specialInfo": [
+      "A blade used in ancient sacrificial rituals.",
+      "Right-click to remove a heart",
+      "and use it for sub-weapons instead."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.8,
+    "enchantability": 5,
+    "damageVsEntity": 5.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Blocks.CRYING_OBSIDIAN"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "ObsidianKnifeOnPlayerStoppedUsing"
+    },
+    "onEntityHitWith": {
+      "name": "ObsidianKnifeLivingEntityIsHitWithTool"
+    }
+  }
+}

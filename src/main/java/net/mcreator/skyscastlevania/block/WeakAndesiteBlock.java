@@ -31,7 +31,7 @@ public class WeakAndesiteBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public WeakAndesiteBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 73);
+		super(instance, 76);
 	}
 
 	@Override

@@ -54,7 +54,7 @@ public class IronDaggerItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletiron_dagger").setRegistryName("entitybulletiron_dagger");
 
 	public IronDaggerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 36);
+		super(instance, 41);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IronDaggerRenderer.ModelRegisterHandler());
 	}
 
