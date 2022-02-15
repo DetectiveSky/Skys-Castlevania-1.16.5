@@ -3668,6 +3668,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_knife_recipe"
+    },
+    {
+      "name": "AntivenomRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antivenom_recipe"
+    },
+    {
+      "name": "UncursePotionRecipe",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncurse_potion_recipe"
+    },
+    {
+      "name": "StonethawRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonethaw_recipe"
     }
   ],
   "variable_elements": [

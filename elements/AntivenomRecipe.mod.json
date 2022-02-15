@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:MUNDANE"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.HONEY_BOTTLE"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:AntiVenom"
+    },
+    "name": "antivenom_recipe",
+    "namespace": "mod"
+  }
+}
