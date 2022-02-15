@@ -10,10 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": "Items.STICK"
+        "value": ""
       },
       {
         "value": ""
