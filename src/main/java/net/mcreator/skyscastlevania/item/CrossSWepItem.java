@@ -208,6 +208,7 @@ public class CrossSWepItem extends SkysCastlevaniaModElements.ModElement {
 			CrossSWepBulletHitsLivingEntityProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity),
+							new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity),
 							new AbstractMap.SimpleEntry<>("sourceentity", sourceentity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
@@ -228,8 +229,10 @@ public class CrossSWepItem extends SkysCastlevaniaModElements.ModElement {
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			if (this.inGround) {
 
-				SubWeaponCountDecrementProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				SubWeaponCountDecrementProcedure.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("entity", entity),
+								new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				this.remove();
 			}
 		}

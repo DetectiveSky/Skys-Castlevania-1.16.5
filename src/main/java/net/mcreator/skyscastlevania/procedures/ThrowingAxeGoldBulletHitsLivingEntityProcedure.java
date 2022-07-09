@@ -42,6 +42,11 @@ public class ThrowingAxeGoldBulletHitsLivingEntityProcedure {
 				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency entity for procedure ThrowingAxeGoldBulletHitsLivingEntity!");
 			return;
 		}
+		if (dependencies.get("imediatesourceentity") == null) {
+			if (!dependencies.containsKey("imediatesourceentity"))
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency imediatesourceentity for procedure ThrowingAxeGoldBulletHitsLivingEntity!");
+			return;
+		}
 		if (dependencies.get("sourceentity") == null) {
 			if (!dependencies.containsKey("sourceentity"))
 				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency sourceentity for procedure ThrowingAxeGoldBulletHitsLivingEntity!");
@@ -52,6 +57,7 @@ public class ThrowingAxeGoldBulletHitsLivingEntityProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
+		Entity imediatesourceentity = (Entity) dependencies.get("imediatesourceentity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double multiplier = 0;
 		multiplier = 1;
@@ -74,13 +80,15 @@ public class ThrowingAxeGoldBulletHitsLivingEntityProcedure {
 			multiplier = (multiplier / 2);
 		}
 		entity.attackEntityFrom(DamageSource.GENERIC, (float) (7 * multiplier));
-		{
-			double _setval = ((sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new SkysCastlevaniaModVariables.PlayerVariables())).playerSubWeaponsActive - 1);
-			sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-				capability.playerSubWeaponsActive = _setval;
-				capability.syncPlayerVariables(sourceentity);
-			});
+		if (!imediatesourceentity.getPersistentData().getBoolean("wasFree")) {
+			{
+				double _setval = ((sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new SkysCastlevaniaModVariables.PlayerVariables())).playerSubWeaponsActive - 1);
+				sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.playerSubWeaponsActive = _setval;
+					capability.syncPlayerVariables(sourceentity);
+				});
+			}
 		}
 	}
 }

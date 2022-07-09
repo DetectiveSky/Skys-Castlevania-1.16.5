@@ -30,9 +30,9 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.skyscastlevania.procedures.SubWeaponCountIncrementProcedure;
+import net.mcreator.skyscastlevania.procedures.SubWeaponCountDecrementProcedure;
 import net.mcreator.skyscastlevania.procedures.GoldDaggerBulletHitsLivingEntityProcedure;
-import net.mcreator.skyscastlevania.procedures.DaggerSWepRangedItemUsedProcedure;
-import net.mcreator.skyscastlevania.procedures.DaggerSWepBulletDespawnProcedure;
 import net.mcreator.skyscastlevania.procedures.DaggerIsFreeProcedure;
 import net.mcreator.skyscastlevania.procedures.CanUseSubweaponProcedure;
 import net.mcreator.skyscastlevania.itemgroup.SkysCastlevaniaTabItemGroup;
@@ -126,7 +126,7 @@ public class GoldDaggerItem extends SkysCastlevaniaModElements.ModElement {
 							}
 						}
 
-						DaggerSWepRangedItemUsedProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
+						SubWeaponCountIncrementProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
 								.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 					}
 					entity.stopActiveHand();
@@ -203,7 +203,7 @@ public class GoldDaggerItem extends SkysCastlevaniaModElements.ModElement {
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			if (this.inGround) {
 
-				DaggerSWepBulletDespawnProcedure.executeProcedure(Stream
+				SubWeaponCountDecrementProcedure.executeProcedure(Stream
 						.of(new AbstractMap.SimpleEntry<>("entity", entity),
 								new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));

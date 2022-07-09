@@ -31,13 +31,15 @@ public class CrossSWepBulletHitsPlayerProcedure {
 		if (imediatesourceentity.getPersistentData().getBoolean("return") && entity == sourceentity) {
 			if (!imediatesourceentity.world.isRemote())
 				imediatesourceentity.remove();
-			{
-				double _setval = ((sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new SkysCastlevaniaModVariables.PlayerVariables())).playerSubWeaponsActive - 1);
-				sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.playerSubWeaponsActive = _setval;
-					capability.syncPlayerVariables(sourceentity);
-				});
+			if (!imediatesourceentity.getPersistentData().getBoolean("wasFree")) {
+				{
+					double _setval = ((sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+							.orElse(new SkysCastlevaniaModVariables.PlayerVariables())).playerSubWeaponsActive - 1);
+					sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.playerSubWeaponsActive = _setval;
+						capability.syncPlayerVariables(sourceentity);
+					});
+				}
 			}
 		}
 	}

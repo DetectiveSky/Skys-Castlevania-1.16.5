@@ -45,11 +45,17 @@ public class UnHolyWaterBulletHitsBlockProcedure {
 				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency entity for procedure UnHolyWaterBulletHitsBlock!");
 			return;
 		}
+		if (dependencies.get("imediatesourceentity") == null) {
+			if (!dependencies.containsKey("imediatesourceentity"))
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency imediatesourceentity for procedure UnHolyWaterBulletHitsBlock!");
+			return;
+		}
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
+		Entity imediatesourceentity = (Entity) dependencies.get("imediatesourceentity");
 		if (Blocks.SOUL_SOIL == (world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) (z - 1)))).getBlock()
 				&& ((world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1)))).getMaterial() == net.minecraft.block.material.Material.AIR
 						|| !world.getBlockState(new BlockPos((int) x, (int) y, (int) (z - 1))).isSolid())) {
@@ -79,13 +85,15 @@ public class UnHolyWaterBulletHitsBlockProcedure {
 						"playsound minecraft:block.glass.break ambient @p ~ ~ ~");
 			}
 		}
-		{
-			double _setval = ((entity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new SkysCastlevaniaModVariables.PlayerVariables())).playerSubWeaponsActive - 1);
-			entity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-				capability.playerSubWeaponsActive = _setval;
-				capability.syncPlayerVariables(entity);
-			});
+		if (!imediatesourceentity.getPersistentData().getBoolean("wasFree")) {
+			{
+				double _setval = ((entity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new SkysCastlevaniaModVariables.PlayerVariables())).playerSubWeaponsActive - 1);
+				entity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.playerSubWeaponsActive = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 		}
 	}
 }

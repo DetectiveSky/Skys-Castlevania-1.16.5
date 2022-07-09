@@ -24,7 +24,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 4.0,
     "onRangedItemUsed": {
-      "name": "DaggerSWepRangedItemUsed"
+      "name": "SubWeaponCountIncrement"
     },
     "useCondition": {
       "name": "CanUseSubweapon"
@@ -40,7 +40,7 @@
     "bulletModel": "Modelcustom_model",
     "customBulletModelTexture": "stonedagger.png",
     "onBulletHitsBlock": {
-      "name": "DaggerSWepBulletDespawn"
+      "name": "SubWeaponCountDecrement"
     },
     "onBulletHitsEntity": {
       "name": "StoneDaggerBulletHitsEntity"

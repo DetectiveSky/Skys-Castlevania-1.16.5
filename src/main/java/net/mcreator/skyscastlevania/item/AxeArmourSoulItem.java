@@ -10,6 +10,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
@@ -29,32 +31,34 @@ import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
+import net.minecraft.client.util.ITooltipFlag;
 
-import net.mcreator.skyscastlevania.procedures.UnHolyWaterBulletHitsEntityProcedure;
-import net.mcreator.skyscastlevania.procedures.UnHolyWaterBulletHitsBlockProcedure;
 import net.mcreator.skyscastlevania.procedures.SubWeaponCountIncrementProcedure;
+import net.mcreator.skyscastlevania.procedures.SubWeaponCountDecrementProcedure;
+import net.mcreator.skyscastlevania.procedures.IronTAxeBulletHitsEntityProcedure;
 import net.mcreator.skyscastlevania.procedures.CanUseSubweaponProcedure;
 import net.mcreator.skyscastlevania.itemgroup.SkysCastlevaniaTabItemGroup;
-import net.mcreator.skyscastlevania.entity.renderer.UnHolyWaterRenderer;
+import net.mcreator.skyscastlevania.entity.renderer.AxeArmourSoulRenderer;
 import net.mcreator.skyscastlevania.SkysCastlevaniaModElements;
 
 import java.util.stream.Stream;
 import java.util.Random;
 import java.util.Map;
+import java.util.List;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
 @SkysCastlevaniaModElements.ModElement.Tag
-public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
-	@ObjectHolder("skys_castlevania:un_holy_water")
+public class AxeArmourSoulItem extends SkysCastlevaniaModElements.ModElement {
+	@ObjectHolder("skys_castlevania:axe_armour_soul")
 	public static final Item block = null;
 	public static final EntityType arrow = (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-			.size(0.5f, 0.5f)).build("entitybulletun_holy_water").setRegistryName("entitybulletun_holy_water");
+			.size(0.5f, 0.5f)).build("entitybulletaxe_armour_soul").setRegistryName("entitybulletaxe_armour_soul");
 
-	public UnHolyWaterItem(SkysCastlevaniaModElements instance) {
-		super(instance, 36);
-		FMLJavaModLoadingContext.get().getModEventBus().register(new UnHolyWaterRenderer.ModelRegisterHandler());
+	public AxeArmourSoulItem(SkysCastlevaniaModElements instance) {
+		super(instance, 311);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new AxeArmourSoulRenderer.ModelRegisterHandler());
 	}
 
 	@Override
@@ -65,8 +69,8 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab).maxDamage(100));
-			setRegistryName("un_holy_water");
+			super(new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab).maxStackSize(1));
+			setRegistryName("axe_armour_soul");
 		}
 
 		@Override
@@ -76,13 +80,25 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 		}
 
 		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("Throw an axe."));
+		}
+
+		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BLOCK;
+			return UseAction.NONE;
 		}
 
 		@Override
 		public int getUseDuration(ItemStack itemstack) {
 			return 72000;
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public boolean hasEffect(ItemStack itemstack) {
+			return true;
 		}
 
 		@Override
@@ -105,7 +121,7 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 0.25f, 0.1, 1);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 0.1, 2);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -158,7 +174,7 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(UnHolyWaterItem.block);
+			return new ItemStack(AnimatedIronAxeItem.block);
 		}
 
 		@Override
@@ -177,10 +193,8 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 			World world = this.world;
 			Entity imediatesourceentity = this;
 
-			UnHolyWaterBulletHitsEntityProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity),
-							new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity),
+			IronTAxeBulletHitsEntityProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity),
 							new AbstractMap.SimpleEntry<>("sourceentity", sourceentity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
@@ -196,9 +210,9 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 			Entity imediatesourceentity = this;
 			if (this.inGround) {
 
-				UnHolyWaterBulletHitsBlockProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world),
-						new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
-						new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity))
+				SubWeaponCountDecrementProcedure.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("entity", entity),
+								new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				this.remove();
 			}
@@ -209,7 +223,7 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 		ArrowCustomEntity entityarrow = new ArrowCustomEntity(arrow, entity, world);
 		entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setIsCritical(false);
+		entityarrow.setIsCritical(true);
 		entityarrow.setDamage(damage);
 		entityarrow.setKnockbackStrength(knockback);
 		world.addEntity(entityarrow);
@@ -227,11 +241,11 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 0.25f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setDamage(0.1);
-		entityarrow.setKnockbackStrength(1);
-		entityarrow.setIsCritical(false);
+		entityarrow.setKnockbackStrength(2);
+		entityarrow.setIsCritical(true);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();

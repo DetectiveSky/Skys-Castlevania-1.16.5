@@ -18,12 +18,18 @@ public class IronTAxeBulletHitsEntityProcedure {
 				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency entity for procedure IronTAxeBulletHitsEntity!");
 			return;
 		}
+		if (dependencies.get("imediatesourceentity") == null) {
+			if (!dependencies.containsKey("imediatesourceentity"))
+				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency imediatesourceentity for procedure IronTAxeBulletHitsEntity!");
+			return;
+		}
 		if (dependencies.get("sourceentity") == null) {
 			if (!dependencies.containsKey("sourceentity"))
 				SkysCastlevaniaMod.LOGGER.warn("Failed to load dependency sourceentity for procedure IronTAxeBulletHitsEntity!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
+		Entity imediatesourceentity = (Entity) dependencies.get("imediatesourceentity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double multiplier = 0;
 		multiplier = 1;
@@ -33,13 +39,15 @@ public class IronTAxeBulletHitsEntityProcedure {
 			multiplier = (multiplier / 2);
 		}
 		entity.attackEntityFrom(DamageSource.GENERIC, (float) (9 * multiplier));
-		{
-			double _setval = ((sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new SkysCastlevaniaModVariables.PlayerVariables())).playerSubWeaponsActive - 1);
-			sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-				capability.playerSubWeaponsActive = _setval;
-				capability.syncPlayerVariables(sourceentity);
-			});
+		if (!imediatesourceentity.getPersistentData().getBoolean("wasFree")) {
+			{
+				double _setval = ((sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new SkysCastlevaniaModVariables.PlayerVariables())).playerSubWeaponsActive - 1);
+				sourceentity.getCapability(SkysCastlevaniaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.playerSubWeaponsActive = _setval;
+					capability.syncPlayerVariables(sourceentity);
+				});
+			}
 		}
 	}
 }

@@ -177,9 +177,10 @@ public class ThrowingAxeDiamondItem extends SkysCastlevaniaModElements.ModElemen
 			World world = this.world;
 			Entity imediatesourceentity = this;
 
-			DiamondTAxeBulletHitsEntityProcedure.executeProcedure(
-					Stream.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("sourceentity", sourceentity))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			DiamondTAxeBulletHitsEntityProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity),
+							new AbstractMap.SimpleEntry<>("sourceentity", sourceentity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override
@@ -193,8 +194,10 @@ public class ThrowingAxeDiamondItem extends SkysCastlevaniaModElements.ModElemen
 			Entity imediatesourceentity = this;
 			if (this.inGround) {
 
-				SubWeaponCountDecrementProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				SubWeaponCountDecrementProcedure.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("entity", entity),
+								new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				this.remove();
 			}
 		}

@@ -46,6 +46,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           },
@@ -371,6 +375,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           },
@@ -500,6 +508,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
             "type": "entity"
           }
         ]
@@ -719,6 +731,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           },
@@ -835,6 +851,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -864,6 +884,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
             "type": "entity"
           },
           {
@@ -979,6 +1003,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           },
@@ -1008,22 +1036,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thousand_blades"
-    },
-    {
-      "name": "DaggerSWepRangedItemUsed",
-      "type": "procedure",
-      "sortid": 129,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dagger_s_wep_ranged_item_used",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "Subweapon",
@@ -1091,6 +1103,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           },
@@ -1120,26 +1136,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "debug_heart"
-    },
-    {
-      "name": "DaggerSWepBulletDespawn",
-      "type": "procedure",
-      "sortid": 135,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dagger_s_wep_bullet_despawn",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "imediatesourceentity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "DaggerIsFree",
@@ -1228,6 +1224,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
             "type": "entity"
           },
           {
@@ -1860,6 +1860,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           }
@@ -1877,6 +1881,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
             "type": "entity"
           },
           {
@@ -1900,6 +1908,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           }
@@ -1920,6 +1932,10 @@
             "type": "entity"
           },
           {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          },
+          {
             "name": "sourceentity",
             "type": "entity"
           }
@@ -1937,6 +1953,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
             "type": "entity"
           },
           {
@@ -3692,6 +3712,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonethaw_recipe"
+    },
+    {
+      "name": "AxeArmourSoul",
+      "type": "rangeditem",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_armour_soul"
+    },
+    {
+      "name": "ChaosRing",
+      "type": "item",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_ring"
+    },
+    {
+      "name": "SWepIsFree",
+      "type": "procedure",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_wep_is_free",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "imediatesourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3849,6 +3905,7 @@
       "subtitles.sinkingoldsanctuary": "The Sinking Old Sanctuary",
       "item.skys_castlevania.electrum_ingot": "Electrum Ingot",
       "item.skys_castlevania.wood_cross": "Wooden Cross",
+      "item.skys_castlevania.chaos_ring": "Chaos Ring",
       "item.skys_castlevania.obsidian_knife": "Obsidian Knife",
       "item.skys_castlevania.laevateinn": "Laevateinn",
       "block.skys_castlevania.electrum_ore": "Electrum Ore",
@@ -3861,6 +3918,7 @@
       "item.skys_castlevania.dagger_s_wep": "Dagger",
       "item.skys_castlevania.lightning_tip_vampire_killer": "Vampire Killer",
       "item.skys_castlevania.uncurse_potion": "Uncurse Potion",
+      "item.skys_castlevania.axe_armour_soul": "Axe Armour Soul",
       "item.skys_castlevania.steel_tip": "Steel Tip",
       "block.skys_castlevania.electrum_block": "Block of Electrum",
       "effect.control_disabled": "Control Disabled",
@@ -3966,6 +4024,7 @@
       "subtitles.sinkingoldsanctuary": "The Sinking Old Sanctuary",
       "item.skys_castlevania.electrum_ingot": "Electrum Ingot",
       "item.skys_castlevania.wood_cross": "Wooden Cross",
+      "item.skys_castlevania.chaos_ring": "Chaos Ring",
       "item.skys_castlevania.obsidian_knife": "Obsidian Knife",
       "item.skys_castlevania.laevateinn": "Laevateinn",
       "block.skys_castlevania.electrum_ore": "Electrum Ore",
@@ -3978,6 +4037,7 @@
       "item.skys_castlevania.dagger_s_wep": "Dagger",
       "item.skys_castlevania.lightning_tip_vampire_killer": "Vampire Killer",
       "item.skys_castlevania.uncurse_potion": "Uncurse Potion",
+      "item.skys_castlevania.axe_armour_soul": "Axe Armour Soul",
       "item.skys_castlevania.steel_tip": "Steel Tip",
       "block.skys_castlevania.electrum_block": "Block of Electrum",
       "effect.control_disabled": "Control Disabled",
@@ -3993,7 +4053,7 @@
   "workspaceSettings": {
     "modid": "skys_castlevania",
     "modName": "Sky\u0027s Castlevania",
-    "version": "0.1.5",
+    "version": "0.1.7",
     "description": "Adds Castlevania stuff to Minecraft",
     "author": "DetectiveSky",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/skys-castlevania",
@@ -4004,7 +4064,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios"
+    ],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator: https://mcreator.net/about - Holy Damage glint sound by Sound Effects Database on YouTube: https://www.youtube.com/watch?v\u003d1g7pqxEuG3k - Richter Belmont voice clip recorded from Castlevania: Symphony of the Night",
     "modElementsPackage": "net.mcreator.skyscastlevania",

@@ -3,11 +3,11 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "dagger",
+    "texture": "redsoultexture",
     "customModelName": "Normal",
-    "name": "Dagger",
+    "name": "Axe Armour Soul",
     "specialInfo": [
-      "Creative Mode version of Dagger subweapon"
+      "Throw an axe."
     ],
     "creativeTab": {
       "value": "CUSTOM:SkysCastlevaniaTab"
@@ -16,15 +16,15 @@
     "ammoItem": {
       "value": "CUSTOM:Heart"
     },
-    "shootConstantly": true,
+    "shootConstantly": false,
     "usageCount": 0,
     "actionSound": {
       "value": "entity.enderpearl.throw"
     },
-    "hasGlow": false,
-    "animation": "spear",
+    "hasGlow": true,
+    "animation": "none",
     "enableMeleeDamage": false,
-    "damageVsEntity": 8.0,
+    "damageVsEntity": 0.0,
     "onRangedItemUsed": {
       "name": "SubWeaponCountIncrement"
     },
@@ -33,22 +33,19 @@
     },
     "bulletPower": 1.0,
     "bulletDamage": 0.1,
-    "bulletKnockback": 1,
-    "bulletParticles": false,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:DaggerSWep"
+      "value": "CUSTOM:AnimatedIronAxe"
     },
-    "bulletModel": "Modelcustom_model",
-    "customBulletModelTexture": "sdagger.png",
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
     "onBulletHitsBlock": {
       "name": "SubWeaponCountDecrement"
     },
     "onBulletHitsEntity": {
-      "name": "DaggerSWepBulletHitsLivingEntity"
-    },
-    "onBulletFlyingTick": {
-      "name": "DaggerIsFree"
+      "name": "IronTAxeBulletHitsEntity"
     }
   }
 }

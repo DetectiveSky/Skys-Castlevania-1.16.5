@@ -177,9 +177,10 @@ public class ThrowingAxeWoodItem extends SkysCastlevaniaModElements.ModElement {
 			World world = this.world;
 			Entity imediatesourceentity = this;
 
-			WoodTAxeBulletHitsEntityProcedure.executeProcedure(
-					Stream.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("sourceentity", sourceentity))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			WoodTAxeBulletHitsEntityProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity),
+							new AbstractMap.SimpleEntry<>("sourceentity", sourceentity))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override
@@ -193,8 +194,10 @@ public class ThrowingAxeWoodItem extends SkysCastlevaniaModElements.ModElement {
 			Entity imediatesourceentity = this;
 			if (this.inGround) {
 
-				SubWeaponCountDecrementProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				SubWeaponCountDecrementProcedure.executeProcedure(Stream
+						.of(new AbstractMap.SimpleEntry<>("entity", entity),
+								new AbstractMap.SimpleEntry<>("imediatesourceentity", imediatesourceentity))
+						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				this.remove();
 			}
 		}

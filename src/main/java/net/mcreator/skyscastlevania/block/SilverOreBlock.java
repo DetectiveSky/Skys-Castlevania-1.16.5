@@ -118,7 +118,7 @@ public class SilverOreBlock extends SkysCastlevaniaModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(63)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(36)
 					.square().func_242731_b(11);
 			event.getRegistry().register(feature.setRegistryName("silver_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("skys_castlevania:silver_ore"), configuredFeature);
