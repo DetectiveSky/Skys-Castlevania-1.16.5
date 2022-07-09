@@ -25,7 +25,7 @@ public class ChaosRingItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public ChaosRingItem(SkysCastlevaniaModElements instance) {
-		super(instance, 312);
+		super(instance, 315);
 	}
 
 	@Override
@@ -63,8 +63,8 @@ public class ChaosRingItem extends SkysCastlevaniaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Contains the powers of chaos."));
-			list.add(new StringTextComponent("Functions as an infinite supply of hearts."));
+			list.add(new StringTextComponent("A ring containing the powers of chaos."));
+			list.add(new StringTextComponent("Wear it for an infinite supply of hearts."));
 		}
 	}
 }

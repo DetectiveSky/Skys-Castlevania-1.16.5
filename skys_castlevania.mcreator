@@ -3626,14 +3626,6 @@
       "registry_name": "axe_armour_soul"
     },
     {
-      "name": "ChaosRing",
-      "type": "item",
-      "sortid": 312,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chaos_ring"
-    },
-    {
       "name": "SWepIsFree",
       "type": "procedure",
       "sortid": 313,
@@ -3660,6 +3652,14 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "curios_registry"
+    },
+    {
+      "name": "ChaosRing",
+      "type": "item",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_ring"
     }
   ],
   "variable_elements": [
@@ -3817,7 +3817,7 @@
       "subtitles.sinkingoldsanctuary": "The Sinking Old Sanctuary",
       "item.skys_castlevania.electrum_ingot": "Electrum Ingot",
       "item.skys_castlevania.wood_cross": "Wooden Cross",
-      "item.skys_castlevania.chaos_ring": "Chaos Ring",
+      "item.skys_castlevania.chaos_ring": "Chaos Ring (WIP)",
       "item.skys_castlevania.obsidian_knife": "Obsidian Knife",
       "item.skys_castlevania.laevateinn": "Laevateinn",
       "block.skys_castlevania.electrum_ore": "Electrum Ore",

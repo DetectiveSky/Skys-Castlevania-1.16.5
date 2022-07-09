@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "heart",
     "customModelName": "Normal",
-    "name": "Chaos Ring",
+    "name": "Chaos Ring (WIP)",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:SkysCastlevaniaTab"
@@ -25,8 +25,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Contains the powers of chaos.",
-      "Functions as an infinite supply of hearts."
+      "A ring containing the powers of chaos.",
+      "Wear it for an infinite supply of hearts."
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",
