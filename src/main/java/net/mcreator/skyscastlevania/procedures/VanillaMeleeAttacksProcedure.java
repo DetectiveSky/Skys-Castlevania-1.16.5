@@ -106,24 +106,18 @@ public class VanillaMeleeAttacksProcedure {
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_sharp")).contains(entity.getType())) {
 					multiplier = (multiplier * 2);
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_sharp")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/blunt")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_blunt")).contains(entity.getType())) {
 					multiplier = (multiplier * 2);
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_blunt")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/pointy")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_pointy")).contains(entity.getType())) {
 					multiplier = (multiplier * 2);
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_pointy")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/fire")).contains(
@@ -134,28 +128,18 @@ public class VanillaMeleeAttacksProcedure {
 									new AbstractMap.SimpleEntry<>("y", (y + 1)), new AbstractMap.SimpleEntry<>("z", z))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 					multiplier = (multiplier * 2);
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_fire")).contains(entity.getType())) {
-					FireDamageEffectProcedure.executeProcedure(Stream
-							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-									new AbstractMap.SimpleEntry<>("y", (y + 1)), new AbstractMap.SimpleEntry<>("z", z))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/ice")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_ice")).contains(entity.getType())) {
 					multiplier = (multiplier * 2);
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_ice")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/lightning")).contains(
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
 				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_lightning")).contains(entity.getType())) {
 					multiplier = (multiplier * 2);
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_lightning")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/holy")).contains(
@@ -166,12 +150,6 @@ public class VanillaMeleeAttacksProcedure {
 									new AbstractMap.SimpleEntry<>("y", (y + 1)), new AbstractMap.SimpleEntry<>("z", z))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 					multiplier = (multiplier * 2);
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_holy")).contains(entity.getType())) {
-					HolyDamageEffectProcedure.executeProcedure(Stream
-							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-									new AbstractMap.SimpleEntry<>("y", (y + 1)), new AbstractMap.SimpleEntry<>("z", z))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/dark")).contains(
@@ -182,12 +160,6 @@ public class VanillaMeleeAttacksProcedure {
 									new AbstractMap.SimpleEntry<>("y", (y + 1)), new AbstractMap.SimpleEntry<>("z", z))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 					multiplier = (multiplier * 2);
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_dark")).contains(entity.getType())) {
-					DarkDamageEffectProcedure.executeProcedure(Stream
-							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-									new AbstractMap.SimpleEntry<>("y", (y + 1)), new AbstractMap.SimpleEntry<>("z", z))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/poison")).contains(
@@ -196,8 +168,6 @@ public class VanillaMeleeAttacksProcedure {
 					multiplier = (multiplier * 2);
 					if (entity instanceof LivingEntity)
 						((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.POISON, (int) 100, (int) 1, (false), (true)));
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_poison")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/curse")).contains(
@@ -207,8 +177,6 @@ public class VanillaMeleeAttacksProcedure {
 					if (entity instanceof LivingEntity)
 						((LivingEntity) entity)
 								.addPotionEffect(new EffectInstance(CurseEffectPotionEffect.potion, (int) 100, (int) 1, (false), (true)));
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_curse")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/stone")).contains(
@@ -218,8 +186,6 @@ public class VanillaMeleeAttacksProcedure {
 					if (entity instanceof LivingEntity)
 						((LivingEntity) entity)
 								.addPotionEffect(new EffectInstance(StoneEffectPotionEffect.potion, (int) 100, (int) 1, (false), (true)));
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_stone")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/gold")).contains(
@@ -229,8 +195,6 @@ public class VanillaMeleeAttacksProcedure {
 					if (entity instanceof LivingEntity)
 						((LivingEntity) entity)
 								.addPotionEffect(new EffectInstance(GoldEffectPotionEffect.potion, (int) 100, (int) 1, (false), (true)));
-				} else if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/resist_gold")).contains(entity.getType())) {
-					multiplier = (multiplier / 2);
 				}
 			}
 			entity.attackEntityFrom(DamageSource.GENERIC, (float) ((multiplier - 1) * amount));
