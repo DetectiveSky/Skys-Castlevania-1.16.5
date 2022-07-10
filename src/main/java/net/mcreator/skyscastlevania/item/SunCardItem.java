@@ -6,16 +6,21 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
+import net.minecraft.util.ActionResultType;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.skyscastlevania.procedures.DebugHeartRightClickedInAirProcedure;
+import net.mcreator.skyscastlevania.procedures.SunCardRightClickedInAirProcedure;
+import net.mcreator.skyscastlevania.itemgroup.SkysCastlevaniaTabItemGroup;
 import net.mcreator.skyscastlevania.SkysCastlevaniaModElements;
 
 import java.util.stream.Stream;
@@ -25,12 +30,12 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 @SkysCastlevaniaModElements.ModElement.Tag
-public class DebugHeartItem extends SkysCastlevaniaModElements.ModElement {
-	@ObjectHolder("skys_castlevania:debug_heart")
+public class SunCardItem extends SkysCastlevaniaModElements.ModElement {
+	@ObjectHolder("skys_castlevania:sun_card")
 	public static final Item block = null;
 
-	public DebugHeartItem(SkysCastlevaniaModElements instance) {
-		super(instance, 135);
+	public SunCardItem(SkysCastlevaniaModElements instance) {
+		super(instance, 307);
 	}
 
 	@Override
@@ -40,8 +45,8 @@ public class DebugHeartItem extends SkysCastlevaniaModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("debug_heart");
+			super(new Item.Properties().group(SkysCastlevaniaTabItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE));
+			setRegistryName("sun_card");
 		}
 
 		@Override
@@ -62,9 +67,7 @@ public class DebugHeartItem extends SkysCastlevaniaModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Minecraft has the Debug Stick"));
-			list.add(new StringTextComponent("but I have the Debug Heart."));
-			list.add(new StringTextComponent("Eat your stick out Mojang."));
+			list.add(new StringTextComponent("Advance time to sunrise."));
 		}
 
 		@Override
@@ -75,9 +78,29 @@ public class DebugHeartItem extends SkysCastlevaniaModElements.ModElement {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			DebugHeartRightClickedInAirProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			SunCardRightClickedInAirProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("itemstack", itemstack))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return ar;
+		}
+
+		@Override
+		public ActionResultType onItemUseFirst(ItemStack stack, ItemUseContext context) {
+			ActionResultType retval = super.onItemUseFirst(stack, context);
+			World world = context.getWorld();
+			BlockPos pos = context.getPos();
+			PlayerEntity entity = context.getPlayer();
+			Direction direction = context.getFace();
+			BlockState blockstate = world.getBlockState(pos);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			ItemStack itemstack = context.getItem();
+
+			SunCardRightClickedInAirProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("itemstack", itemstack))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			return retval;
 		}
 	}
 }

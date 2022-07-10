@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "heart",
+    "texture": "suncard",
     "customModelName": "Normal",
-    "name": "Debug Heart",
-    "rarity": "COMMON",
+    "name": "Sun Card",
+    "rarity": "RARE",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:SkysCastlevaniaTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -25,17 +25,21 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Minecraft has the Debug Stick",
-      "but I have the Debug Heart.",
-      "Eat your stick out Mojang."
+      "Advance time to sunrise."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "DebugHeartRightClickedInAir"
+      "name": "SunCardRightClickedInAir"
     },
-    "hasDispenseBehavior": false
+    "onRightClickedOnBlock": {
+      "name": "SunCardRightClickedInAir"
+    },
+    "hasDispenseBehavior": false,
+    "dispenseResultItemstack": {
+      "name": "SunCardRightClickedInAir"
+    }
   }
 }

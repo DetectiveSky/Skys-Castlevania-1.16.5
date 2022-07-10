@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:stone"
+    },
+    "3": {
+      "tag": "forge:stone"
+    },
+    "4": {
+      "item": "minecraft:iron_nugget"
+    },
+    "5": {
+      "tag": "forge:stone"
+    },
+    "7": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:whetstone",
+    "count": 4
+  }
+}
