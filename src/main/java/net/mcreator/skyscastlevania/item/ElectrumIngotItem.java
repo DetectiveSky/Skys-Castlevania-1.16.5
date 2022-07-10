@@ -23,7 +23,7 @@ public class ElectrumIngotItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public ElectrumIngotItem(SkysCastlevaniaModElements instance) {
-		super(instance, 8);
+		super(instance, 5);
 	}
 
 	@Override

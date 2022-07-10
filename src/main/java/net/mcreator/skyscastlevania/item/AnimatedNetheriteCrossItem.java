@@ -22,7 +22,7 @@ public class AnimatedNetheriteCrossItem extends SkysCastlevaniaModElements.ModEl
 	public static final Item block = null;
 
 	public AnimatedNetheriteCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 275);
+		super(instance, 263);
 	}
 
 	@Override

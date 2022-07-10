@@ -54,7 +54,7 @@ public class GoldDaggerItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletgold_dagger").setRegistryName("entitybulletgold_dagger");
 
 	public GoldDaggerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 42);
+		super(instance, 46);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GoldDaggerRenderer.ModelRegisterHandler());
 	}
 

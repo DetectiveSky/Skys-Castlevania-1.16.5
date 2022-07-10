@@ -38,7 +38,7 @@ public class SaveBlockGUIGui extends SkysCastlevaniaModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public SaveBlockGUIGui(SkysCastlevaniaModElements instance) {
-		super(instance, 242);
+		super(instance, 230);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

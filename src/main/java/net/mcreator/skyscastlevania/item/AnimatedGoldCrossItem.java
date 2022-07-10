@@ -22,7 +22,7 @@ public class AnimatedGoldCrossItem extends SkysCastlevaniaModElements.ModElement
 	public static final Item block = null;
 
 	public AnimatedGoldCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 276);
+		super(instance, 264);
 	}
 
 	@Override

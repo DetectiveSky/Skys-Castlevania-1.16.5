@@ -23,7 +23,7 @@ public class WhipUpgradeItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public WhipUpgradeItem(SkysCastlevaniaModElements instance) {
-		super(instance, 6);
+		super(instance, 12);
 	}
 
 	@Override

@@ -51,7 +51,7 @@ public class CandlestickBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public CandlestickBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 68);
+		super(instance, 72);
 	}
 
 	@Override

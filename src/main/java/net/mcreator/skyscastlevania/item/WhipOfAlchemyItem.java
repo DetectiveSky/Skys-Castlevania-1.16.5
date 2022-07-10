@@ -31,7 +31,7 @@ public class WhipOfAlchemyItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public WhipOfAlchemyItem(SkysCastlevaniaModElements instance) {
-		super(instance, 29);
+		super(instance, 33);
 	}
 
 	@Override
@@ -78,7 +78,7 @@ public class WhipOfAlchemyItem extends SkysCastlevaniaModElements.ModElement {
 				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 				builder.putAll(super.getAttributeModifiers(equipmentSlot));
 				builder.put(Attributes.ATTACK_DAMAGE,
-						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 1f, AttributeModifier.Operation.ADDITION));
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 4f, AttributeModifier.Operation.ADDITION));
 				builder.put(Attributes.ATTACK_SPEED,
 						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -2.2, AttributeModifier.Operation.ADDITION));
 				return builder.build();

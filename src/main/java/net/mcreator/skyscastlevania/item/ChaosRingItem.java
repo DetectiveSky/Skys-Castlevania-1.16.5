@@ -25,7 +25,7 @@ public class ChaosRingItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public ChaosRingItem(SkysCastlevaniaModElements instance) {
-		super(instance, 315);
+		super(instance, 83);
 	}
 
 	@Override

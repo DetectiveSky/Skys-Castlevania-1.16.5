@@ -57,7 +57,7 @@ public class AxeArmourSoulItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletaxe_armour_soul").setRegistryName("entitybulletaxe_armour_soul");
 
 	public AxeArmourSoulItem(SkysCastlevaniaModElements instance) {
-		super(instance, 311);
+		super(instance, 73);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AxeArmourSoulRenderer.ModelRegisterHandler());
 	}
 

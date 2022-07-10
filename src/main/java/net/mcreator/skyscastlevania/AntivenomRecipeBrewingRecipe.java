@@ -16,7 +16,7 @@ import net.mcreator.skyscastlevania.item.AntiVenomItem;
 @SkysCastlevaniaModElements.ModElement.Tag
 public class AntivenomRecipeBrewingRecipe extends SkysCastlevaniaModElements.ModElement {
 	public AntivenomRecipeBrewingRecipe(SkysCastlevaniaModElements instance) {
-		super(instance, 308);
+		super(instance, 296);
 	}
 
 	@Override

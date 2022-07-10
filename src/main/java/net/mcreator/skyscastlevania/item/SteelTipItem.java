@@ -23,7 +23,7 @@ public class SteelTipItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public SteelTipItem(SkysCastlevaniaModElements instance) {
-		super(instance, 9);
+		super(instance, 13);
 	}
 
 	@Override

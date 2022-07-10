@@ -31,7 +31,7 @@ public class LeatherWhipItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public LeatherWhipItem(SkysCastlevaniaModElements instance) {
-		super(instance, 27);
+		super(instance, 31);
 	}
 
 	@Override
@@ -78,7 +78,7 @@ public class LeatherWhipItem extends SkysCastlevaniaModElements.ModElement {
 				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 				builder.putAll(super.getAttributeModifiers(equipmentSlot));
 				builder.put(Attributes.ATTACK_DAMAGE,
-						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 0f, AttributeModifier.Operation.ADDITION));
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 2f, AttributeModifier.Operation.ADDITION));
 				builder.put(Attributes.ATTACK_SPEED,
 						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -2.2, AttributeModifier.Operation.ADDITION));
 				return builder.build();

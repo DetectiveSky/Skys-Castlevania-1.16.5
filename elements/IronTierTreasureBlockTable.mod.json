@@ -166,8 +166,8 @@
               "value": "CUSTOM:SilverIngot"
             },
             "weight": 3,
-            "minCount": 3,
-            "maxCount": 5,
+            "minCount": 1,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

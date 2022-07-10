@@ -16,7 +16,7 @@ public class AnimatedNetheriteAxeItem extends SkysCastlevaniaModElements.ModElem
 	public static final Item block = null;
 
 	public AnimatedNetheriteAxeItem(SkysCastlevaniaModElements instance) {
-		super(instance, 295);
+		super(instance, 283);
 	}
 
 	@Override

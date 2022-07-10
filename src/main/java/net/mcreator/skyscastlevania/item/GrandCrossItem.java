@@ -31,7 +31,7 @@ public class GrandCrossItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public GrandCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 60);
+		super(instance, 64);
 	}
 
 	@Override

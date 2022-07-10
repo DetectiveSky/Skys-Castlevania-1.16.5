@@ -58,7 +58,7 @@ public class DaggerSWepItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletdagger_s_wep").setRegistryName("entitybulletdagger_s_wep");
 
 	public DaggerSWepItem(SkysCastlevaniaModElements instance) {
-		super(instance, 46);
+		super(instance, 50);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DaggerSWepRenderer.ModelRegisterHandler());
 	}
 

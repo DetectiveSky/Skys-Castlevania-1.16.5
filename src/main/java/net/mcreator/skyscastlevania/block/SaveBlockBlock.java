@@ -44,7 +44,7 @@ public class SaveBlockBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public SaveBlockBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 69);
+		super(instance, 82);
 	}
 
 	@Override

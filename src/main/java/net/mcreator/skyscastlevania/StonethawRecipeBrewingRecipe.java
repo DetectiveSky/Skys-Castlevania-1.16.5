@@ -17,7 +17,7 @@ import net.mcreator.skyscastlevania.item.StonethawItem;
 @SkysCastlevaniaModElements.ModElement.Tag
 public class StonethawRecipeBrewingRecipe extends SkysCastlevaniaModElements.ModElement {
 	public StonethawRecipeBrewingRecipe(SkysCastlevaniaModElements instance) {
-		super(instance, 310);
+		super(instance, 298);
 	}
 
 	@Override

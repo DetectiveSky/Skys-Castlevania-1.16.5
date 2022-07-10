@@ -25,7 +25,7 @@ public class AlucardSwordItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public AlucardSwordItem(SkysCastlevaniaModElements instance) {
-		super(instance, 21);
+		super(instance, 25);
 	}
 
 	@Override

@@ -31,7 +31,7 @@ public class HydroStormItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public HydroStormItem(SkysCastlevaniaModElements instance) {
-		super(instance, 37);
+		super(instance, 41);
 	}
 
 	@Override

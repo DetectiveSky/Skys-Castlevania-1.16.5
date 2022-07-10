@@ -55,7 +55,7 @@ public class WoodCrossItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletwood_cross").setRegistryName("entitybulletwood_cross");
 
 	public WoodCrossItem(SkysCastlevaniaModElements instance) {
-		super(instance, 54);
+		super(instance, 58);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WoodCrossRenderer.ModelRegisterHandler());
 	}
 

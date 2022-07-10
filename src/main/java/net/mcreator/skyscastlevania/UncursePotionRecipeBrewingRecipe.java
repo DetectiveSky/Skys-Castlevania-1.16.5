@@ -17,7 +17,7 @@ import net.mcreator.skyscastlevania.item.UncursePotionItem;
 @SkysCastlevaniaModElements.ModElement.Tag
 public class UncursePotionRecipeBrewingRecipe extends SkysCastlevaniaModElements.ModElement {
 	public UncursePotionRecipeBrewingRecipe(SkysCastlevaniaModElements instance) {
-		super(instance, 309);
+		super(instance, 297);
 	}
 
 	@Override

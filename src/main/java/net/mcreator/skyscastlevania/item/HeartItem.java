@@ -23,7 +23,7 @@ public class HeartItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public HeartItem(SkysCastlevaniaModElements instance) {
-		super(instance, 1);
+		super(instance, 7);
 	}
 
 	@Override

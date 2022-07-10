@@ -197,6 +197,12 @@ public class MeleeAttacksProcedure {
 								.addPotionEffect(new EffectInstance(GoldEffectPotionEffect.potion, (int) 100, (int) 1, (false), (true)));
 				}
 			}
+			if (ItemTags.getCollection().getTagByID(new ResourceLocation("forge:weapon/wind")).contains(
+					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY).getItem())) {
+				if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("forge:mob/weak_wind")).contains(entity.getType())) {
+					multiplier = (multiplier * 2);
+				}
+			}
 			entity.attackEntityFrom(DamageSource.GENERIC, (float) ((multiplier - 1) * amount));
 		}
 	}

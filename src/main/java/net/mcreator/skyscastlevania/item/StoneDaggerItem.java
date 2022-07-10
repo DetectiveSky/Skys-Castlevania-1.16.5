@@ -54,7 +54,7 @@ public class StoneDaggerItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletstone_dagger").setRegistryName("entitybulletstone_dagger");
 
 	public StoneDaggerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 40);
+		super(instance, 44);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new StoneDaggerRenderer.ModelRegisterHandler());
 	}
 

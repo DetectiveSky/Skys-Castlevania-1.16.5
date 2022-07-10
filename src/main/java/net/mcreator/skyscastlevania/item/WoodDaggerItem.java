@@ -54,7 +54,7 @@ public class WoodDaggerItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletwood_dagger").setRegistryName("entitybulletwood_dagger");
 
 	public WoodDaggerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 39);
+		super(instance, 43);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WoodDaggerRenderer.ModelRegisterHandler());
 	}
 

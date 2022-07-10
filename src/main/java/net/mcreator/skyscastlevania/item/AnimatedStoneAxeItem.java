@@ -16,7 +16,7 @@ public class AnimatedStoneAxeItem extends SkysCastlevaniaModElements.ModElement 
 	public static final Item block = null;
 
 	public AnimatedStoneAxeItem(SkysCastlevaniaModElements instance) {
-		super(instance, 291);
+		super(instance, 279);
 	}
 
 	@Override

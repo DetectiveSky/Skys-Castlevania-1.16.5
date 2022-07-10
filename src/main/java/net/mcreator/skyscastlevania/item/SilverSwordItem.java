@@ -24,7 +24,7 @@ public class SilverSwordItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public SilverSwordItem(SkysCastlevaniaModElements instance) {
-		super(instance, 17);
+		super(instance, 21);
 	}
 
 	@Override

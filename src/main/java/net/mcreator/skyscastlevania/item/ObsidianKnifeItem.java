@@ -35,7 +35,7 @@ public class ObsidianKnifeItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public ObsidianKnifeItem(SkysCastlevaniaModElements instance) {
-		super(instance, 18);
+		super(instance, 22);
 	}
 
 	@Override

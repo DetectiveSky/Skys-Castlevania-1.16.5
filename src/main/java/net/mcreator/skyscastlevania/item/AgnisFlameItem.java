@@ -25,7 +25,7 @@ public class AgnisFlameItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public AgnisFlameItem(SkysCastlevaniaModElements instance) {
-		super(instance, 22);
+		super(instance, 26);
 	}
 
 	@Override

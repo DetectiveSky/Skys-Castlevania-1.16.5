@@ -27,7 +27,7 @@ public class SilverBlockBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public SilverBlockBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 71);
+		super(instance, 3);
 	}
 
 	@Override

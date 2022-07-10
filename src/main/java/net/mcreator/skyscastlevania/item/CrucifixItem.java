@@ -25,7 +25,7 @@ public class CrucifixItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public CrucifixItem(SkysCastlevaniaModElements instance) {
-		super(instance, 3);
+		super(instance, 9);
 	}
 
 	@Override

@@ -31,7 +31,7 @@ public class IceTipVampireKillerItem extends SkysCastlevaniaModElements.ModEleme
 	public static final Item block = null;
 
 	public IceTipVampireKillerItem(SkysCastlevaniaModElements instance) {
-		super(instance, 33);
+		super(instance, 37);
 	}
 
 	@Override
@@ -79,7 +79,7 @@ public class IceTipVampireKillerItem extends SkysCastlevaniaModElements.ModEleme
 				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 				builder.putAll(super.getAttributeModifiers(equipmentSlot));
 				builder.put(Attributes.ATTACK_DAMAGE,
-						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 1.5f, AttributeModifier.Operation.ADDITION));
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 5f, AttributeModifier.Operation.ADDITION));
 				builder.put(Attributes.ATTACK_SPEED,
 						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -2.2, AttributeModifier.Operation.ADDITION));
 				return builder.build();

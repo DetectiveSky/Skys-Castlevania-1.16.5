@@ -32,7 +32,7 @@ public class StonethawItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public StonethawItem(SkysCastlevaniaModElements instance) {
-		super(instance, 67);
+		super(instance, 71);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import net.mcreator.skyscastlevania.SkysCastlevaniaModElements;
 @SkysCastlevaniaModElements.ModElement.Tag
 public class SkysCastlevaniaTabItemGroup extends SkysCastlevaniaModElements.ModElement {
 	public SkysCastlevaniaTabItemGroup(SkysCastlevaniaModElements instance) {
-		super(instance, 82);
+		super(instance, 84);
 	}
 
 	@Override

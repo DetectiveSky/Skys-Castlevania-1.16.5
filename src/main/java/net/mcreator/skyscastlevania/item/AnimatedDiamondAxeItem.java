@@ -16,7 +16,7 @@ public class AnimatedDiamondAxeItem extends SkysCastlevaniaModElements.ModElemen
 	public static final Item block = null;
 
 	public AnimatedDiamondAxeItem(SkysCastlevaniaModElements instance) {
-		super(instance, 294);
+		super(instance, 282);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class ThousandBladesItem extends SkysCastlevaniaModElements.ModElement {
 	public static final Item block = null;
 
 	public ThousandBladesItem(SkysCastlevaniaModElements instance) {
-		super(instance, 45);
+		super(instance, 49);
 	}
 
 	@Override

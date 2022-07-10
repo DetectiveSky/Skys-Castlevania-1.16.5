@@ -53,7 +53,7 @@ public class ElectrumOreBlock extends SkysCastlevaniaModElements.ModElement {
 	public static final Block block = null;
 
 	public ElectrumOreBlock(SkysCastlevaniaModElements instance) {
-		super(instance, 72);
+		super(instance, 4);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

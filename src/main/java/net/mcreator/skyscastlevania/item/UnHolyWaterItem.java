@@ -53,7 +53,7 @@ public class UnHolyWaterItem extends SkysCastlevaniaModElements.ModElement {
 			.size(0.5f, 0.5f)).build("entitybulletun_holy_water").setRegistryName("entitybulletun_holy_water");
 
 	public UnHolyWaterItem(SkysCastlevaniaModElements instance) {
-		super(instance, 36);
+		super(instance, 40);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new UnHolyWaterRenderer.ModelRegisterHandler());
 	}
 
