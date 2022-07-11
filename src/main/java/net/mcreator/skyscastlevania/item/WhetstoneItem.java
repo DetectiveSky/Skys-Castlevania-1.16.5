@@ -78,8 +78,9 @@ public class WhetstoneItem extends SkysCastlevaniaModElements.ModElement {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			WhetstoneRightClickedInAirProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			WhetstoneRightClickedInAirProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return ar;
 		}
 
@@ -96,8 +97,9 @@ public class WhetstoneItem extends SkysCastlevaniaModElements.ModElement {
 			int z = pos.getZ();
 			ItemStack itemstack = context.getItem();
 
-			WhetstoneRightClickedInAirProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			WhetstoneRightClickedInAirProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
 		}
 	}

@@ -2906,14 +2906,6 @@
       }
     },
     {
-      "name": "AntiVenom",
-      "type": "food",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "anti_venom"
-    },
-    {
       "name": "UncursePotionFoodEaten",
       "type": "procedure",
       "sortid": 250,
@@ -2930,14 +2922,6 @@
       }
     },
     {
-      "name": "UncursePotion",
-      "type": "food",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uncurse_potion"
-    },
-    {
       "name": "StonethawFoodEaten",
       "type": "procedure",
       "sortid": 251,
@@ -2952,14 +2936,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Stonethaw",
-      "type": "food",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stonethaw"
     },
     {
       "name": "AlucardShield",
@@ -3689,6 +3665,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -3710,6 +3690,10 @@
       "registry_name": "sun_card_right_clicked_in_air",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "itemstack",
             "type": "itemstack"
@@ -3739,6 +3723,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "itemstack",
             "type": "itemstack"
           },
@@ -3764,6 +3752,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "whetstone_recipe"
+    },
+    {
+      "name": "AntiVenom",
+      "type": "item",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_venom"
+    },
+    {
+      "name": "UncursePotion",
+      "type": "item",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncurse_potion"
+    },
+    {
+      "name": "Stonethaw",
+      "type": "item",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonethaw"
     }
   ],
   "variable_elements": [
@@ -3824,8 +3836,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.skys_castlevania.holy_whip": "Consecrated Whip",
       "item.skys_castlevania.netherite_dagger": "Netherite Dagger",
+      "item.skys_castlevania.holy_whip": "Consecrated Whip",
       "subtitles.hydrostorm": "Hydro Storm voice clip",
       "item.skys_castlevania.animated_iron_cross": "Animated Iron Cross",
       "item.skys_castlevania.holy_water": "Holy Water",
@@ -3835,8 +3847,8 @@
       "item.skys_castlevania.animated_wood_cross": "Animated Wood Cross",
       "item.skys_castlevania.sound_item_2": "Sound Item 2",
       "subtitles.subterraneanhell": "Subterranean Hell",
-      "item.skys_castlevania.sound_item_1": "Sound Item 1",
       "block.skys_castlevania.iron_tier_treasure_block": "Iron-Tier Treasure Block",
+      "item.skys_castlevania.sound_item_1": "Sound Item 1",
       "item.skys_castlevania.holy_water_s_wep": "Holy Water",
       "item.skys_castlevania.crucifix": "Crucifix",
       "item.skys_castlevania.sound_item_3": "Sound Item 3",
@@ -3849,14 +3861,14 @@
       "item.skys_castlevania.grand_cross": "Grand Cross",
       "block.skys_castlevania.weak_granite": "Granite",
       "item.skys_castlevania.animated_netherite_axe": "Animated Axe",
-      "item.skys_castlevania.debug_heart": "Debug Heart",
       "item.skys_castlevania.iron_dagger": "Iron Dagger",
+      "item.skys_castlevania.debug_heart": "Debug Heart",
       "item.skys_castlevania.whip_upgrade": "Whip Upgrade",
       "block.skys_castlevania.silver_ore": "Silver Ore",
       "block.skys_castlevania.gilded_block": "Gilded Block",
       "item.skys_castlevania.netherite_cross": "Netherite Cross",
-      "item.skys_castlevania.two_stone": "Two Stone",
       "item.skys_castlevania.throwing_axe_netherite": "Netherite Throwing Axe",
+      "item.skys_castlevania.two_stone": "Two Stone",
       "item.skys_castlevania.midas_touch": "Midas Touch",
       "item.skys_castlevania.stonethaw": "Stonethaw",
       "item.skys_castlevania.whetstone": "Whetstone",
@@ -3946,8 +3958,8 @@
       "block.skys_castlevania.treasure_block": "Creative Treasure Block"
     },
     "en_ca": {
-      "item.skys_castlevania.netherite_dagger": "Netherite Dagger",
       "item.skys_castlevania.holy_whip": "Consecrated Whip",
+      "item.skys_castlevania.netherite_dagger": "Netherite Dagger",
       "subtitles.hydrostorm": "Hydro Storm voice clip",
       "item.skys_castlevania.animated_iron_cross": "Animated Iron Cross",
       "item.skys_castlevania.holy_water": "Holy Water",
@@ -3957,8 +3969,8 @@
       "item.skys_castlevania.animated_wood_cross": "Animated Wood Cross",
       "item.skys_castlevania.sound_item_2": "Sound Item 2",
       "subtitles.subterraneanhell": "Subterranean Hell",
-      "item.skys_castlevania.sound_item_1": "Sound Item 1",
       "block.skys_castlevania.iron_tier_treasure_block": "Iron-Tier Treasure Block",
+      "item.skys_castlevania.sound_item_1": "Sound Item 1",
       "item.skys_castlevania.holy_water_s_wep": "Holy Water",
       "item.skys_castlevania.crucifix": "Crucifix",
       "item.skys_castlevania.sound_item_3": "Sound Item 3",
@@ -3971,14 +3983,14 @@
       "item.skys_castlevania.grand_cross": "Grand Cross",
       "block.skys_castlevania.weak_granite": "Granite",
       "item.skys_castlevania.animated_netherite_axe": "Animated Axe",
-      "item.skys_castlevania.iron_dagger": "Iron Dagger",
       "item.skys_castlevania.debug_heart": "Debug Heart",
+      "item.skys_castlevania.iron_dagger": "Iron Dagger",
       "item.skys_castlevania.whip_upgrade": "Whip Upgrade",
       "block.skys_castlevania.silver_ore": "Silver Ore",
       "block.skys_castlevania.gilded_block": "Gilded Block",
       "item.skys_castlevania.netherite_cross": "Netherite Cross",
-      "item.skys_castlevania.throwing_axe_netherite": "Netherite Throwing Axe",
       "item.skys_castlevania.two_stone": "Two Stone",
+      "item.skys_castlevania.throwing_axe_netherite": "Netherite Throwing Axe",
       "item.skys_castlevania.midas_touch": "Midas Touch",
       "item.skys_castlevania.stonethaw": "Stonethaw",
       "item.skys_castlevania.whetstone": "Whetstone",
@@ -4094,5 +4106,5 @@
     "modElementsPackage": "net.mcreator.skyscastlevania",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100353117
+  "mcreatorVersion": 202100354000
 }

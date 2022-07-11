@@ -2,6 +2,6 @@
   "_fv": 24,
   "_type": "procedure",
   "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Number\" id=\"multiplier\">multiplier</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"0\" y=\"0\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_set_fire\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"seconds\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value></block></next></block></xml>"
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"multiplier\" type=\"Number\">multiplier</variable></variables><block deletable=\"false\" type=\"event_trigger\" x=\"0\" y=\"0\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_set_fire\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"seconds\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value></block></next></block></xml>"
   }
 }

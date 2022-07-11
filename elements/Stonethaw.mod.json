@@ -1,31 +1,32 @@
 {
   "_fv": 24,
-  "_type": "food",
+  "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "stonethaw",
     "customModelName": "Normal",
     "name": "Stonethaw",
     "rarity": "COMMON",
-    "specialInfo": [
-      "Cures Stone."
-    ],
     "creativeTab": {
       "value": "CUSTOM:SkysCastlevaniaTab"
     },
     "stackSize": 16,
-    "nutritionalValue": 0,
-    "saturation": 0.0,
-    "eatingSpeed": 32,
-    "resultItem": {
-      "value": "Items.GLASS_BOTTLE"
-    },
-    "forDogs": false,
-    "isAlwaysEdible": true,
-    "animation": "drink",
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 0.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Cures Stone."
+    ],
     "hasGlow": false,
-    "onEaten": {
-      "name": "StonethawFoodEaten"
-    }
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
   }
 }
