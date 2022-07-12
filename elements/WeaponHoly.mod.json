@@ -42,6 +42,12 @@
       },
       {
         "value": "CUSTOM:SilverSword"
+      },
+      {
+        "value": "CUSTOM:WindTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:TrueVampireKiller"
       }
     ],
     "blocks": [],

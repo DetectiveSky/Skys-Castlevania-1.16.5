@@ -93,6 +93,12 @@
       },
       {
         "value": "CUSTOM:ObsidianKnife"
+      },
+      {
+        "value": "CUSTOM:WindTipVampireKiller"
+      },
+      {
+        "value": "CUSTOM:TrueVampireKiller"
       }
     ],
     "blocks": [],

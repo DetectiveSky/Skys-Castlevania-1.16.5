@@ -1,0 +1,30 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "truevampirekiller",
+    "customModelName": "Normal",
+    "name": "True Vampire Killer",
+    "specialInfo": [
+      "Holy whip of the Belmont Clan.",
+      "Its true potential is unleashed."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:SkysCastlevaniaTab"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 2.0,
+    "enchantability": 5,
+    "damageVsEntity": 8.0,
+    "usageCount": 1500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

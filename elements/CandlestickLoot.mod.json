@@ -135,7 +135,7 @@
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 0
+            "silkTouchMode": 2
           },
           {
             "type": "item",
@@ -149,7 +149,7 @@
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 0
+            "silkTouchMode": 2
           },
           {
             "type": "item",
@@ -163,7 +163,7 @@
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 0
+            "silkTouchMode": 2
           },
           {
             "type": "item",
@@ -177,7 +177,7 @@
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 0
+            "silkTouchMode": 2
           },
           {
             "type": "item",
@@ -191,7 +191,7 @@
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 0
+            "silkTouchMode": 2
           },
           {
             "type": "item",
@@ -205,7 +205,7 @@
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 0
+            "silkTouchMode": 2
           },
           {
             "type": "item",
@@ -219,7 +219,7 @@
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 0
+            "silkTouchMode": 2
           },
           {
             "type": "item",
@@ -233,7 +233,35 @@
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
-            "silkTouchMode": 0
+            "silkTouchMode": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:SunCard"
+            },
+            "weight": 5,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:MoonCard"
+            },
+            "weight": 5,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 2
           }
         ]
       }

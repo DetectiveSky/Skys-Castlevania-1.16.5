@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "skys_castlevania:red_stone"
+    },
+    "3": {
+      "item": "skys_castlevania:yellow_stone"
+    },
+    "4": {
+      "tag": "is_vampire_killer"
+    },
+    "5": {
+      "item": "skys_castlevania:green_stone"
+    },
+    "7": {
+      "item": "skys_castlevania:blue_stone"
+    }
+  },
+  "result": {
+    "item": "skys_castlevania:true_vampire_killer",
+    "count": 1
+  }
+}

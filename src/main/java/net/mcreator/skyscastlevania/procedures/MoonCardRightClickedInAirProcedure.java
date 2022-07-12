@@ -70,7 +70,7 @@ public class MoonCardRightClickedInAirProcedure {
 				((ServerWorld) world).setDayTime((int) timeToReach);
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
 				((PlayerEntity) entity).sendStatusMessage(
-						new StringTextComponent("At the edge of your hearing comes a symphony, a nocturne in the moonlight..."), (false));
+						new StringTextComponent("At the edge of your hearing comes a symphony, a nocturne in the moonlight..."), (true));
 			}
 			new Object() {
 				private int ticks = 0;
